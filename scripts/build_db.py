@@ -12,6 +12,8 @@ TABLES = {
     "organizations_index": DATA / "organizations_index.csv",
     "org_contacts": DATA / "org_contacts.csv",
     "officials": DATA / "officials.csv",
+    "policy_contacts": DATA / "policy_contacts.csv",
+    "pib_ministry_contacts": DATA / "pib_ministry_contacts.csv",
 }
 
 
