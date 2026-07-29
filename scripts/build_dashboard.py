@@ -23,6 +23,7 @@ def rows(name):
 
 def main():
     orgs = rows("organizations_index.csv")
+    ministry = rows("ministry_officials.csv")
     officials = rows("officials.csv")
     contacts = rows("org_contacts.csv")
     policies = rows("policy_contacts.csv")
@@ -46,9 +47,12 @@ def main():
             "emails": sum(1 for o in officials if o.get("email")),
             "states": len({o["state"] for o in orgs if o["state"]}),
             "openPolicies": len({p["instrument"] for p in policies}),
+            "deepOfficials": len(ministry),
         },
         "officials": [[o["name"], o["designation"], o["org_name"], o["state"] or "Centre",
                        o["phones"], o["email"]] for o in officials],
+        "ministryOfficials": [[m["name"], m["designation"], m["ministry"], m["division"],
+                               m["room"], m["phones"], m["email"]] for m in ministry],
         "orgs": [[o["name"], o["branch"], o["state"], o["category"], o["website"]]
                  for o in orgs],
         "orgContacts": [[c["org_name"], c["address"], c["phone"], c["email"], c["website"]]
@@ -119,6 +123,8 @@ const D=__DATA__;
 const VIEWS={
  officials:{cols:["Name","Designation","Organization","State","Phones","Email"],rows:D.officials,
    filter:3,link:null,email:5},
+ "ministry roster":{cols:["Name","Designation","Ministry","Division","Room","Phones","Email"],
+   rows:D.ministryOfficials,filter:2,email:6},
  organizations:{cols:["Name","Branch","State","Category","Website"],rows:D.orgs,filter:1,link:4},
  "org contacts":{cols:["Organization","Address","Phone","Email","Website"],rows:D.orgContacts,
    filter:null,link:4,email:3},
@@ -132,6 +138,7 @@ const $=id=>document.getElementById(id);
 function tiles(){const s=D.stats;$("tiles").innerHTML=[
  [s.orgs,"organizations indexed"],[s.withDetail,"with igod detail pages"],
  [s.officials,"officials listed"],[s.emails,"official emails"],
+ [s.deepOfficials,"ministry roster officials"],
  [s.states,"states / UTs"],[s.openPolicies,"open policy instruments"]]
  .map(([v,l])=>`<div class="tile"><b>${(+v).toLocaleString("en-IN")}</b><span>${l}</span></div>`).join("")}
 function nav(){$("nav").innerHTML=Object.keys(VIEWS).map(k=>
