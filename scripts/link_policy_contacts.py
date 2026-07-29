@@ -144,23 +144,37 @@ def main():
                 w.writerow(base + ["", "", "", "", "", ""])
     print(f"instruments: {matched} matched, {unmatched} unmatched -> {out1}", file=sys.stderr)
 
-    # --- 2. PIB 90-day ministry activity -> contacts --------------------
+    # --- 2. PIB ministry activity (last 6 years + 90d) -> contacts ------
     con = sqlite3.connect(PIB)
-    since = (date.today() - timedelta(days=90)).isoformat()
-    rows = con.execute(
-        "SELECT ministry, count(*) n, max(date) latest, "
-        "       (SELECT title FROM pib_items p2 WHERE p2.ministry=p1.ministry "
-        "        ORDER BY date DESC, id DESC LIMIT 1) latest_title "
-        "FROM pib_items p1 WHERE date >= ? GROUP BY ministry ORDER BY n DESC", (since,)).fetchall()
+    this_year = date.today().year
+    years = [str(y) for y in range(this_year - 5, this_year + 1)]
+    since_6y = f"{years[0]}-01-01"
+    since_90 = (date.today() - timedelta(days=90)).isoformat()
+
+    per_year = defaultdict(dict)   # ministry -> {year: count}
+    for ministry, yr, n in con.execute(
+            "SELECT ministry, substr(date,1,4) yr, count(*) FROM pib_items "
+            "WHERE date >= ? GROUP BY ministry, yr", (since_6y,)):
+        per_year[ministry][yr] = n
+    recent = dict(con.execute(
+        "SELECT ministry, count(*) FROM pib_items WHERE date >= ? GROUP BY ministry",
+        (since_90,)))
+    latest = {m: (d, t) for m, d, t in con.execute(
+        "SELECT ministry, max(date), title FROM pib_items GROUP BY ministry")}
+
     out2 = DATA / "pib_ministry_contacts.csv"
     pib_matched = 0
     with out2.open("w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["ministry", "releases_90d", "latest_release_date", "latest_release_title",
-                    "matched_org", "contact_name", "designation", "phones", "email"])
-        for ministry, n, latest, title in rows:
+        w.writerow(["ministry", "releases_6y_total"] + [f"releases_{y}" for y in years]
+                   + ["releases_90d", "latest_release_date", "latest_release_title",
+                      "matched_org", "contact_name", "designation", "phones", "email"])
+        for ministry in sorted(per_year, key=lambda m: -sum(per_year[m].values())):
+            counts = [per_year[ministry].get(y, 0) for y in years]
+            ldate, ltitle = latest.get(ministry, ("", ""))
+            base = [ministry, sum(counts)] + counts + [recent.get(ministry, 0),
+                                                       ldate, (ltitle or "")[:160]]
             org_key = match_org(ministry, by_org)
-            base = [ministry, n, latest, (title or "")[:160]]
             if org_key:
                 pib_matched += 1
                 for off in by_org[org_key][:3]:
@@ -168,8 +182,8 @@ def main():
                                        off["designation"], off["phones"], off["email"]])
             else:
                 w.writerow(base + ["", "", "", "", ""])
-    print(f"PIB ministries (90d): {len(rows)} total, {pib_matched} matched -> {out2}",
-          file=sys.stderr)
+    print(f"PIB ministries (6y since {since_6y}): {len(per_year)} total, "
+          f"{pib_matched} matched -> {out2}", file=sys.stderr)
 
 
 if __name__ == "__main__":
