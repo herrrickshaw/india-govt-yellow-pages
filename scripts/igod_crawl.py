@@ -96,16 +96,17 @@ def parse_rows(html):
     rows = []
     for div in soup.select("div.search-result-row"):
         name, org_id, website = None, None, None
-        for a in div.find_all("a", href=True):
-            href = a["href"].strip()
-            m = ORG_RE.match(href)
-            text = " ".join(a.get_text(" ", strip=True).split())
+        title = div.select_one(".search-title")
+        if title is not None:
+            name = " ".join(title.get_text(" ", strip=True).split())
+            if title.name == "a" and title.get("href", "").startswith("http") \
+                    and "igod.gov.in" not in title["href"]:
+                website = title["href"].strip()
+        detail = div.select_one(".search-opts a[href]") or div.select_one("a.btn-detail")
+        if detail is not None:
+            m = ORG_RE.match(detail["href"].strip())
             if m:
                 org_id = m.group(1)
-                name = name or text
-            elif href.startswith("http") and "igod.gov.in" not in href:
-                website = href
-                name = name or text
         if name:
             rows.append((name, org_id, website))
     return rows

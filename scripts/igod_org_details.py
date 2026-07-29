@@ -99,9 +99,15 @@ def fetch_org(org_id):
     url = f"{BASE}/organization/{org_id}"
     r = get(url)
     if r is None:
-        return None, []
+        return None, [], None
     time.sleep(DELAY)
     soup = BeautifulSoup(r.text, "html.parser")
+    # canonical full name from the page <title> ("... : Organization Details : X")
+    canonical = None
+    if soup.title:
+        parts = soup.title.get_text().split(":")
+        if len(parts) >= 3:
+            canonical = clean(parts[-1])
     contact = parse_contact_block(soup)
     officials = parse_officials_rows(r.text)
     m = re.search(r"var count='(\d+)'", r.text)
@@ -120,7 +126,7 @@ def fetch_org(org_id):
         officials.extend(got)
         start += limit
         time.sleep(DELAY)
-    return contact, officials
+    return contact, officials, canonical
 
 
 def main():
@@ -142,8 +148,8 @@ def main():
     cw.writeheader()
     ow.writeheader()
     for i, (oid, meta) in enumerate(sorted(orgs.items()), 1):
-        contact, officials = fetch_org(oid)
-        base = {"igod_org_id": oid, "org_name": meta["name"],
+        contact, officials, canonical = fetch_org(oid)
+        base = {"igod_org_id": oid, "org_name": canonical or meta["name"],
                 "branch": meta["branch"], "state": meta["state"]}
         if contact is not None:
             cw.writerow({**base, **contact})
