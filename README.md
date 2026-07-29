@@ -10,49 +10,58 @@ government websites.
 
 | File | Contents |
 |---|---|
-| `data/organizations_index.csv` | Every organization listed on igod: branch (ug/sg/apx/jud/leg/int), state, category, name, website URL, igod detail-page id |
-| `data/org_contacts.csv` | Per-organization contact block: address, phone, fax, email, website |
-| `data/officials.csv` | Who's-who officer directory: name, designation, division, phones, office address, email (de-obfuscated from `[at]`/`[dot]`) |
-| `data/policy_contacts.csv` | Every **open** incentive/policy instrument (digital-twin-for-ipa flat index) joined to the owning ministry's top-5 officials |
-| `data/pib_ministry_contacts.csv` | Per-ministry PIB press activity (last 90 days, from india-trade-sector-policy-recommendations' pib_index.sqlite) joined to top-3 contacts |
-| `data/yellowpages.duckdb` | All tables above in one DuckDB file |
+| `data/organizations_index.csv` | Every organization listed on igod: branch (ug/sg/apx/jud/leg/int), state, category, name, website URL, igod detail-page id (9,461 rows) |
+| `data/org_contacts.csv` | Per-organization contact block: address, phone, fax, email, website (134 rows) |
+| `data/officials.csv` | Igod who's-who officer directory: name, designation, division, phones, office address, email (333 rows) |
+| `data/ministry_officials.csv` | **Tier-2 deep scrape**: each union ministry's own /whos-who page parsed for full officer roster with room/phones/email. 1,807 officials across 17 ministries (1,466 emails) |
+| `data/policy_contacts.csv` | Open incentive instruments (digital-twin-for-ipa flat index) joined to owning ministry's top-5 officials (334 rows) |
+| `data/pib_ministry_contacts.csv` | Per-ministry PIB press activity (6y + 90d) joined to top-3 contacts (182 rows) |
+| `data/yellowpages.duckdb` | All tables above in one DuckDB file for SQL queries |
+| `dashboard/index.html` | Self-contained, offline-capable dashboard with stat tiles, searchable views, and 6y PIB inline bar charts |
 
 ## Pipeline
 
 ```bash
-python3 scripts/igod_crawl.py        # Phase A: index every listing page (~430 pages, lazy-load aware)
-python3 scripts/igod_org_details.py  # Phase B: contacts + who's-who for each org detail page
-python3 scripts/link_policy_contacts.py  # join open policies + PIB activity to contacts
-python3 scripts/build_db.py          # load CSVs into DuckDB (use /usr/bin/python3)
+python3 scripts/igod_crawl.py              # Phase A: index every igod listing
+python3 scripts/igod_org_details.py        # Phase B: contacts + igod who's-who
+python3 scripts/ministry_whoswho.py        # Phase C: tier-2 deep scrape (HTML/PDF)
+python3 scripts/link_policy_contacts.py    # Join policies + PIB activity to contacts
+/usr/bin/python3 scripts/build_db.py       # DuckDB (use /usr/bin/python3)
+python3 scripts/build_dashboard.py         # Regenerate dashboard/index.html
 ```
 
-The linkage step reads two sibling repos (paths resolved from `$HOME`):
-`~/digital-twin-for-ipa/layers/13_flat_instrument_index.json` (312 incentive
-instruments; "open" inferred from free-text status) and
-`~/india-trade-sector-policy-recommendations/data/pib_index.sqlite` (~123k PIB
-releases). Ministry names are joined via normalization + an alias map
-(MeitY, DPIIT, MHI, …) + fuzzy fallback.
+All stages are wired into `scripts/refresh.sh`, which runs monthly via cron `30 10 1 * *`.
 
-Notes on the source's quirks (hard-won):
-- Listing pages lazy-load beyond the first ~25 rows via
-  `<listing>/organizations_list_more/<start>/<limit>` — the server only
-  accepts `limit <= 5` (or the exact final-chunk remainder).
-- The endpoint requires a Laravel session cookie (`igod-session`) from a
-  prior page load; bare curl gets a meta-refresh redirect to the homepage.
-- Officer directories paginate via `/organization/<id>/list_contacts/<start>/10`.
-- Emails are obfuscated as `secy[dot]moc[at]nic[dot]in` — de-obfuscated at parse time.
-- Many entries (especially autonomous bodies/PSUs) link only to an external
-  website with no igod detail page; they appear in the index with a blank
-  `igod_org_id`.
+## Tier-2 Who's-Who Deep Scrape
+
+`ministry_whoswho.py` walks the website of every union ministry/department:
+- Extracts igod quick-links containing "who"
+- Probes common paths (`/whos-who`, `/who-is-who`, `/about-us/whos-who`, etc.)
+- Retries `.nic.in` domains as `.gov.in` (many old NIC domains are dead)
+- Parses **NIC Drupal views-tables** (standard government site template)
+- Extracts **embedded/linked PDF who's-who rosters** (via pdfplumber)
+- Parses **Next.js payload tables** (headless-WP hybrid sites)
+
+Coverage: **1,807 officials** with **1,466 emails** across **17 ministries**:
+- Department of Revenue (415), Expenditure (161), Ports/Shipping (135), MNRE (128), AHD (119), DoCP (101), DoCA (98), DAE (77), Panchayati Raj (71), Coal (67), DLR (65), Defence (61), + 5 more
+
+Known gap: ~78 ministry sites are Akamai-fronted JS-shell templates that render entirely client-side (MeitY, DoT, DST, SandBox, etc.); a real-browser pass with Playwright can reach the DOM but no tables are in the rendered output — they may require clicking/filtering or be on a separate `/staffdirectory` endpoint.
+
+## The data is live
+
+Open `dashboard/index.html` in a browser (works offline, light/dark aware):
+- **6 stat tiles**: organizations indexed, with igod detail pages, officials listed, official emails, states/UTs, open policy instruments
+- **Officials** — searchable igod who's-who, filterable by state
+- **Ministry Roster** — the tier-2 deep scrape, searchable by ministry
+- **Organizations** — full index with branch chips and website links
+- **Org Contacts** — per-organization address/phone/email
+- **Open Policies** — each open instrument with owning ministry's contacts
+- **PIB Activity** — per-ministry 6-year release counts as inline bars, 90-day recency, top contacts
 
 ## Refresh
 
-The directory changes slowly (portfolio reshuffles, transfers). A monthly
-re-run is plenty. Officials' postings churn faster than the site updates, so
-treat `officials.csv` as "as published by NIC", not ground truth.
+Monthly via cron. The directory changes slowly (portfolio reshuffles, transfers). Officials' postings churn faster than sites update, so treat `ministry_officials.csv` as "as published by the ministries", not ground truth.
 
 ## See also
 
-`docs/AI_GOVT_AFFAIRS_ANALYSIS.md` — how this dataset slots into a
-Quorum-style AI government-affairs stack alongside the existing repos
-(PIB index, Sansad PQ API, e-gazette, PARIVESH, MoSPI connectors).
+`docs/AI_GOVT_AFFAIRS_ANALYSIS.md` — how this dataset slots into a Quorum-style AI government-affairs stack alongside the existing repos (PIB index, Sansad PQ API, e-gazette, PARIVESH, MoSPI connectors).
