@@ -5,15 +5,15 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-from infrastructure.graphify_client import GraphifyClient
-from infrastructure.repositories_impl import (
+from .infrastructure.graphify_client import GraphifyClient
+from .infrastructure.repositories_impl import (
     GraphifyOrganizationRepository,
     GraphifyOfficialRepository,
     GraphifyPolicyRepository,
     GraphifyPressReleaseRepository,
 )
-from workflows.refresh_workflow import create_refresh_workflow
-from api.query_api import QueryAPI
+from .workflows.refresh_workflow import create_refresh_workflow
+from .api.query_api import QueryAPI
 
 
 def initialize_system(data_dir: Path = None) -> dict:
