@@ -5,17 +5,23 @@ Reads policy_contacts.csv and creates a "who to contact" matrix for incentives
 with application windows currently open or opening soon.
 
 Usage:
-    python3 scripts/policy_contact_matcher.py [--days-ahead 30]
+    python3 scripts/policy_contact_matcher.py [--active-only] [--days-ahead 30]
+
+Options:
+    --active-only    Show only policies with currently active application windows
+    --days-ahead N   Include policies opening within N days (default: 30)
 """
 import csv
 import sys
 from pathlib import Path
 from datetime import datetime, timedelta
 from collections import defaultdict
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 POLICY_CONTACTS_FILE = DATA_DIR / "policy_contacts.csv"
+POLICY_WINDOWS_FILE = DATA_DIR / "policy_windows.csv"
+POLICY_EOI_CONTACTS_FILE = DATA_DIR / "policy_eoi_contacts.csv"
 
 
 def load_policy_contacts() -> List[Dict]:
@@ -31,6 +37,137 @@ def load_policy_contacts() -> List[Dict]:
             contacts.append(row)
 
     return contacts
+
+
+def load_policy_windows() -> Dict[str, Tuple[datetime, datetime]]:
+    """Load application window dates from CSV.
+
+    Returns: {instrument: (start_date, end_date), ...}
+    """
+    if not POLICY_WINDOWS_FILE.exists():
+        return {}
+
+    windows = {}
+    with POLICY_WINDOWS_FILE.open(encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            instrument = row.get('instrument', '').strip()
+            start_str = row.get('application_start_date', '').strip()
+            end_str = row.get('application_end_date', '').strip()
+
+            if instrument and start_str and end_str:
+                try:
+                    start = datetime.strptime(start_str, '%Y-%m-%d')
+                    end = datetime.strptime(end_str, '%Y-%m-%d')
+                    windows[instrument] = (start, end)
+                except ValueError:
+                    pass
+
+    return windows
+
+
+def load_eoi_contacts() -> List[Dict]:
+    """Load EOI and press-release contacts from CSV.
+
+    These supplement the main policy_contacts.csv with additional officials
+    mentioned in Expression of Interest documents and official notifications.
+    """
+    if not POLICY_EOI_CONTACTS_FILE.exists():
+        return []
+
+    eoi_contacts = []
+    with POLICY_EOI_CONTACTS_FILE.open(encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            # Normalize field names to match policy_contacts.csv
+            normalized = {
+                'instrument': row.get('instrument', '').strip(),
+                'contact_name': row.get('contact_name', '').strip(),
+                'designation': row.get('designation', '').strip(),
+                'division': row.get('division', '').strip(),
+                'email': row.get('email', '').strip(),
+                'phones': row.get('phones', '').strip(),
+                'source': row.get('source', 'EOI/Press Release'),
+                'source_url': row.get('source_url', ''),
+                'offering_entity': row.get('division', '').strip(),
+                'status': 'open (EOI)',
+                'instrument_type': 'contact from official notification',
+            }
+            if normalized['instrument']:
+                eoi_contacts.append(normalized)
+
+    return eoi_contacts
+
+
+def get_window_status(start: datetime, end: datetime, today: Optional[datetime] = None) -> Tuple[str, int]:
+    """Get status and days remaining/until opening.
+
+    Returns: (status_string, days_count)
+    - If active: ("ACTIVE", days_remaining)
+    - If opening soon: ("OPENING_SOON", days_until_open)
+    - If closed: ("CLOSED", days_since_close)
+    """
+    if today is None:
+        today = datetime.now()
+
+    if today < start:
+        days = (start - today).days
+        return ("OPENING_SOON", days)
+    elif today <= end:
+        days = (end - today).days
+        return ("ACTIVE", days)
+    else:
+        days = (today - end).days
+        return ("CLOSED", days)
+
+
+def filter_by_active_windows(contacts: List[Dict], windows: Dict,
+                            active_only: bool = True, days_ahead: int = 30) -> List[Dict]:
+    """Filter contacts to only include policies with active/upcoming application windows.
+
+    Args:
+        contacts: List of policy contacts
+        windows: Dict of {instrument: (start_date, end_date)}
+        active_only: If True, only show ACTIVE windows. If False, include OPENING_SOON
+        days_ahead: Include policies opening within N days
+
+    Returns: Filtered contact list with window_status added
+    """
+    today = datetime.now()
+    filtered = []
+
+    for contact in contacts:
+        instrument = contact.get('instrument', '').strip()
+        if not instrument:
+            continue
+
+        if instrument not in windows:
+            # No window data for this policy; skip in active-only mode
+            if not active_only:
+                contact_copy = contact.copy()
+                contact_copy['window_status'] = 'NO_DATA'
+                contact_copy['days_info'] = 'N/A'
+                filtered.append(contact_copy)
+            continue
+
+        start, end = windows[instrument]
+        status, days = get_window_status(start, end, today)
+
+        if active_only and status != 'ACTIVE':
+            continue
+
+        if not active_only and status == 'OPENING_SOON' and days > days_ahead:
+            continue
+
+        if status == 'CLOSED':
+            continue
+
+        contact_copy = contact.copy()
+        contact_copy['window_status'] = status
+        contact_copy['days_info'] = str(days)
+        filtered.append(contact_copy)
+
+    return filtered
 
 
 def group_by_policy(contacts: List[Dict]) -> Dict[str, List[Dict]]:
@@ -90,10 +227,22 @@ def print_policy_contact_matrix(policies_by_instrument: Dict[str, List[Dict]]):
         offering_entity = contacts[0].get('offering_entity', 'unknown')
         instrument_type = contacts[0].get('instrument_type', 'unknown')
         source_url = contacts[0].get('source_url', '')
+        window_status = contacts[0].get('window_status', None)
+        days_info = contacts[0].get('days_info', None)
 
         print(f"\n📋 {instrument.upper()}")
         print(f"   Sector: {offering_entity} | Type: {instrument_type}")
         print(f"   Status: {status}")
+
+        # Application window status
+        if window_status:
+            if window_status == 'ACTIVE':
+                print(f"   ⏰ APPLICATION WINDOW: OPEN ({days_info} days remaining)")
+            elif window_status == 'OPENING_SOON':
+                print(f"   ⏰ APPLICATION WINDOW: Opens in {days_info} days")
+            elif window_status == 'NO_DATA':
+                print(f"   ⏰ APPLICATION WINDOW: No data available")
+
         if source_url:
             print(f"   Website: {source_url}")
 
@@ -230,11 +379,37 @@ Current status: {0} open policy instruments identified.
 
 def main():
     """Main entry point."""
-    contacts = load_policy_contacts()
+    # Parse command-line arguments
+    active_only = '--active-only' in sys.argv
+    days_ahead = 30
+    for i, arg in enumerate(sys.argv):
+        if arg == '--days-ahead' and i + 1 < len(sys.argv):
+            try:
+                days_ahead = int(sys.argv[i + 1])
+            except ValueError:
+                pass
 
-    if not contacts:
+    # Load data
+    contacts = load_policy_contacts()
+    eoi_contacts = load_eoi_contacts()
+    windows = load_policy_windows()
+
+    if not contacts and not eoi_contacts:
         print("❌ No contacts loaded")
         return 1
+
+    # Merge EOI contacts with main contacts
+    if eoi_contacts:
+        contacts.extend(eoi_contacts)
+
+    # Filter by application windows if requested
+    if active_only or windows:
+        filtered_contacts = filter_by_active_windows(contacts, windows, active_only, days_ahead)
+        print(f"✅ Filtering by application windows...")
+        print(f"   • Total contacts (before filter): {len(contacts)}")
+        print(f"   • Active window policies: {len(filtered_contacts)}")
+        print(f"   • Window data available for {len(windows)} policies")
+        contacts = filtered_contacts
 
     policies_by_instrument = group_by_policy(contacts)
     open_policies = get_open_policies(contacts)
@@ -243,6 +418,9 @@ def main():
     print(f"   • Total contacts loaded: {len(contacts)}")
     print(f"   • Unique policies: {len(policies_by_instrument)}")
     print(f"   • Open policies: {len(open_policies)}")
+    if active_only and windows:
+        active_count = sum(1 for c in windows.values() if get_window_status(c[0], c[1])[0] == 'ACTIVE')
+        print(f"   • Policies with ACTIVE application windows: {active_count}")
 
     # Print matrices and summaries
     print_policy_contact_matrix(policies_by_instrument)
