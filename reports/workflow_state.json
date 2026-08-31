@@ -1,0 +1,14 @@
+{
+  "phase": "complete",
+  "timestamp": "2026-07-30T22:41:45.936987",
+  "discovered_orgs": 0,
+  "discovered_officials_t1": 1664,
+  "discovered_officials_t2": 0,
+  "linked_policies": 105,
+  "linked_pib_releases": 0,
+  "policy_contacts_created": 315,
+  "pib_contacts_created": 0,
+  "graph_nodes_upserted": 1877,
+  "graph_edges_upserted": 1877,
+  "sync_errors": []
+}
