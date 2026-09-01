@@ -1167,7 +1167,7 @@ jud,,OTHR,Others,"National Law Universities (NLU), Delhi",,https://nludelhi.ac.i
 jud,,OTHR,Others,"National Law University, Jodhpur",,https://www.nlujodhpur.ac.in,https://igod.gov.in/jud/OTHR/organizations
 jud,,OTHR,Others,"National Law University, Odisha (NLUO)",,https://www.nluo.ac.in,https://igod.gov.in/jud/OTHR/organizations
 jud,,OTHR,Others,"National University of Advanced Legal Studies (NUALS), Kerala",,https://www.nuals.ac.in,https://igod.gov.in/jud/OTHR/organizations
-jud,,OTHR,Others,"National University of Study and Research in Law (NUSRL), Ranchi",,,https://igod.gov.in/jud/OTHR/organizations
+jud,,OTHR,Others,"National University of Study and Research in Law (NUSRL), Ranchi",,https://nusrlranchi.ac.in,https://igod.gov.in/jud/OTHR/organizations
 jud,,OTHR,Others,Odisha State Legal Services Authority,,https://oslsa.odisha.gov.in,https://igod.gov.in/jud/OTHR/organizations
 jud,,OTHR,Others,"Office of The Special Court (TORTS), Bombay",,https://specialcourt-torts.gov.in,https://igod.gov.in/jud/OTHR/organizations
 jud,,OTHR,Others,"Office of the Advocate General, Madhya Pradesh",,https://mpag.mp.gov.in,https://igod.gov.in/jud/OTHR/organizations
@@ -2121,6 +2121,7 @@ sg,AS,SPMA,View All,"Jagrit Jorhat, Assam",,https://jagritjorhat.assam.gov.in,ht
 sg,AS,SPMA,View All,Kritagyata - Pension Sanction & Payment Tracking System,,https://kritagyata.assam.gov.in,https://igod.gov.in/sg/AS/SPMA/organizations
 sg,AS,SPMA,View All,Medical Asset Management System (Med-AMS),,https://medicalassets.assam.gov.in,https://igod.gov.in/sg/AS/SPMA/organizations
 sg,AS,SPMA,View All,"National Generic Document Registration System, Assam",,https://ngdrs.assam.gov.in,https://igod.gov.in/sg/AS/SPMA/organizations
+sg,AS,SPMA,View All,"National Mission on Edible Oils - Oil Palm (NMEO-OP), Assam",,https://nmeo-op.assam.gov.in,https://igod.gov.in/sg/AS/SPMA/organizations
 sg,AS,SPMA,View All,"Online Consent Management & Monitoring System, Assam",,https://asocmms.nic.in,https://igod.gov.in/sg/AS/SPMA/organizations
 sg,AS,SPMA,View All,"Ration Card Management System, Assam",,https://rcms.assam.gov.in,https://igod.gov.in/sg/AS/SPMA/organizations
 sg,AS,SPMA,View All,"Right to Information Online Portal, Assam",,https://rtionline.assam.gov.in,https://igod.gov.in/sg/AS/SPMA/organizations
@@ -2274,6 +2275,7 @@ sg,BR,SPMA,View All,"Directorate of Drugs Control, Bihar",,https://xln.bihar.gov
 sg,BR,SPMA,View All,"E-Cooperative, Bihar",,https://esahkari.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,BR,SPMA,View All,"Jan Shikayat Portal, Bihar",,https://biharbhumiplus.bihar.gov.in/pg,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,BR,SPMA,View All,"Land Conversion Portal, Bihar",,https://landconversion.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
+sg,BR,SPMA,View All,"Madhubani Arts, Bihar",,https://madhubaniarts.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,BR,SPMA,View All,"Mukhyamantri Niji Nalkup Yojna, Bihar",,https://mwrd.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,BR,SPMA,View All,"Mukhyamantri Nishchay Swayam Sahayata Bhata Yojana (MNSSBY), Bihar",,https://www.7nishchay-yuvaupmission.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,BR,SPMA,View All,"Online Farm Mechanization Application Software (OFMAS), Bihar",,https://farmech.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
@@ -2285,7 +2287,6 @@ sg,BR,SPMA,View All,"SC/ST-Post Matric, Scholarship Portal, Bihar",,https://scst
 sg,BR,SPMA,View All,Sahyog Portal - Real Time Monitoring System,,https://sahyog.bihar.gov.in/Sahyog/Default.aspx,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,BR,SPMA,View All,Swachh Bihar Portal,,https://swachhbihar.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,BR,SPMA,View All,"Trial Monitoring System, Bihar Police",,https://tms.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
-sg,BR,SPMA,View All,"Udyami Portal, Bihar",,https://udyami.bihar.gov.in,https://igod.gov.in/sg/BR/SPMA/organizations
 sg,CG,E003,View All,"Agriculture Development and Farmer Welfare and Bio-Technology Department, Chhattisgarh",,https://agriportal.cg.nic.in,https://igod.gov.in/sg/CG/E003/organizations
 sg,CG,E003,View All,"Animal Husbandary Department, Chhattisgarh",,https://agriportal.cg.nic.in/ahd,https://igod.gov.in/sg/CG/E003/organizations
 sg,CG,E003,View All,"Commerce & Industries Department, Chhattisgarh",,https://industries.cg.gov.in,https://igod.gov.in/sg/CG/E003/organizations
@@ -2510,6 +2511,7 @@ sg,DL,E004,View All,"Directorate of Employment, Delhi",,https://onlineemployment
 sg,DL,E004,View All,"Directorate of Employment, Delhi",,https://employment.delhi.gov.in,https://igod.gov.in/sg/DL/E004/organizations
 sg,DL,E004,View All,"Directorate of Higher Education, Delhi",,https://higheredn.delhi.gov.in,https://igod.gov.in/sg/DL/E004/organizations
 sg,DL,E004,View All,"Directorate of Information & Publicity, Delhi",,https://publicity.delhi.gov.in,https://igod.gov.in/sg/DL/E004/organizations
+sg,DL,E004,View All,"Directorate of National Cadet Corps, Delhi",,https://ncc.delhi.gov.in,https://igod.gov.in/sg/DL/E004/organizations
 sg,DL,E004,View All,"Directorate of Prosecution, Delhi",,https://prosecution.delhi.gov.in,https://igod.gov.in/sg/DL/E004/organizations
 sg,DL,E004,View All,"Directorate of Small Savings, Delhi",,https://ss.delhi.gov.in,https://igod.gov.in/sg/DL/E004/organizations
 sg,DL,E004,View All,"Directorate of Training and Technical Education, Delhi",,https://tte.delhi.gov.in,https://igod.gov.in/sg/DL/E004/organizations
@@ -2611,8 +2613,11 @@ sg,DL,OTHR,View All,"Dr. Baba Shahab Ambedkar Hospital, Delhi",,https://bsah.del
 sg,DL,OTHR,View All,"Dr. Hedgewar Aarogya Sansthan, Delhi",,https://dhas.delhi.gov.in,https://igod.gov.in/sg/DL/OTHR/organizations
 sg,DL,OTHR,View All,"Dr. N. C Joshi Memorial Hospital, Delhi",,https://ncjmh.delhi.gov.in,https://igod.gov.in/sg/DL/OTHR/organizations
 sg,DL,SPMA,View All,"Aangdaan - Organ Donation Portal, Delhi",,https://aangdaan.delhi.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
+sg,DL,SPMA,View All,"CM Jan Sunwai Portal, Delhi",,https://cmjansunwai.delhi.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
 sg,DL,SPMA,View All,"DTC Conventional & e-Bus Pass, Delhi",,https://dtcpass.delhi.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
+sg,DL,SPMA,View All,Delhi Lakshmi Yojana,,https://dly.delhi.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
 sg,DL,SPMA,View All,Delhi Police Senior Citizen Portal,,https://seniorcitizen.delhipolice.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
+sg,DL,SPMA,View All,"EWS/DG Admissions and EWS/Freeship Admissions, Delhi",,https://ewsadmissions.delhi.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
 sg,DL,SPMA,View All,"Police Clearance Certificate (PCC), Delhi",,https://pcccvr.delhipolice.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
 sg,DL,SPMA,View All,eVehicle Portal,,https://evsubsidy.delhi.gov.in,https://igod.gov.in/sg/DL/SPMA/organizations
 sg,GA,E003,View All,"Administrative Reforms Department (ARD), Goa",,https://ard.goa.gov.in,https://igod.gov.in/sg/GA/E003/organizations
@@ -3166,9 +3171,11 @@ sg,HR,SPMA,View All,Haryana Mines and Geology Information System,,https://mis.mi
 sg,HR,SPMA,View All,MHARI Sadak Haryana,,https://mharisadak.haryana.gov.in,https://igod.gov.in/sg/HR/SPMA/organizations
 sg,HR,SPMA,View All,"Medico Legal Report and Post Mortem Reporting System, Haryana",,https://medleaprhry.gov.in,https://igod.gov.in/sg/HR/SPMA/organizations
 sg,HR,SPMA,View All,"Online Drug Inventory and Supply Chain Management System, Haryana",,https://dpmuhry.gov.in,https://igod.gov.in/sg/HR/SPMA/organizations
-sg,JH,E003,View All,"Agriculture, Animal Husbandry and Cooperative Department, Jharkhand",,https://agri.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
+sg,JH,E003,View All,"Agriculture, Animal Husbandry and Cooperative Department, Jharkhand",,https://www.jharkhand.gov.in/agriculture,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Cabinet (Vigilance) Department, Jharkhand",,https://jharkhand.gov.in/cabinet-secretariat,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Department of Commercial Taxes, Jharkhand",,https://ctax.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
+sg,JH,E003,View All,"Department of Forest, Environment & Climate Change, Jharkhand",,https://forest.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
+sg,JH,E003,View All,"Department of Health, Medical Education & Family Welfare, Jharkhand",,https://www.jharkhand.gov.in/health,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Drinking Water and Sanitation Department, Jharkhand",,https://jharjal.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Energy Department, Jharkhand",,https://www.jharkhand.gov.in/energy,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Finance Department, Jharkhand",,https://finance.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
@@ -3182,15 +3189,13 @@ sg,JH,E003,View All,"Mines and Geology Department, Jharkhand",,https://minerals.
 sg,JH,E003,View All,"Panchayati Raj and NREP Department, Jharkhand",,https://www.jharkhand.gov.in/panchayatiraj,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Personnel, Administrative Reforms and Raj Bhasa Department, Jharkhand",,https://www.jharkhand.gov.in/dop,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Revenue, Registration and Land Reforms Department, Jharkhand",,https://www.jharkhand.gov.in/revenue,https://igod.gov.in/sg/JH/E003/organizations
+sg,JH,E003,View All,"Road Construction Department, Jharkhand",,https://rcd.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Rural Development Department, Jharkhand",,https://www.jharkhand.gov.in/rdd,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Rural Works Department, Jharkhand",,https://www.jharkhand.gov.in/rwd,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Tourism Department, Jharkhand",,https://tourism.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Transport Department, Jharkhand",,https://www.jharkhand.gov.in/transport,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Urban Development & Housing Department, Government of Jharkhand",,https://udhd.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E003,View All,"Vidhi Portal, Law Department & Advocate General Office, Jharkhand",,https://vidhi.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
-sg,JH,E003,View All,"Water Resources Department, Jharkhand",,https://wrd.jharkhand.gov.in,https://igod.gov.in/sg/JH/E003/organizations
-sg,JH,E003,View All,"Welfare Department, Jharkhand",,https://www.jharkhand.gov.in/welfare,https://igod.gov.in/sg/JH/E003/organizations
-sg,JH,E003,View All,"Women, Child Development & Social Security Department, Jharkhand",,https://www.jharkhand.gov.in/wcd,https://igod.gov.in/sg/JH/E003/organizations
 sg,JH,E009,View All,"Birsa Agricultural University, Ranchi, Jharkhand",,https://www.bauranchi.org,https://igod.gov.in/sg/JH/E009/organizations
 sg,JH,E009,View All,"Birsa Munda Tribal University, Jharkhand",,https://bmtu.ac.in,https://igod.gov.in/sg/JH/E009/organizations
 sg,JH,E009,View All,"Ranchi Institute of Neuro-Psychiatry & Allied Sciences (RINPAS), Jharkhand",,https://rinpas.nic.in,https://igod.gov.in/sg/JH/E009/organizations
@@ -3199,8 +3204,10 @@ sg,JH,E009,View All,"Shri Krishna Institute of Public Administration (SKIPA), Jh
 sg,JH,E009,View All,"State Agricultural Management and Extension Training Institute (SAMETI), Jharkhand",,https://sameti.org,https://igod.gov.in/sg/JH/E009/organizations
 sg,JH,E009,View All,"Vinoba Bhave University, Hazaribag, Jharkhand",,https://vbu.ac.in,https://igod.gov.in/sg/JH/E009/organizations
 sg,JH,E011,View All,"Jharkhand Bijli Vitran Nigam Limited, Jharkhand",,https://jbvnl.co.in,https://igod.gov.in/sg/JH/E011/organizations
+sg,JH,E011,View All,"Jharkhand Council on Science, Technology and Innovation",,https://jcsti.jharkhand.gov.in,https://igod.gov.in/sg/JH/E011/organizations
 sg,JH,E011,View All,"Jharkhand Renewable Energy Development Agency, Jharkhand",,https://www.jreda.com,https://igod.gov.in/sg/JH/E011/organizations
 sg,JH,E011,View All,"Jharkhand State AIDS Control Society, Jharkhand",,https://jsacs.org.in,https://igod.gov.in/sg/JH/E011/organizations
+sg,JH,E011,View All,Jharkhand State Housing Board,,https://jshbelottery.jharkhand.gov.in,https://igod.gov.in/sg/JH/E011/organizations
 sg,JH,E011,View All,"Jharkhand State Mineral Development Corporation Ltd. (JSMDC), Jharkhand",,https://www.jsmdc.in,https://igod.gov.in/sg/JH/E011/organizations
 sg,JH,E011,View All,"Jharkhand State Pollution Control Board, Jharkhand",,https://www.jspcb.nic.in,https://igod.gov.in/sg/JH/E011/organizations
 sg,JH,E011,View All,"Real Estate Regulatory Authority, Jharkhand",,https://jharera.jharkhand.gov.in,https://igod.gov.in/sg/JH/E011/organizations
@@ -3232,6 +3239,7 @@ sg,JH,E042,Jharkhand,Sahebganj,,https://sahibganj.nic.in,https://igod.gov.in/sg/
 sg,JH,E042,Jharkhand,Saraikela Kharsawan,,https://seraikela.nic.in,https://igod.gov.in/sg/JH/E042/organizations
 sg,JH,E042,Jharkhand,Simdega,,https://simdega.nic.in,https://igod.gov.in/sg/JH/E042/organizations
 sg,JH,E042,Jharkhand,West Singhbhum,,https://chaibasa.nic.in,https://igod.gov.in/sg/JH/E042/organizations
+sg,JH,OTHR,View All,"Chief Minister's Office, Jharkhand",,https://cm.jharkhand.gov.in,https://igod.gov.in/sg/JH/OTHR/organizations
 sg,JH,OTHR,View All,"Division of Legal Metrology, Jharkhand",,https://elegalmetrology.jharkhand.gov.in,https://igod.gov.in/sg/JH/OTHR/organizations
 sg,JH,OTHR,View All,"EIACP HUB: Jharkhand Status of Environment and Related Issues, Jharkhand",,https://jharenvis.nic.in,https://igod.gov.in/sg/JH/OTHR/organizations
 sg,JH,OTHR,View All,"JharSewa - Online Citizen Services Portal, Jharkhand",,https://jharsewa.jharkhand.gov.in,https://igod.gov.in/sg/JH/OTHR/organizations
@@ -3245,13 +3253,22 @@ sg,JH,OTHR,View All,"UID - Aadhaar Portal, Jharkhand",,https://aadhaar.jharkhand
 sg,JH,OTHR,View All,"e-GRAS Online Government Receipts Accounting System, Jharkhand",,https://finance.jharkhand.gov.in/jegras,https://igod.gov.in/sg/JH/OTHR/organizations
 sg,JH,OTHR,View All,"e-Kalyan - Student Scholarships by Welfare Department, Jharkhand",,https://ekalyan.cgg.gov.in,https://igod.gov.in/sg/JH/OTHR/organizations
 sg,JH,OTHR,View All,"eProcurement System, Jharkhand",,https://jharkhandtenders.gov.in,https://igod.gov.in/sg/JH/OTHR/organizations
+sg,JH,SPMA,View All,"Aadhaar enabled Public Distribution System (AePDS), Jharkhand",,https://smartpds.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JH,SPMA,View All,"Abua Budget Portal, Jharkhand",,https://finance.jharkhand.gov.in/budgetvichar/default.aspx,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,"CM Fellowship Scheme for Academic Excellence, Jharkhand",,https://scholarshipsdhte.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JH,SPMA,View All,"Chancellor Portal, Jharkhand",,https://jharkhanduniversities.nic.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JH,SPMA,View All,"E-Uparjan, Jharkhand",,https://uparjan.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JH,SPMA,View All,"Guest Verification System, Jharkhand",,https://jhpoliceverification.nic.in,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,Guruji Student Credit Card (GSCC) Scheme,,https://gscc.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JH,SPMA,View All,Jharkhand Online FIR System,,https://jofs.jhpolice.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,Jharkhand Recruitment Portal,,https://recruitment.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,Jharkhand Rural Health Mission Society,,https://jrhms.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,Jharkhand State Mid-Day Meal Authority,,https://pmposhan.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JH,SPMA,View All,"Maiya Samman Yojana, Jharkhand",,https://mmmsy.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,"Mukhyamantri Rojgaar Srijan Yojana, Jharkhand",,https://cmegp.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JH,SPMA,View All,"Online RTI Portal, Jharkhand",,https://rti.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,"Your Scheme - Your Government - At Your Doorstep, Jharkhand",,https://sarkaraapkedwar.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
+sg,JH,SPMA,View All,"e-Vidyavahini Portal, Jharkhand",,https://evidyavahini.jharkhand.gov.in,https://igod.gov.in/sg/JH/SPMA/organizations
 sg,JK,E003,View All,"Administrative Reforms, Inspections, Trainings & Grievances Department, Jammu and Kashmir",,https://www.jkaritrainings.nic.in,https://igod.gov.in/sg/JK/E003/organizations
 sg,JK,E003,View All,"Agriculture Production & Farmers Welfare Department, Jammu and Kashmir",,https://agriculture.jk.gov.in,https://igod.gov.in/sg/JK/E003/organizations
 sg,JK,E003,View All,"Animal,Sheep Husbandry and Fisheries Department, Jammu and Kashmir",,https://jkash.nic.in,https://igod.gov.in/sg/JK/E003/organizations
@@ -6386,7 +6403,7 @@ ug,,AUTBDY,Autonomous Bodies,"Nehru Institute of Mountaineering (NIM), Uttarkash
 ug,,AUTBDY,Autonomous Bodies,"Nehru Science Centre, Mumbai",,https://nehrusciencecentre.in,https://igod.gov.in/ug/AUTBDY/organizations
 ug,,AUTBDY,Autonomous Bodies,"Nehru Yuva Kendra Sangathan (NYKS), Delhi",,https://nyks.nic.in,https://igod.gov.in/ug/AUTBDY/organizations
 ug,,AUTBDY,Autonomous Bodies,"New Mangalore Port Authority, Panambur",,https://newmangaloreport.gov.in,https://igod.gov.in/ug/AUTBDY/organizations
-ug,,AUTBDY,Autonomous Bodies,North East Center for Technology Application and Reach,,https://www.nectar.org.in,https://igod.gov.in/ug/AUTBDY/organizations
+ug,,AUTBDY,Autonomous Bodies,North East Center for Technology Application and Reach,,https://nectar.dst.gov.in,https://igod.gov.in/ug/AUTBDY/organizations
 ug,,AUTBDY,Autonomous Bodies,North East Institute of Science and Technology,,https://neist.res.in,https://igod.gov.in/ug/AUTBDY/organizations
 ug,,AUTBDY,Autonomous Bodies,"North Eastern Regional Institute of Science and Technology (NERIST), Nirjuli",,https://nerist.ac.in,https://igod.gov.in/ug/AUTBDY/organizations
 ug,,AUTBDY,Autonomous Bodies,North Eastern Regional Institute of Water and Land Management (NERIWALM),,https://neriwalm.gov.in,https://igod.gov.in/ug/AUTBDY/organizations
@@ -6533,6 +6550,7 @@ ug,,DUW,Divisions / Units / Wings,"Rail Wheel Plant, Bela",,https://rwp.indianra
 ug,,DUW,Divisions / Units / Wings,Railway Recruitment Board,,https://www.rrbapply.gov.in,https://igod.gov.in/ug/DUW/organizations
 ug,,DUW,Divisions / Units / Wings,Railway Recruitment Control Board (RRCB),,https://rrcb.gov.in,https://igod.gov.in/ug/DUW/organizations
 ug,,DUW,Divisions / Units / Wings,Renewable Energy Certificate Registry of India,,https://www.recregistryindia.nic.in,https://igod.gov.in/ug/DUW/organizations
+ug,,DUW,Divisions / Units / Wings,Research & Analytics (R&A) Division,,https://data.tourism.gov.in,https://igod.gov.in/ug/DUW/organizations
 ug,,DUW,Divisions / Units / Wings,SAARC Disaster Management Centre (SDMC),,https://saarc-sdmc.org,https://igod.gov.in/ug/DUW/organizations
 ug,,DUW,Divisions / Units / Wings,Supercomputing Facility for Bioinformatics and Computational Biology (SCFBIO),,,https://igod.gov.in/ug/DUW/organizations
 ug,,DUW,Divisions / Units / Wings,"Testing Centre, Mumbai",,https://msmetcmumbai.gov.in,https://igod.gov.in/ug/DUW/organizations
@@ -6598,6 +6616,7 @@ ug,,E003,Departments,Department of Agriculture and Farmers Welfare (DoAFW),QNe83
 ug,,E003,Departments,Department of Animal Husbandry and Dairying (DoAHD),SI7dxHQBnHZIjqMuV49J,https://dahd.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Department of Biotechnology (DBT),d9KpHHUBGGphvn7w1-jZ,https://dbt.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Department of Border Management (DoBM),Xte83XQBYNG-XPnvjOsx,,https://igod.gov.in/ug/E003/organizations
+ug,,E003,Departments,Department of Capital Development (DCD),JEvOxp8BP88gw02oacoa,,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Department of Chemicals and Petro-Chemicals (DoCP),Qde83XQBYNG-XPnvjOsx,https://chemicals.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Department of Commerce (DoC),Rde83XQBYNG-XPnvjOsx,https://commerce.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Department of Consumer Affairs (DoCA),SNe83XQBYNG-XPnvjOsx,https://doca.gov.in,https://igod.gov.in/ug/E003/organizations
@@ -6636,8 +6655,9 @@ ug,,E003,Departments,Department of Scientific and Industrial Research (DSIR),cNe
 ug,,E003,Departments,Department of Social Justice and Empowerment (DoSJE),cte83XQBYNG-XPnvjOsx,https://socialjustice.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Department of Sports (DoS),c9e83XQBYNG-XPnvjOsx,https://dbtyas-sports.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Department of Telecommunications (DoT),R9e83XQBYNG-XPnvjOsx,https://www.dot.gov.in,https://igod.gov.in/ug/E003/organizations
+ug,,E003,Departments,Department of Urban Development (DUD),NUvYxp8BP88gw02owNCt,,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,"Department of Water Resources, River Development and Ganga Rejuvenation (DoWRGR)",Zde83XQBYNG-XPnvjOsx,https://www.jalshakti-dowr.gov.in,https://igod.gov.in/ug/E003/organizations
-ug,,E003,Departments,Department of Youth Affairs (DoYA),dNe83XQBYNG-XPnvjOsx,https://yas.gov.in/youth,https://igod.gov.in/ug/E003/organizations
+ug,,E003,Departments,Department of Youth Affairs (DoYA),dNe83XQBYNG-XPnvjOsx,https://youth.yas.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E003,Departments,Legislative Department (LD),aNe83XQBYNG-XPnvjOsx,https://legislative.gov.in,https://igod.gov.in/ug/E003/organizations
 ug,,E005,Attached / Subordinated Offices,Aircraft Accident Investigation Bureau (AAIB),,https://aaib.gov.in,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,Andaman Lakshadweep Harbour Works (ALHW),,,https://igod.gov.in/ug/E005/organizations
@@ -6804,6 +6824,8 @@ ug,,E005,Attached / Subordinated Offices,Directorate of Jute Development,,https:
 ug,,E005,Attached / Subordinated Offices,Directorate of Legal Affairs,,https://dlacbic.gov.in,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,"Directorate of Logistics, Customs and Central Excise",,,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,Directorate of Marketing and Inspection (DMI),,https://dmi.gov.in,https://igod.gov.in/ug/E005/organizations
+ug,,E005,Attached / Subordinated Offices,Directorate of Millets Development,,https://nutricereals.dac.gov.in,https://igod.gov.in/ug/E005/organizations
+ug,,E005,Attached / Subordinated Offices,Directorate of Oilseeds Development (DOD),,https://oilseeds.dac.gov.in,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,"Directorate of Ordnance (Coordination and Services), Kolkata",,https://ddpdoo.gov.in,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,"Directorate of Planning and Coordination, New Delhi",,,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,Directorate of Plant Protection Quarantine and Storage,,https://ppqs.gov.in,https://igod.gov.in/ug/E005/organizations
@@ -6815,6 +6837,7 @@ ug,,E005,Attached / Subordinated Offices,"Directorate of Rice Development, Patna
 ug,,E005,Attached / Subordinated Offices,"Directorate of Standardisation, New Delhi",,https://ddpdos.gov.in,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,Directorate of Sugar,,https://dfpd.nic.in/?q=node/89,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,Directorate of Sugar and Edible Oils,,https://dfpd.nic.in/?q=node/131,https://igod.gov.in/ug/E005/organizations
+ug,,E005,Attached / Subordinated Offices,Directorate of Sugarcane Development,,https://sugarcane.dac.gov.in,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,Electronic Media Monitoring Center (EMMC),,,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,Employment News,,https://employmentnews.gov.in,https://igod.gov.in/ug/E005/organizations
 ug,,E005,Attached / Subordinated Offices,"Ex-Servicemen Contributory Health Scheme (ECHS), New Delhi",,https://echs.gov.in,https://igod.gov.in/ug/E005/organizations
@@ -6986,6 +7009,7 @@ ug,,E009,Academies / Institutions,College of Defence Management,,https://cdm.gov
 ug,,E009,Academies / Institutions,"College of Fisheries, Lembucherra",,https://cofcau.nic.in,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Combat Vehicles Research and Development Establishment (CVRDE), Chennai",,,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,DBT Postgraduate Teaching Programme,,https://www.pgt.dbtindia.gov.in,https://igod.gov.in/ug/E009/organizations
+ug,,E009,Academies / Institutions,DBT Postgraduate Teaching Programme,,https://pgt.dbt.gov.in,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Defence Avionics Research Establishment (DARE), New Delhi",,,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Defence Bio-Engineering and Electro Medical Laboratory (DEBEL), Bengaluru",,,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Defence Electronics Application Laboratory (DEAL), Dehradun",,,https://igod.gov.in/ug/E009/organizations
@@ -7050,6 +7074,7 @@ ug,,E009,Academies / Institutions,"Indian Council of Agricultural Research, Trip
 ug,,E009,Academies / Institutions,Indian Grain Storage Management and Research Institute (IGMRI),,https://dfpd.nic.in/?q=node/980,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Indian Institute of Plantation Management, Bangalore",,https://iipmb.edu.in,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,Indian Institute of Remote Sensing (IIRS),,https://www.iirs.gov.in,https://igod.gov.in/ug/E009/organizations
+ug,,E009,Academies / Institutions,Indian Railways Institute of Financial Management,,https://irifm.indianrailways.gov.in,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Indian Statistical Institute (ISI), Calcutta",,https://www.isical.ac.in,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Indian Statistical Institute (ISI), Delhi",,https://www.isid.ac.in,https://igod.gov.in/ug/E009/organizations
 ug,,E009,Academies / Institutions,"Indian Statistical Institute (ISI), Bangalore",,https://www.isibang.ac.in,https://igod.gov.in/ug/E009/organizations
@@ -8704,6 +8729,7 @@ ug,,E013,Commissions/ Committees,"National Council for Teacher Education (NCTE),
 ug,,E013,Commissions/ Committees,National Dam Safety Authority (NDSA),,https://ndsa.gov.in,https://igod.gov.in/ug/E013/organizations
 ug,,E013,Commissions/ Committees,National Ethics Committee Registry for Biomedical and Health Research (NECRBHR),,https://naitik.gov.in,https://igod.gov.in/ug/E013/organizations
 ug,,E013,Commissions/ Committees,National Medical Commission,,https://www.nmc.org.in,https://igod.gov.in/ug/E013/organizations
+ug,,E013,Commissions/ Committees,"National Statistical Commission, NSC",,https://nsc.mospi.gov.in,https://igod.gov.in/ug/E013/organizations
 ug,,E013,Commissions/ Committees,"National Water Academy, Pune",,https://www.nwapune.gov.in,https://igod.gov.in/ug/E013/organizations
 ug,,E013,Commissions/ Committees,North Eastern Regional Power Committee,,https://nerpc.gov.in,https://igod.gov.in/ug/E013/organizations
 ug,,E013,Commissions/ Committees,Office of Chief Commissioner for Persons with Disabilities,,https://ccpd.nic.in,https://igod.gov.in/ug/E013/organizations
@@ -9143,6 +9169,7 @@ ug,,OTHR,Others,Chennai Customs Zone,,https://chennaicustoms.gov.in,https://igod
 ug,,OTHR,Others,Chennai Telephones,,,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Chhattisgarh State Centre, National Informatics Centre (NIC)",,https://chhattisgarh.nic.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Chief of Defence Staff (CDS), New Delhi",,,https://igod.gov.in/ug/OTHR/organizations
+ug,,OTHR,Others,Civil Defence Organisation,,https://civildefence.indianrailways.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Clinical Trials Registry-India (CTRI),,https://ctri.nic.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Clotbase - Knowledgebase on Blood Coagulation Proteins, ICMR, Mumbai",,,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Coastal Aquaculture Authority,,https://caa.gov.in,https://igod.gov.in/ug/OTHR/organizations
@@ -9163,6 +9190,7 @@ ug,,OTHR,Others,"Customs, Excise and Service Tax Appellate Tribunal (CESTAT), Hy
 ug,,OTHR,Others,DIKSHA - National Digital Infrastructure for Teachers,,https://diksha.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Defence Civilian Data Management System, Sanchay",,https://sanchay.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Delhi State Centre, National Informatics Centre (NIC)",,https://del.nic.in,https://igod.gov.in/ug/OTHR/organizations
+ug,,OTHR,Others,Department of Biotechnology Recruitment,,https://recruit.dbt.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Department of Computer Science and Engineering, Indian Institute of Technology, Kanpur",,https://www.cse.iitk.ac.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Department of Public Enterprises (DPE), MOU Division",,,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Deposit Insurance and Credit Guarantee Corporation, Mumbai",,https://www.dicgc.org.in,https://igod.gov.in/ug/OTHR/organizations
@@ -9256,6 +9284,7 @@ ug,,OTHR,Others,Indian Agricultural Research Institute (IARI),,https://www.iari.
 ug,,OTHR,Others,"Indian Airforce, New Delhi",,https://indianairforce.nic.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Indian Army Veterans Grievance Handling Portal,,https://indianarmyveterans.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Indian Bank,,https://www.indianbank.in,https://igod.gov.in/ug/OTHR/organizations
+ug,,OTHR,Others,Indian Biological Data Centre,,https://ibdc.dbt.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Indian Carbon Market (ICM),,https://indiancarbonmarket.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Indian Council of Agricultural Research - Online Library Catalog,,,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Indian Government Tenders Information System,,https://eprocure.gov.in,https://igod.gov.in/ug/OTHR/organizations
@@ -9424,6 +9453,8 @@ ug,,OTHR,Others,"Punjab State Centre, National Informatics Centre (NIC)",,https:
 ug,,OTHR,Others,Punjab Telecom Circle,,,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Punjab and Sind Bank,,https://punjabandsind.bank.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Quiz (MyGov),t2VFDHwBNf80hyXhlQGF,https://quiz.mygov.in,https://igod.gov.in/ug/OTHR/organizations
+ug,,OTHR,Others,Radio Frequency IDentification in Indian Railways,,https://rfid.indianrailways.gov.in,https://igod.gov.in/ug/OTHR/organizations
+ug,,OTHR,Others,Railway Protection Force,,https://rpf.indianrailways.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Rajasthan Frontier, Border Security Force (BSF)",,https://www.bsf.gov.in/@frontierrajasthan_hi,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Rajasthan State Centre, National Informatics Centre (NIC)",,https://raj.nic.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Rajasthan Telecom Circle,,,https://igod.gov.in/ug/OTHR/organizations
@@ -9513,7 +9544,6 @@ ug,,OTHR,Others,Video Conferencing Services of NIC,,https://vidcon.nic.in,https:
 ug,,OTHR,Others,"Vikram Sarabhai Space Centre (VSSC), Thiruvananthapuram",,https://www.vssc.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Visualization of Earth observation Data and Archival System (VEDAS),,https://vedas.sac.gov.in/vedas,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Waste to Wealth,,https://www.wastetowealth.gov.in,https://igod.gov.in/ug/OTHR/organizations
-ug,,OTHR,Others,"Watershed Development Component, Assam",,https://slnaiwmpassam.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,Web Based Project Monitoring System - Central Public Works Department (CPWD),,https://cpwdpms.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,"Webcast Services of National Informatics Centre, DIT, Govt. of India",,https://webcast.gov.in,https://igod.gov.in/ug/OTHR/organizations
 ug,,OTHR,Others,West Bengal Telecom Circle,,,https://igod.gov.in/ug/OTHR/organizations
@@ -9723,8 +9753,11 @@ ug,,RFO,Regional / Field Offices,West Bengal Postal Circle,,https://westbengalpo
 ug,,RFO,Regional / Field Offices,West Central Railway,,https://wcr.indianrailways.gov.in,https://igod.gov.in/ug/RFO/organizations
 ug,,RFO,Regional / Field Offices,Western Railway,,https://wr.indianrailways.gov.in,https://igod.gov.in/ug/RFO/organizations
 ug,,RFO,Regional / Field Offices,"Wildlife Conservation (including species and habitats) using Geospatial Techniques, WWF-India, New Delhi",,https://wwfenvis.nic.in,https://igod.gov.in/ug/RFO/organizations
+ug,,SOC,Societies,Prime Ministers Museum and Library (PMML),,https://pmml.gov.in,https://igod.gov.in/ug/SOC/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,"A Scheme For Promotion Of Innovation, Rural Industry & Entrepreneurship (ASPIRE)",,https://aspire.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,AAINA-Dashboard for cities,,https://aaina.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,ABS End-to-End Portal,,https://absefiling.nbaindia.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,ADIP & RVY Joint Interface for Unique Nomination (ARJUN) (ARJUN),,https://adip.depwd.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,AI Impact Summit 2026,,https://www.impactexpo.indiaai.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,AICTE Student Learning Assessment Project,,https://parakh.aicte.gov.in/aboutus,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,AIKosha Portal,,https://aikosha.indiaai.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9759,6 +9792,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Asmita Portal,,https://s
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Atal Bhujal Yojana (Atal Jal),,https://ataljal.mowr.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Atal Mission for Rejuvenation and Urban Transformation (AMRUT),,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Atal Ranking of Institutions on Innovation Achievements (ARIIA),,,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Audit 360,,https://audit360.ux4g.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,AuditOnline,,https://auditonline.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Authorised Economic Operator Programme, Indian Customs (AEO)",,https://aeoindia.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Automated Permanent Academic Account Registry (APAAR),,https://apaar.education.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9791,6 +9825,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Bhuvan Panchayat Geoport
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Bima Bharosa, Grievance Redressal Portal",,https://bimabharosa.irdai.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Biogas Application Portal,,https://biogas.mnre.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Biological Research Regulatory Approval Portal,,https://biorrap.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Biomanufacturing Initiative,,https://bmi.dbt.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Biomass Aggregation Machinery (BAM),,https://bam.eil.co.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Biometric Attendance System-Delhi Central (BAS),,https://attendance.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Broadcast Seva Portal,,https://new.broadcastseva.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9835,6 +9870,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Command Area Development
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Common Fellowship Portal,,https://fellowships.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Common Services Centers Jaankari Suvidha,,https://jaankari.csccloud.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Common Services Centers Scheme (CSC),,https://csc.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Compassionate Appointment Portal,,https://compassionate-appointment.dst.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Conference, Travel, Exhibition and Popular Lectures (CTEP)",,https://www.dbtctep.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Consular Services Management System,,https://madad.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Council for Leather Exports (CLE),,https://leatherindia.org,https://igod.gov.in/ug/SPMA/organizations
@@ -9846,12 +9882,17 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Cyber Swachhta Kendra,,h
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Cybercrime Reporting Portal,,https://cybercrime.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,DHR Electronic Project Management System (e-PMS),,https://schemes.dhr.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,DIKSHA Courses,,https://learning.diksha.gov.in/diksha/login.php,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,DST Direct Recruitment,,https://recruitment.dst.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,DST Training Cell,,https://training.dst.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Dak-Karmayogi,,https://dakkarmayogi.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Dashboard Department of Defence Production,,https://ddpdashboard.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Dashboard of Department of Justice,,https://dashboard.doj.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Data Innovation Lab,,https://datainnovation.mospi.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Debts Recovery Appellate Tribunal,,https://drt.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY - NRLM),,https://nrlm.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Defence Manufacturing Competency Mapping Portal,,https://competencymapping.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Defence eProcurement Portal,,https://defproc.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Department of Biotechnology - Key Statistics,,https://dashboard.dbt.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Departmental Promotion Committee,,https://upscdpc.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Design Linked Incentive (DLI),,https://chips-dli.gov.in/DLI/HomePage,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Development and Welfare Board for De-notified, Nomadic, and Semi-Nomadic Communities (DWBDNC)",,https://dwbdnc.dosje.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9862,7 +9903,9 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,DigiLocker Results,,http
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"DigiLocker-Dedicated personal storage space, linked to residentas Aadhaar number",,https://digitallocker.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,DigiReady Certification Portal,,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Digital Address Services,,https://dac.indiapost.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Digital Bharat Nidhi Portal,,https://dbn.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Digital Brand Identity Manual (DBIM),,https://dbimtoolkit.digifootprint.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Digital General Crop Estimation Survey (DGCES),,https://gces.dac.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Digital India Awards,,https://digitalindiaawards.india.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Digital India Internship Portal,,https://intern.meity.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Digital India Land Records Modernization Programme (DILRMP),,https://dilrmp.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9913,6 +9956,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Farmer Analysis Package,
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Farmer Connect Portal,,https://farmerconnect.apeda.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Farmers Portal-One Stop Shop For Farmers,,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Fast Track Immigration,,https://ftittp.mha.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Fertilizer Quality Control System (FQCS),,https://fqcs.dac.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,First Census of Springs,,https://wrcensus-spring.mowr.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Fit India Movement,,https://fitindia.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Food Safety Compliance System (FoSCoS-FSSAI),,https://foscos.fssai.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9943,6 +9987,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Government eAuction Syst
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Government of India Employees Flight Booking Portal (Balmer Lawrie),,https://govemp.balmerlawrietravelapp.com,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Graduate Pharmacy Aptitude Test (GPAT),,https://gpat.nta.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Gram Manchitra,,https://grammanchitra.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Green MSE Portal,,https://green.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Green Skill Development Programme (GSDP),,https://gsdp-envis.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Green-Ag Portal,,https://greenag.nmsa.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Grievances for Violation of Public Procurement (PPP-MII),,https://pmiig.dpiit.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9985,6 +10030,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,India-USA Trade Facilita
 ug,,SPMA,Schemes / Programmes / Missions / Applications,IndiaAI Compute Portal,,https://compute.indiaai.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,IndiaHandmade,,https://www.indiahandmade.com,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Armed Forces Museums,,https://indianarmedforcesmuseums.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Biosafety Knowledge portal,,https://ibkp.dbt.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Citizenship Online,,https://indiancitizenshiponline.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Culture Portal,,https://indianculture.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Customs Electronic Data Interchange System,,https://ices.nic.in,https://igod.gov.in/ug/SPMA/organizations
@@ -9996,7 +10042,10 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian National Space Pr
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Public Health Standards (IPHS),,https://iphs.mohfw.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Railway Catering and Tourism Corporation - eQuery (IRCTC),,https://equery.irctc.co.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Railway Parcel Services,,https://parcel.indianrail.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Railway Shramik Kalyan Portal,,https://shramikkalyan.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Railways Accounts & Finance Portal,,https://aims.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Railways Geo Portal,,https://irgeoportal.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Railways Institute of Transport Management (IRITM),,https://iritmold.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Railways Online,,https://www.indianrail.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indian Trade Portal,,https://www.indiantradeportal.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Indo-Myanmar Border Pass Management System (IMBPMS),,https://imbpass.mha.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10050,6 +10099,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Kisan Rin Portal,,https:
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Kisan Suvidha,,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Kisan Suvidha,,https://kisansuvidha.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Kisan-eMitra,,https://kisanemitra.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,"Know Your Medicine, National Anti Doping Agency",,https://kym.nadaindia.yas.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Know Your Standards, Bureau of Indian Standards",,https://standards.bis.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Knowledge Integration for Technology Enrichment,,https://www.mykite.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Knowledge and Awareness Mapping Platform (KAMP),,https://www.kamp.org.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10071,7 +10121,13 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,MANAS - National Narcoti
 ug,,SPMA,Schemes / Programmes / Missions / Applications,MANAV-Human Atlas Initiative,,https://www.manavatlas.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,MEA Internship Portal,,https://internship.mea.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,MEA-eSamikSha,,https://esamiksha.mea.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,MSME Dashboard,,https://dashboard.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,MSME Innovative,,https://innovative.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,MSME Online Dispute Resolution (ODR) Portal,,https://odr.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,MSME SAMBANDH,,https://sambandh.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,MSME Sustainable ZED (Zero Defect Zero Effect) Certification,,https://zed.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,MSME TEAM (Trade Enablement and Marketing) Initiative,,https://team.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,MSME Technology Transfer Platform (MTTP),,https://mttp.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,MY Bharat Support Center,,https://support.mybharat.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Mahila Kisan Sashaktikaran Pariyojana (MKSP), NRLM",,https://mksp.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Make in India-A National Program designed to transform India into a global manufacturing hub,,https://www.makeinindia.com,https://igod.gov.in/ug/SPMA/organizations
@@ -10093,6 +10149,8 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,"Mineral Concessionaires
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Mining Surveillance System (MSS),,https://ib.pmgatishakti.gov.in/ibm/login,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Mining Tenement System,,https://asp.ibm.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Ministry of External Affairs Telephone Directory,,https://videshapps.gov.in/videsh,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Miscellaneous E-Receipts Portal,,https://mers.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Mission Organic Value Chain Development for North East Region,,https://movcd.dac.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Mission Shakti,,https://missionshakti.wcd.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Mission Vatsalya,,https://missionvatsalya.wcd.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Mobile Academy and Kilkari MIS Reporting Portal,,https://kma.mohfw.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10128,6 +10186,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,National Agriculture Mar
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Anti-Ragging Portal by University Grants Commission (UGC),,https://www.antiragging.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Apprenticeship Training Scheme,,https://nats.education.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Apprenticeship Training Scheme (NATS),,https://portal.mhrdnats.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,National Assessment Centre (NAC),,https://naccustoms.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Awards Portal,,https://awards.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Bamboo Mission,,https://nbm.da.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Blockchain Framework,,https://blockchain.meity.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10154,12 +10213,16 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,National Disaster Manage
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Educational eContent Competition (NEeC),,https://neec.ncert.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Eligibility Cum Entrance Test (UG),,https://neet.nta.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Energy Conservation Award (NECA),,https://neca.beeindia.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,National Feeder Monitoring System,,https://nfms.powermin.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Fisheries Digital Platform (NFDP),,https://nfdp.dof.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Food Security Dashboard,,https://nfsa.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Food Security and Nutrition Mission (NFSNM),,https://nfsm.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,National Fund for Persons with Disabilities,,https://nationalfund.depwd.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Generic Document Registration System,,https://ngdrs.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"National Generic Document Registration System (NGDRS), Andaman and Nicobar Islands",,https://onlineregistrationani.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,National Geo-Spatial Service Portal,,https://geospatial.dst.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Geoscience Data Repository,,https://geodataindia.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,National Good Laboratory Practice Compliance Monitoring Authority,,https://ngcma.dst.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Health Authority,,https://nha.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Health Claims Exchange (NHCX),,https://hcxbeta.nha.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Health Mission,,https://nhm.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10227,6 +10290,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,National Water Mission,,
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National Youth Parliament Scheme (NYPS),,https://nyps.mpa.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,National e-Governance Service Delivery Assessment (NeSDA),,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"National eVidhan Application, Digital Legislatures",,https://neva.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,National geospatial Knowledge-based land Survey of urban Habitations (NAKSHA),,https://naksha.dolr.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,News on All India Radio,,https://newsonair.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,NextGen eHospital,,https://nextgen.ehospital.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,No Objection Certificate Portal,,https://morthnoc.nic.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10251,6 +10315,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,"Online Registration-Reh
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Online Stadia Booking System by Sports Authority of India (SAI),,https://booksaistadia.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Online Submission and Monitoring of Environmental Clearances,,https://environmentclearance.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Online Survey of Research in Education,,https://osre.ncert.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Online Vigilance Clearance Portal,,https://vigilance.dst.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Onlinemaps Portal,,https://onlinemaps.surveyofindia.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Organic Agriculture, APEDA",,https://organic.apeda.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Output Outcome Monitoring Framework,,https://oomf.mib.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10288,12 +10353,14 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Poorvottar Vikas Setu,,h
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Portal for Analytical Regional Information and Mapping of NCR (PARIMAN),,https://ncrpbgis.nic.in/NCR/index/index.html,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Portal for Grievances Against Misleading Advertisements (GAMA),,https://consumeraffairs.nic.in/consumerinformation/grievance-against-misleading-advertisements-gama,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Portal for Rail-Road Inspection & Stages Management - Steel Girders (PRISM-SG),,https://gip.digitalindiacorporation.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Poshan Atlas,,https://poshanatlas.wcd.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Postage Stamps,,https://postagestamps.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Adarsh Gram Yojana (PMAGY),,https://pmagy.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Anusuchit Jaati Abhyuday Yojna (PM-AJAY),,https://pmajay.dosje.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Awas Yojana (Urban),,https://pmay-urban.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Awas Yojana (Urban)-MIS Portal,,https://pmaymis.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi Yojana,,https://pmdaksh.dosje.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi Yojana (PM-DAKSH),,https://pmdaksh.depwd.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Fasal Bima Yojana: Crop Insurance Portal,,https://pmfby.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme,,https://pmfme.mofpi.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Gramin Digital Saksharta Abhiyaan (PMGDISHA),,,https://igod.gov.in/ug/SPMA/organizations
@@ -10301,6 +10368,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Kaushal V
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Kisaan Maan-dhan Yojana (PM-KMY),,https://pmkmy.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Kisan Samman Nidhi (PM-KISAN),,https://pmkisan.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Kisan Sampada Yojana,,https://sampada-mofpi.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Kisan Urja Suraksha evam Utthan Mahabhiyan (PM-KUSUM),,https://pmkusum.mnre.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Krishi Sinchayee Yojana (PMKSY),,https://pmksy.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Matru Vandana Yojana,,https://pmmvy.wcd.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Pradhan Mantri Matsya Kisan Samridhi Sah Yojana (PM-MKSSY),,https://pmmkssy.dof.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10324,6 +10392,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Press Sewa Portal,,https
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Price Monitoring Division (PMD),,https://fcainfoweb.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Prime Minister Dhan-Dhaanya Krishi Yojana,,https://pmddky.niti.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Prime Minister Research Chair (PMRC),,https://pmrc.education.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Prime Minister's Employment Generation Programme (PMEGP),,https://common-pmegp.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Prime Minister's Internship Scheme (PMIS),,https://pminternship.mca.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Prime Ministers Award for Excellence in Public Administration,,https://pmawards.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Prime Ministers Overarching Scheme for Holistic Nourishment (POSHAN),,https://poshanabhiyaan.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10334,6 +10403,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Pro Bono Legal Services 
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Production Linked Incentive,,https://pli.texmin.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Project Appraisal, Budgeting, Achievements & Data Handling System (PRABANDH)",,https://prabandh.education.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Project Assessment Infrastructure Monitoring and Analytics for Nation-Building (PAIMANA),,https://ipm.mospi.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Promotion of MSMEs in NER & Sikkim,,https://ner-promotion.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Promotion of Research and Innovation in Pharma MedTech sector (PRIP),,https://prip.pharma-dept.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Public Enterprises (PE) Survey Reports,,https://reports-pesurvey.dpe.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Public Enterprises Survey,,https://pesurvey.dpe.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10342,7 +10412,11 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Public Financial Managem
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Punarbhava, National Interactive Portal on Disability",,https://www.punarbhava.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"QR Code Creation Tool, NCERT",,https://qrcode.ncert.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,RTI applications/First Appeals to Central Government Organisations (RTI Online),,https://rtionline.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Rail Adhikari Vishramalaya Awantan System (PRAVAS),,https://rooms.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Rail Kaushal Vikas Yojana,,https://railkvy.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Rail Madad Portal,,https://railmadad.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"RailMadad, A Grievance Redressal Mechanism",,https://railmadad.gov.in/madad/final/home.jsp,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,RailOne App,,https://railone.indianrailways.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Railway Claims & Refund,,https://claims.indianrail.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Railway Coaching Refund,,https://refunds.indianrail.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Raising and Accelerating MSME Performance (RAMP) Programme,,https://ramp.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10358,6 +10432,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,"Recruitment Rules Formu
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Registration And Licensing of Fishing Craft (ReALCRaft),,https://realcraft.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Registration of Labour Laws at Shram Suvidha Portal,,https://registration.shramsuvidha.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Reproductive and Child Health Portal (RCH),,https://rch.mohfw.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Revamped Distribution Sector Scheme (RDSS),,https://rdss.powermin.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Right to Information Act (RTI), India",,https://rti.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Road Safety Advocacy Scheme,,https://rsa.morth.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Rural Internal Audit Portal,,https://ruralaudit.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10396,11 +10471,13 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Scheme for Residential E
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Scheme to Promote Manufacturing of Electric Passenger Cars in India (SPMEPCI),,https://spmepci.heavyindustries.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Scholarship Programme for Diaspora Children (SPDC),,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,School Education Shagun Portal,,https://seshagun.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Scientific Infrastructure Access for Harnessing Academia University Research Joint Collaboration (SAHAJ),,https://sahaj.dbt.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Securities Appellate Tribunal, Mumbai",,https://sat.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Seed Authentication, Traceability and Holistic Inventory (SATHI)",,https://seedtrace.gov.in/ms014,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"SeedNet India Portal-National Initiative for Information on Quality Seeds, New Delhi",,https://seednet.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Seizure Information Management System (SIMS),,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"Self-Enumeration, Census of India 2027",,https://se.census.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Semantic Search Tool,,https://nicfinder.mospi.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Senior Citizens Welfare Portal,,https://scw.dosje.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Sericulture Information Linkages and Knowledge System (SILKS),,https://silks.csb.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Shanti Swarup Bhatnagar Prize by CSIR for Science and Technology,,https://ssbprize.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10412,6 +10489,8 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Smart Card Operating Sys
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Smart Cities Mission,,https://smartcities.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Smart India Hackathon,,https://sih.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Soil Health Card,,https://soilhealth.dac.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Soil Health Card Support Center,,https://support.soilhealth.dac.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Special Credit Linked Capital Subsidy Scheme,,https://sclcss.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Special Manpower Development Program for Chips to System Design (SMDP-C2SD),,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Special Project on Cotton,,https://ecotton.dac.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Spring Water Atlas,,https://tribal.nic.in/1000-springs-initiative.aspx,https://igod.gov.in/ug/SPMA/organizations
@@ -10420,6 +10499,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Startup India Portal,,ht
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Startup India Seed Fund Scheme,,https://seedfund.startupindia.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,State GIS Portal,,https://stategisportal.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,State Science & Technology Programme,,https://www.sstp.dst.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,State/UT Tribal Sub-Plan Monitoring Portal,,https://statetsp.tribal.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Steel Import Monitoring System (SIMS),,https://sims.steel.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Strengthening Overall Care for HIV beneficiaries (SOCH),,https://sochnaco.mohfw.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Strengthening Teaching-Learning and Results for States (STARS),,https://stars.education.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10428,6 +10508,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Studentship Program for 
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Study in India Portal,,https://www.studyinindia.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Suborno Jayanti Scholarships,,https://sjsdhaka.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Support for Marginalized Individuals for Livelihood and Enterprise (SMILE),,https://smile-b.dosje.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Sustainable Agrarian Mission on use of Agri-Residue in Thermal Power Plants (SAMARTH),,https://samarth.powermin.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Svamitva Scheme,,https://svamitva.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,SwaYaan : Capacity Building for Human Resource Development in Unmanned Aircraft Systems,,https://swayaan.meity.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Swachh Bharat Kosh (SBK),,https://sbkosh.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10466,6 +10547,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,UMEED Central Portal,,ht
 ug,,SPMA,Schemes / Programmes / Missions / Applications,UTSAV-India a Land of Festivals,,https://utsav.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Udyam Assist Platform,,https://udyamassist.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Udyam Parichay online Portal,,https://udyamregistration.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Udyami Bharat Portal (UBP),,https://ubp.msme.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Udyog Aadhaar,,https://udyogaadhaar.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Ujwal DISCOM Assurance Yojana (UDAY),,,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Unified District Information on School Education Plus (UDISE+),,https://udiseplus.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10496,6 +10578,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,Visiting Advanced Joint 
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Vistaar Portal,,https://vistaar.da.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Visvesvaraya PhD Scheme for Electronics & IT,,https://phd.digitalindiacorporation.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Water Resource Census Application,,https://wrcensus.mowr.gov.in,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,Watershed Development Component of PMKSY,,https://wdcpmksy.dolr.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Web Based School GIS application,,https://schoolgis.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Web Portal for Indian Revenue Service (IRS) Officers,,https://www.irsofficersonline.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,Webcast of Hon'ble Finance Minister's Presentation of Union Budget in the Parliament,,https://budgetlive.nic.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10531,6 +10614,7 @@ ug,,SPMA,Schemes / Programmes / Missions / Applications,eProcurement Portal of C
 ug,,SPMA,Schemes / Programmes / Missions / Applications,eProcurement Portal of Indian Oil Corporation Limited,,https://iocletenders.nic.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,eProcurement System for Pradhan Mantri Gram Sadak Yojana (PMGSY),,https://pmgsytenders.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,"eProcurement System, Indian Ordnance Factories",,,https://igod.gov.in/ug/SPMA/organizations
+ug,,SPMA,Schemes / Programmes / Missions / Applications,eSIGMA Surveys,,https://stagestate.esigma.mospi.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,eSamudra - India's Unified Maritime Services Portal,,https://esamudra.dgshipping.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,eSanjeevani - National Telemedicine Service,,https://esanjeevani.mohfw.gov.in,https://igod.gov.in/ug/SPMA/organizations
 ug,,SPMA,Schemes / Programmes / Missions / Applications,eTaal-Electronic Transaction Aggregation and Analysis Layer,,https://etaal.gov.in,https://igod.gov.in/ug/SPMA/organizations
@@ -10617,9 +10701,8 @@ ug,,STABDY,Statutory Bodies,"Kendriya Sainik Board Secretariat, New Delhi",,http
 ug,,STABDY,Statutory Bodies,Lokpal of India,,https://lokpal.gov.in,https://igod.gov.in/ug/STABDY/organizations
 ug,,STABDY,Statutory Bodies,Marine Products Export Development Authority (MPEDA),,https://mpeda.gov.in,https://igod.gov.in/ug/STABDY/organizations
 ug,,STABDY,Statutory Bodies,Military Engineering Service (MES),,https://mes.gov.in,https://igod.gov.in/ug/STABDY/organizations
-ug,,STABDY,Statutory Bodies,Narcotics Control Bureau (NCB),,https://narcoticsindia.nic.in,https://igod.gov.in/ug/STABDY/organizations
+ug,,STABDY,Statutory Bodies,Narcotics Control Bureau (NCB),,https://ncb.gov.in,https://igod.gov.in/ug/STABDY/organizations
 ug,,STABDY,Statutory Bodies,Narmada Control Authority,,https://nca.gov.in,https://igod.gov.in/ug/STABDY/organizations
-ug,,STABDY,Statutory Bodies,"National Cadets Corps (NCC), New Delhi",,,https://igod.gov.in/ug/STABDY/organizations
 ug,,STABDY,Statutory Bodies,National Capital Region Planning Board (NCRPB),,https://ncrpb.nic.in,https://igod.gov.in/ug/STABDY/organizations
 ug,,STABDY,Statutory Bodies,National Commission for Safai Karamcharis (NCSK),,https://ncsk.nic.in,https://igod.gov.in/ug/STABDY/organizations
 ug,,STABDY,Statutory Bodies,National Commission of Women Women's HelpLine,,https://ncwwomenhelpline.in,https://igod.gov.in/ug/STABDY/organizations
