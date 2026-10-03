@@ -1,0 +1,302 @@
+{
+  "reports/workflow_state.json": {
+    "mtime": 1785451306.0483894,
+    "seen": 1789193307.10534,
+    "ast_hash": "36e9ef83371709e18e3381868e515922",
+    "semantic_hash": ""
+  },
+  "scripts/build_dashboard.py": {
+    "mtime": 1785360170.067651,
+    "seen": 1789193307.105344,
+    "ast_hash": "75c49257acfdbfaee707532133b0b5e5",
+    "semantic_hash": ""
+  },
+  "scripts/build_db.py": {
+    "mtime": 1789554290.0569646,
+    "seen": 1789968732.0463529,
+    "ast_hash": "2a8fea9c3c909c4b43cebaa0b1e1b367",
+    "semantic_hash": ""
+  },
+  "scripts/generate_outreach_materials.py": {
+    "mtime": 1785457627.6969218,
+    "seen": 1789193307.105346,
+    "ast_hash": "3b26e5230938600b62311c3f36552a06",
+    "semantic_hash": ""
+  },
+  "scripts/igod_crawl.py": {
+    "mtime": 1785340454.5509539,
+    "seen": 1789193307.1053472,
+    "ast_hash": "1677718612f2be4e14a6aeb961e37dda",
+    "semantic_hash": ""
+  },
+  "scripts/igod_org_details.py": {
+    "mtime": 1785340481.4424794,
+    "seen": 1789193307.105348,
+    "ast_hash": "79374be9dbe068fd9455d8968c21705f",
+    "semantic_hash": ""
+  },
+  "scripts/link_policy_contacts.py": {
+    "mtime": 1785334167.454371,
+    "seen": 1789193307.105349,
+    "ast_hash": "ef660b11a6efb84cb2e0cf80ecb2b17b",
+    "semantic_hash": ""
+  },
+  "scripts/ministry_whoswho.py": {
+    "mtime": 1785358195.5443678,
+    "seen": 1789193307.105349,
+    "ast_hash": "d79e632fc0388ce2cdbebf0f67b3861b",
+    "semantic_hash": ""
+  },
+  "scripts/ministry_whoswho_browser.py": {
+    "mtime": 1785360740.1554923,
+    "seen": 1789193307.1053498,
+    "ast_hash": "b9334a06e6f278b1986ea35634d9c18f",
+    "semantic_hash": ""
+  },
+  "scripts/policy_contact_matcher.py": {
+    "mtime": 1785457464.8513732,
+    "seen": 1789193307.105351,
+    "ast_hash": "7a7f1f6dee7577e4e9d9ec1cfc090442",
+    "semantic_hash": ""
+  },
+  "scripts/refresh.sh": {
+    "mtime": 1785360171.9082973,
+    "seen": 1789193307.105351,
+    "ast_hash": "a93146b431450f75ab22e4d8faa9c017",
+    "semantic_hash": ""
+  },
+  "scripts/run_rest.sh": {
+    "mtime": 1785333643.8985205,
+    "seen": 1789193307.105352,
+    "ast_hash": "aae8fdd7ee5e93474e7c08e5f9976dc1",
+    "semantic_hash": ""
+  },
+  "src/__init__.py": {
+    "mtime": 1785448910.3691642,
+    "seen": 1789193307.1053529,
+    "ast_hash": "4ce81bd77d7b44983ed24682df2f64cf",
+    "semantic_hash": ""
+  },
+  "src/api/__init__.py": {
+    "mtime": 1785448924.2266974,
+    "seen": 1789193307.105354,
+    "ast_hash": "a19e52644020c5cbaa3793e827a98519",
+    "semantic_hash": ""
+  },
+  "src/api/query_api.py": {
+    "mtime": 1785448889.4127781,
+    "seen": 1789193307.105355,
+    "ast_hash": "93e19217e6406345e3c8f470632458d4",
+    "semantic_hash": ""
+  },
+  "src/domain/__init__.py": {
+    "mtime": 1785448914.8659923,
+    "seen": 1789193307.105355,
+    "ast_hash": "8c44ebbd4d4cafeffcad5892fa0ca47a",
+    "semantic_hash": ""
+  },
+  "src/domain/aggregates.py": {
+    "mtime": 1785448759.4767597,
+    "seen": 1789193307.105356,
+    "ast_hash": "d7f20004b9319155107c77c267ca6bf6",
+    "semantic_hash": ""
+  },
+  "src/domain/repositories.py": {
+    "mtime": 1785448773.6081202,
+    "seen": 1789193307.1053572,
+    "ast_hash": "f6e6fcf3954035bce300f6bd3f59a44a",
+    "semantic_hash": ""
+  },
+  "src/domain/value_objects.py": {
+    "mtime": 1785448741.5022671,
+    "seen": 1789193307.1053572,
+    "ast_hash": "0107bd78b510beac8212b0a4e24f8427",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/__init__.py": {
+    "mtime": 1785448917.5399785,
+    "seen": 1789193307.1053581,
+    "ast_hash": "3282954f66a77474f1df007a3d8768e4",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/graphify_client.py": {
+    "mtime": 1785448792.0824459,
+    "seen": 1789193307.1053581,
+    "ast_hash": "4a8d878ba8025d9b88eb0d8071c129c0",
+    "semantic_hash": ""
+  },
+  "src/infrastructure/repositories_impl.py": {
+    "mtime": 1785448832.720685,
+    "seen": 1789193307.105359,
+    "ast_hash": "8afb92c4599b8ac08341ae7870e935b0",
+    "semantic_hash": ""
+  },
+  "src/main.py": {
+    "mtime": 1785451303.4915993,
+    "seen": 1789193307.1053598,
+    "ast_hash": "302f9cc99e0f8bbf3ae3c7bcb625bcfe",
+    "semantic_hash": ""
+  },
+  "src/workflows/__init__.py": {
+    "mtime": 1785448920.9679818,
+    "seen": 1789193307.105361,
+    "ast_hash": "422e4039bf25766313c6e147da395208",
+    "semantic_hash": ""
+  },
+  "src/workflows/refresh_workflow.py": {
+    "mtime": 1785448864.4891515,
+    "seen": 1789193307.105361,
+    "ast_hash": "cd0a3ac0272641af049e0cfd819c00d2",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1785361150.984465,
+    "seen": 1789193307.105362,
+    "ast_hash": "0c15b7170048e7da289760ebfaeb662e",
+    "semantic_hash": ""
+  },
+  "dashboard/index.html": {
+    "mtime": 1788241320.944714,
+    "seen": 1789193307.105363,
+    "ast_hash": "b7b642efbc319a736f8dc12cf80cb316",
+    "semantic_hash": ""
+  },
+  "data/outreach_templates.txt": {
+    "mtime": 1785457583.8806093,
+    "seen": 1789193307.105363,
+    "ast_hash": "584e21e5f818c179235b0c686337437a",
+    "semantic_hash": ""
+  },
+  "docs/AI_GOVT_AFFAIRS_ANALYSIS.md": {
+    "mtime": 1785333588.4047654,
+    "seen": 1789193307.105364,
+    "ast_hash": "ba3917d187e215af849d08627ef79e93",
+    "semantic_hash": ""
+  },
+  "docs/ARCHITECTURE.md": {
+    "mtime": 1785448649.4570222,
+    "seen": 1789193307.105365,
+    "ast_hash": "6f45b8b24ded65d918baeda67ce60f90",
+    "semantic_hash": ""
+  },
+  "docs/DDD_LANGGRAPH_SUMMARY.md": {
+    "mtime": 1785448999.7430575,
+    "seen": 1789193307.105365,
+    "ast_hash": "2bd32ccc73a08ce0fd19f273aa978908",
+    "semantic_hash": ""
+  },
+  "docs/IMPLEMENTATION_GUIDE.md": {
+    "mtime": 1785448961.8831794,
+    "seen": 1789193307.105366,
+    "ast_hash": "de1856e2d8c2f19a3806c0d589b0edad",
+    "semantic_hash": ""
+  },
+  "reports/outreach/contact_summary.txt": {
+    "mtime": 1785457630.3031983,
+    "seen": 1789193307.105367,
+    "ast_hash": "4b995fc614341c28e21baac2a63c995c",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_01_midh.txt": {
+    "mtime": 1785457630.302059,
+    "seen": 1789193307.10537,
+    "ast_hash": "fc428ca3ee186d5e4e10fc70f74ab20e",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_02_agriculture_infrastructure_fund_(aif).txt": {
+    "mtime": 1785457624.1431959,
+    "seen": 1789193307.105371,
+    "ast_hash": "80a5cb6d07fe1e22b2ee9eccf8fffbec",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_02_agriculture_infrastructure_fund_aif.txt": {
+    "mtime": 1785457630.3022132,
+    "seen": 1789193307.105371,
+    "ast_hash": "8d9230badd91474083fb1ff251625d58",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_03_gasification_2026_scheme.txt": {
+    "mtime": 1785457630.3022938,
+    "seen": 1789193307.105372,
+    "ast_hash": "abbbc83149e24e362a1d4c490a740917",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_04_almm.txt": {
+    "mtime": 1785457630.3023808,
+    "seen": 1789193307.105373,
+    "ast_hash": "f4651c31d945051ddee63ba4cd3f815c",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_05_nbs_(nutrient-based_subsidy).txt": {
+    "mtime": 1785457624.14348,
+    "seen": 1789193307.1053739,
+    "ast_hash": "d0bc2cc1c77e1ed7c96d094fb36f5cca",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_05_nbs_nutrient-based_subsidy.txt": {
+    "mtime": 1785457630.3024828,
+    "seen": 1789193307.1053739,
+    "ast_hash": "4035ffb2746b634e8dee9caf2e8ec6dc",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_06_smdi.txt": {
+    "mtime": 1785457630.302549,
+    "seen": 1789193307.105375,
+    "ast_hash": "61954476a5f834eeb39d4842fe2552fb",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_07_pm-surya_ghar.txt": {
+    "mtime": 1785457630.3026254,
+    "seen": 1789193307.105376,
+    "ast_hash": "3387ebe41e55da563e6e77bf6eba617f",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_08_deep_ocean_mission___prithvi.txt": {
+    "mtime": 1785457630.3027186,
+    "seen": 1789193307.105376,
+    "ast_hash": "085dc9fbd7fc7d56c97062075006b168",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_09_spi_rptuas_+_api-cf_+_clusters.txt": {
+    "mtime": 1785457630.3028011,
+    "seen": 1789193307.105377,
+    "ast_hash": "1269266a3b8f59318c5b9a3192ecc601",
+    "semantic_hash": ""
+  },
+  "reports/outreach/email_priority_10_ists_private_transmission_tbcb.txt": {
+    "mtime": 1785457630.302874,
+    "seen": 1789193307.1053782,
+    "ast_hash": "162257b1e74bbd7050e4dd785a08d3aa",
+    "semantic_hash": ""
+  },
+  "scripts/dopt_civil_list.py": {
+    "mtime": 1789553673.8377345,
+    "seen": 1789968732.046359,
+    "ast_hash": "52bb3c21f8691ba8e85fed3e749b9576",
+    "semantic_hash": ""
+  },
+  "scripts/ips_civil_list.py": {
+    "mtime": 1789554251.0266967,
+    "seen": 1789968732.046714,
+    "ast_hash": "dd913727be34c9e87dd7145971410f30",
+    "semantic_hash": ""
+  },
+  ".github/workflows/quality-gates.yml": {
+    "mtime": 1789577638.0898304,
+    "seen": 1789968732.055752,
+    "ast_hash": "510f7e392c07f0574ba8a559ba2cdf12",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1789364990.9786408,
+    "seen": 1789968732.056931,
+    "ast_hash": "4332611db2f77fed5bf6f78e200b6c03",
+    "semantic_hash": ""
+  },
+  "data/CivilList_IPS.pdf": {
+    "mtime": 1789554107.2123356,
+    "seen": 1789968732.0569339,
+    "ast_hash": "99bf673f4dfa26e875e309d2121e0651",
+    "semantic_hash": ""
+  }
+}
