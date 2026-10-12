@@ -1,5 +1,9 @@
 # India Government Yellow Pages
 
+<!-- how-to-use-with-ai -->
+> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
+
+
 A structured contact repository of Indian government organizations — union
 ministries, state departments, apex bodies, judiciary, legislatures and
 Indian missions abroad — built from **igod.gov.in** (Integrated Government
