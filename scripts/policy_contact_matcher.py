@@ -110,14 +110,17 @@ def get_window_status(start: datetime, end: datetime, today: Optional[datetime] 
     if today is None:
         today = datetime.now()
 
-    if today < start:
-        days = (start - today).days
+    # Windows are calendar days (application_end_date is inclusive), so compare
+    # dates: a window ending today is still ACTIVE this afternoon.
+    today_d, start_d, end_d = today.date(), start.date(), end.date()
+    if today_d < start_d:
+        days = (start_d - today_d).days
         return ("OPENING_SOON", days)
-    elif today <= end:
-        days = (end - today).days
+    elif today_d <= end_d:
+        days = (end_d - today_d).days
         return ("ACTIVE", days)
     else:
-        days = (today - end).days
+        days = (today_d - end_d).days
         return ("CLOSED", days)
 
 
