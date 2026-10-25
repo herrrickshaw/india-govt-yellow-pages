@@ -35,7 +35,10 @@ PROBE_PATHS = ["/about-us/whos-who", "/whos-who", "/about-us/who-s-who",
                "/whoswho", "/en/whos-who", "/content/whos-who",
                "/about-us/whos-who-0", "/who-s-who", "/aboutus/whos-who",
                "/who-is-who", "/about-us/who-is-who", "/whoiswho"]
-WHO_RE = re.compile(r"who[\s_'’%2-]*(i?s)?[\s_'’%27-]*who", re.I)
+# Separators: space/underscore/apostrophe/hyphen or their URL encodings
+# (%27 apostrophe, %20 space). The old character classes could not match
+# "%27" before the "s" or "%20" after it, so encoded hrefs were missed.
+WHO_RE = re.compile(r"who(?:[\s_'’-]|%2[07])*(i?s)?(?:[\s_'’-]|%2[07])*who", re.I)
 
 session = requests.Session()
 session.headers.update({"User-Agent": UA})
