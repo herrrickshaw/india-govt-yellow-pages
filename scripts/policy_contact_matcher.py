@@ -205,7 +205,9 @@ def rank_contacts_by_seniority(contacts: List[Dict]) -> List[Dict]:
 
     def get_rank(contact):
         designation = contact.get('designation', '').lower()
-        for title, rank in rank_map.items():
+        # Longest title first, so 'minister of state' / 'joint secretary' are
+        # not swallowed by the generic 'minister' / 'secretary' substrings.
+        for title, rank in sorted(rank_map.items(), key=lambda kv: -len(kv[0])):
             if title in designation:
                 return rank
         return 99  # Unknown

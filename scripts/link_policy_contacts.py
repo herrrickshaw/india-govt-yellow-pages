@@ -76,9 +76,11 @@ def norm(s):
 
 def rank_of(designation):
     d = (designation or "").lower()
-    for i, r in enumerate(RANK):
+    # Most specific (longest) title wins: 'secretary' is a substring of
+    # 'additional/joint/deputy/under secretary' and must not outrank them.
+    for r in sorted(RANK, key=len, reverse=True):
         if r in d:
-            return i
+            return RANK.index(r)
     return len(RANK)
 
 
