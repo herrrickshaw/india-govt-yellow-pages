@@ -52,19 +52,34 @@ def main():
     c, _, body, _ = curl(f"{urllib.parse.urlsplit(start).scheme}://{host}/robots.txt", insecure, 20)
     rp.parse(body.decode("utf-8", "ignore").splitlines() if c == 200 else [])
     q, seen, pages, docs, last = deque([(start, 0)]), {norm(start)}, [], {}, 0.0
-    summary = {"start": start, "slug": slug, "blocked": False, "errors": 0}
-    while q and len(pages) < max_pages:
+    summary = {"start": start, "slug": slug, "blocked": False, "errors": 0, "retried_ok": 0}
+    failed, retry_pass = [], False
+    while (q and len(pages) < max_pages) or (not q and failed and not retry_pass):
+        if not q:  # one retry pass over pages that failed (timeouts, 5xx), after a pause
+            retry_pass = True
+            time.sleep(30)
+            q.extend(failed)
+            failed = []
+            continue
         url, depth = q.popleft()
         if not rp.can_fetch(UA, url):
             continue
-        wait = 1.0 - (time.time() - last)
+        wait = (3.0 if retry_pass else 1.0) - (time.time() - last)
         if wait > 0:
             time.sleep(wait)
         last = time.time()
-        code, ctype, body, final = curl(url, insecure)
+        code, ctype, body, final = curl(url, insecure, 60 if retry_pass else 40)
         if code != 200 or "html" not in ctype:
-            summary["errors"] += code != 200
+            if code != 200:
+                if retry_pass:
+                    summary["errors"] += 1
+                    failed.append((url, depth, code))
+                elif code in (0, 408, 429, 500, 502, 503, 504):
+                    failed.append((url, depth))
+                else:
+                    summary["errors"] += 1
             continue
+        summary["retried_ok"] += retry_pass
         s = body.decode("utf-8", "ignore")
         if CHALLENGE.search(s[:100000]):
             summary["blocked"] = True
@@ -93,7 +108,11 @@ def main():
     with open(os.path.join(out, "pages.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["url", "depth", "title"])
         w.writeheader(); w.writerows(pages)
-    summary.update(pages=len(pages), doc_links=len(docs), queued_left=len(q))
+    with open(os.path.join(out, "failed.csv"), "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["url", "depth", "status"])
+        w.writerows(x if len(x) == 3 else (*x, "not retried") for x in failed)
+    summary.update(pages=len(pages), doc_links=len(docs), queued_left=len(q), still_failed=len(failed))
     json.dump(summary, open(os.path.join(out, "summary.json"), "w"), indent=1)
     print(json.dumps(summary))
 

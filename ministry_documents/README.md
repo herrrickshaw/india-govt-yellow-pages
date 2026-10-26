@@ -35,15 +35,24 @@ extractors deliberately do not use them.
 
 ## Gaps (2026-10-26)
 
-- **Unreachable or blocked:** Corporate Affairs (`mca.gov.in`, 403), Consumer Affairs (`doca.gov.in` serves a
-  bare lighttpd placeholder), Cooperation, Finance (`finmin.gov.in`), DRDO and Military Affairs (timeouts).
-- **Thin results:** DBT, MHA, Youth Affairs, `yas.gov.in`, Personnel (`persmin.gov.in`) — links not
-  reachable by either crawler.
-- **Umbrella ministries on the shared CMS** (Education, Law, Defence, Health, Commerce) hold little themselves;
-  their documents sit on the department sites, which are indexed separately.
+Retried 2026-10-26 evening (every failure re-attempted; results below are after the retry):
+
+- **Still unreachable:** Cooperation, Finance (`finmin.gov.in`) and DRDO time out on https/http and www/bare
+  variants. Corporate Affairs (`mca.gov.in`) returns an "Access Denied" bot block and was not pursued.
+  Consumer Affairs (`doca.gov.in`) serves only a lighttpd placeholder; `consumeraffairs.nic.in` does not answer.
+- **Recovered on retry:** MoSPI (643 documents via its own JSON API, `extract_mospi.py`; was 14), MHA (1,170 via
+  the `www.` host; was 16), Rural Development (161 documents / 303 files via `/wp/v2/documents`,
+  `extract_wpv2_documents.py`), Military Affairs (answers on `http://www.`; 4 links), Civil Aviation (+79),
+  missing file ids resolved for Labour (171), Textiles (41) and four smaller sites; DPIIT complete: its 55
+  failing 100-record bulk pages all succeeded as 10-record pages (+5,495 records, 0 unrecoverable), +14 ids resolved.
+- **Still thin:** DBT (new Laravel/Inertia site exposes only a landing page and admin routes), Youth Affairs,
+  `yas.gov.in`, Personnel (`persmin.gov.in`) — no reachable document links by API, HTML crawl or render.
+- **Umbrella ministries on the shared CMS** (Education, Law, Defence, Health, Commerce, Jal Shakti) hold little
+  themselves; their documents sit on the department sites, which are indexed separately.
+- **Persistent page failures after one retry pass:** WCD (63 pages), MoPNG (10), NITI (1) — listed per site in
+  `data/sites/<site>/failed.csv` (not committed; regenerate). MoEFCC's and Fertilizers' earlier "errors" were
+  permanent responses (broken links), not transient.
 - Commerce (`commerce.gov.in`) content API only answers with credentials shipped in its JavaScript — not used.
-- DPIIT: 10,414 of the 15,886 file records the API reports; 55 of its 159 bulk pages returned HTTP 500 on
-  every retry (2026-10-26) and are skipped, so re-running later may fill them in.
 - Crawled sites are capped at 300 pages, so very large sites (MoEFCC, Culture, DAE…) are indexed partially;
   API sites are complete apart from pages that returned server errors (logged in each `summary.json`).
 - Dates for crawled links come from the upload path (`/2026/09/`) when present, otherwise blank.
@@ -55,6 +64,10 @@ python3 tools/fingerprint.py           # classify every site (writes data/finger
 python3 tools/run_postpage_all.py      # shared-CMS sites
 python3 tools/run_html_all.py          # server-rendered sites
 python3 tools/extract_tribal.py        # Tribal Affairs
+python3 tools/extract_mospi.py         # MoSPI (POST JSON API)
+python3 tools/extract_wpv2_documents.py https://www.rural.gov.in/cms/wp-json rural   # no-taxonomy CMS sites
+python3 tools/retry_bulk_pages.py dpiit          # re-request 500ing bulk pages in 10- and 1-record chunks
+python3 tools/resolve_missing_files.py <site>...  # resolve file ids missing from a bulk registry
 python3 tools/build_index.py           # merge into all_documents.csv / coverage.csv / DuckDB
 ```
 

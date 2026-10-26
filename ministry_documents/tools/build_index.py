@@ -50,8 +50,14 @@ for site in sorted(glob.glob(os.path.join(D, "sites", "*"))):
                          "category": c or r.get("division", ""), "date": ddmmyyyy(r["file_date"]) or r["post_date"][:10],
                          "url": r["url"] or r.get("hindi_url", ""), "size": r["size"], "language": r["language"],
                          "found_on": ""})
-    if os.path.exists(os.path.join(site, "doc_links.csv")):
-        for r in csv.DictReader(open(os.path.join(site, "doc_links.csv"))):
+    # union of the latest crawl and any earlier one kept as doc_links.prev.csv (a re-crawl only adds links)
+    links = {}
+    for name in ("doc_links.prev.csv", "doc_links.csv"):
+        if os.path.exists(os.path.join(site, name)):
+            for r in csv.DictReader(open(os.path.join(site, name))):
+                links[r["url"]] = r
+    if links:
+        for r in links.values():
             m = re.search(r"/(20\d{2})[-/](\d{2})/", r["url"])
             rows.append({"ministry": ministry, "slug": slug, "source": "crawl", "title": r["text"], "group": "",
                          "category": "", "date": f"{m.group(1)}-{m.group(2)}" if m else "", "url": r["url"], "size": "",
