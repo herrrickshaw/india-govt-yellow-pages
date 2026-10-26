@@ -42,6 +42,8 @@ extractors deliberately do not use them.
 - **Umbrella ministries on the shared CMS** (Education, Law, Defence, Health, Commerce) hold little themselves;
   their documents sit on the department sites, which are indexed separately.
 - Commerce (`commerce.gov.in`) content API only answers with credentials shipped in its JavaScript — not used.
+- DPIIT: 10,414 of the 15,886 file records the API reports; 55 of its 159 bulk pages returned HTTP 500 on
+  every retry (2026-10-26) and are skipped, so re-running later may fill them in.
 - Crawled sites are capped at 300 pages, so very large sites (MoEFCC, Culture, DAE…) are indexed partially;
   API sites are complete apart from pages that returned server errors (logged in each `summary.json`).
 - Dates for crawled links come from the upload path (`/2026/09/`) when present, otherwise blank.
