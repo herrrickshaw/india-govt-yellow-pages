@@ -58,3 +58,13 @@ def test_seniority_specific_titles_are_not_swallowed_by_generic_ones():
     got = [c["designation"] for c in pcm.rank_contacts_by_seniority(cs)]
     assert got == ["Union Minister", "Secretary", "Minister of State", "Additional Secretary",
                    "Joint Secretary", "Director", "Consultant"]
+
+
+def test_window_status_is_inclusive_of_the_end_date_during_the_day():
+    # application_end_date is a calendar day: an application window that ends on
+    # 20 Jan must still be ACTIVE at 15:00 on 20 Jan (and 9 days away on 1 Jan at noon)
+    s, e = D(2026, 1, 10), D(2026, 1, 20)
+    assert pcm.get_window_status(s, e, D(2026, 1, 20, 15, 0)) == ("ACTIVE", 0)
+    assert pcm.get_window_status(s, e, D(2026, 1, 10, 9, 30)) == ("ACTIVE", 10)
+    assert pcm.get_window_status(s, e, D(2026, 1, 1, 12, 0)) == ("OPENING_SOON", 9)
+    assert pcm.get_window_status(s, e, D(2026, 1, 21, 0, 30)) == ("CLOSED", 1)
