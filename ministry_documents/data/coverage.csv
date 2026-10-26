@@ -1,0 +1,86 @@
+slug,ministry,platform,documents,with_url,pages_crawled,blocked,errors
+agriwelfare,Department of Agriculture and Farmers Welfare (DoAFW),js-shell,117,117,40,False,
+ayush,AYUSH (MoA),js-shell,58,58,10,False,
+chemicals,Department of Chemicals and Petro-Chemicals (DoCP),html,712,712,270,False,1
+civilaviation,Civil Aviation (MoCA),html,690,690,188,False,17
+coal,Coal,html,2568,2568,263,False,1
+culture,Culture,html,1925,1925,300,False,3
+dae,Department of Atomic Energy,html,2088,2088,300,False,0
+dahd,Department of Animal Husbandry and Dairying (DoAHD),digifootprint-postpage,2191,2187,,,0
+dare,Department of Agricultural Research and Education (DARE),html,40,40,95,False,1
+darpg,Department of Administrative Reforms and Public Grievances (DARPG),digifootprint-postpage,2394,2393,,,0
+dbt,Department of Biotechnology (DBT),dead,0,0,1,False,
+dbtyas-sports,Department of Sports (DoS),html,35,35,14,False,1
+ddpmod,Department of Defence Production (DDP),html,55,55,72,False,1
+dea,Department of Economic Affairs (DEA),html,1732,1732,300,False,2
+depwd,Department of Empowerment of Persons with Disabilities (DEPWD),html,738,738,300,False,1
+desw,Department of Ex-Servicemen Welfare (DESW),html,411,411,293,False,4
+dfpd,Department of Food and Public Distribution (DFPD),html,352,352,35,False,
+dhr,Department of Health Research (DHR),digifootprint-postpage,642,642,,,0
+dipam,Department of Investment and Public Asset Management (DIPAM),html,82,82,106,False,18
+doe,Department of Expenditure (DoE),html,1176,1176,300,False,4
+dof,Department of Fisheries (DoF),digifootprint-postpage,1092,1092,,,0
+dohe-education,Department of Higher Education (DoHE),digifootprint-postpage,4079,4078,,,0
+doj,Department of Justice (DoJ),digifootprint-postpage,1659,1659,,,0
+dolr,Department of Land Resources (DLR),digifootprint-postpage,499,499,,,0
+doppw,Department of Pension & Pensioner's Welfare (DoPPW),digifootprint-postpage,64,64,,,0
+dopt,Department of Personnel and Training (DoPT),digifootprint-postpage,965,965,,,0
+dor,Department of Revenue (DoR),html,797,797,300,False,0
+dord,Department of Rural Development (DoRD),digifootprint-postpage,354,353,,,0
+dot,Department of Telecommunications (DoT),digifootprint-postpage,10961,8560,,,0
+dpe,Department of Public Enterprises (DPE),digifootprint-postpage,2666,2665,,,0
+dpiit,Department for Promotion of Industry and Internal Trade (DPIIT),digifootprint-postpage,0,0,,,
+dsel-education,Department of School Education and Literacy (DSEL),digifootprint-postpage,2622,2622,,,0
+dsir,Department of Scientific and Industrial Research (DSIR),digifootprint-postpage,1253,1251,,,0
+dst,Department of Science and Technology (DST),digifootprint-postpage,2015,2015,,,0
+education,Education (MoE),digifootprint-postpage,0,0,,,0
+fert,Department of Fertilizers (DoFz),html,446,446,224,False,45
+financialservices,Department of Financial Services (DoFS),html,1649,1649,268,False,2
+heavyindustries,Heavy Industries (MoHI),blocked,964,964,218,False,4
+indianrailways,Railways (MoR),html,381,381,165,False,5
+indiapost,Department of Posts (DoP),blocked,49,49,95,False,8
+isro,Department of Space,html,93,93,300,False,2
+jalshakti,Jal Shakti (MoJS),digifootprint-postpage,0,0,,,
+jalshakti-ddws,Department of Drinking Water and Sanitation (DDWS),digifootprint-postpage,5,5,,,0
+jalshakti-dowr,"Department of Water Resources, River Development and Ganga Rejuvenation (DoWRGR)",digifootprint-postpage,19,0,,,0
+labour,Labour and Employment (MoLE),digifootprint-postpage,3222,3216,,,0
+lawmin,Law and Justice (MoLJ),digifootprint-postpage,0,0,,,0
+legalaffairs,Department of Legal Affairs (DoLA),digifootprint-postpage,2334,2333,,,0
+legislative,Legislative Department (LD),digifootprint-postpage,2348,2346,,,0
+mdoner,Development of North Eastern Region (MDONER),digifootprint-postpage,1042,1042,,,0
+mea,External Affairs (MEA),html,819,819,300,False,0
+meity,Electronics and Information Technology (MeitY),digifootprint-postpage,614,610,,,0
+mha,Home Affairs (MHA),dead,16,16,1,False,
+mib,Information and Broadcasting (MIB),blocked,520,520,143,False,0
+mines,Mines (MoM),js-shell,1020,1020,28,False,
+minorityaffairs,Minority Affairs (MoMA),html,105,105,36,False,
+mnre,New and Renewable Energy (MNRE),digifootprint-postpage,1581,1580,,,0
+moci,Commerce and Industry (MoCI),digifootprint-postpage,1,1,,,0
+mod,Defence (MoD); Department of Defence (DoD),digifootprint-postpage,0,0,,,0
+moef,"Environment, Forest and Climate Change (MoEFCC)",dead,4045,4045,300,False,85
+moes,Earth Sciences (MoES),digifootprint-postpage,2489,2484,,,0
+mofpi,Food Processing Industries (MoFPI),blocked,1739,1739,300,False,2
+mohfw,Health and Family Welfare (MoHFW),digifootprint-postpage,0,0,,,0
+mohfw-dohfw,Department of Health and Family Welfare (DoHFW),digifootprint-postpage,9335,9333,,,0
+mohua,Housing and Urban Affairs (MoHUA),digifootprint-postpage,4145,4142,,,0
+mopng,Petroleum and Natural Gas (MoPNG),html,1376,1376,195,False,12
+morth,Road Transport and Highways (MoRTH),js-shell,915,915,4,False,
+mpa,Parliamentary Affairs (MPA),digifootprint-postpage,814,814,,,0
+msde,Skill Development and Entrepreneurship (MSDE),digifootprint-postpage,62,62,,,0
+msme,"Micro, Small & Medium Enterprises (MSME)",digifootprint-postpage,260,260,,,0
+niti,Planning (MoP),html,1648,1648,224,False,15
+panchayat,Panchayati Raj (MoPR),html,329,329,300,False,0
+persmin,"Personnel, Public Grievances and Pensions (MoPPGP)",html,3,3,1,False,
+pharma-dept,Department of Pharmaceuticals (DoPs),html,535,535,144,False,7
+powermin,Power,digifootprint-postpage,1840,1838,,,0
+rajbhasha,Department of Official Language (DoOL),html,22,22,67,False,3
+rural,Rural Development (MoRD),digifootprint-postpage,0,0,,,
+shipmin,"Ports, Shipping and Waterways (MoPSW)",html,1100,1100,300,False,0
+socialjustice,Department of Social Justice and Empowerment (DoSJE),html,1714,1714,220,False,5
+steel,Steel (MoS),html,878,878,300,False,0
+texmin,Textiles (MoT),digifootprint-postpage,640,640,,,0
+tourism,Tourism,digifootprint-postpage,1708,1708,,,0
+tribal,Tribal Affairs (MoTA),custom-api,1019,1019,,,
+wcd,Women and Child Development (MoWCD),html,1687,1687,157,False,68
+yas,Youth Affairs and Sports (MoYAS),js-shell,0,0,1,False,
+youth-yas,Department of Youth Affairs (DoYA),html,0,0,1,False,
