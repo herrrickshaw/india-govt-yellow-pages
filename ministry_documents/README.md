@@ -9,7 +9,7 @@ with a direct link to each file. Built 2026-10-26 from the igod.gov.in directory
 
 | File | Contents |
 |---|---|
-| `data/all_documents.csv.gz` | One row per document (~102,000): ministry, site, source (`api` or `crawl`), title, document group, category, date, file URL, size, language, page it was found on. `zcat` / `pd.read_csv(..., compression="gzip")` |
+| `data/all_documents.csv.gz` | One row per document (~136,000): ministry, site, source (`api` or `crawl`), title, document group, category, date, file URL, size, language, page it was found on. `zcat` / `pd.read_csv(..., compression="gzip")` |
 | `data/coverage.csv` | One row per site: platform, documents found, how many have a direct URL, pages crawled, errors |
 | `data/fingerprint.csv` | Every ministry/department site and the publishing platform it runs on |
 | `data/targets.csv` | The 105 union ministries and departments taken from `../data/organizations_index.csv` |
@@ -33,13 +33,22 @@ credentials or login-protected routes are used, and bot challenges are not bypas
 is recorded as blocked. Some sites ship a fixed API key or Basic-auth header in their public JavaScript; the
 extractors deliberately do not use them.
 
-## Gaps (2026-10-26)
+## Gaps (2026-10-26, re-crawled 2026-10-27)
+
+Re-crawled 2026-10-27 (`tools/recrawl.py`, which keeps every earlier link in `doc_links.prev.csv`): the 14 sites
+that hit the 300-page cap were crawled again with a 1,500-page cap (MoEFCC 4,045 → 8,912 links, MHA 1,170 → 3,233,
+ISRO 93 → 2,209, Culture, DAE, DEA, DoE, DoR, MEA, MoFPI, Panchayati Raj, Shipping, Steel and DEPwD all up; only ISRO
+reached the new cap). Cooperation now answers over curl (incomplete certificate chain, crawled with `--insecure`;
+362 links, capped at 300 pages) and Consumer Affairs publishes on `consumeraffairs.gov.in` (713 links). WCD, MoPNG and
+NITI were re-crawled; their failing pages (63, 10, 1) failed again and look like permanent server errors.
+Finance, DRDO and DBT (`dbtindia.gov.in`) still time out.
+
 
 Retried 2026-10-26 evening (every failure re-attempted; results below are after the retry):
 
-- **Still unreachable:** Cooperation, Finance (`finmin.gov.in`) and DRDO time out on https/http and www/bare
-  variants. Corporate Affairs (`mca.gov.in`) returns an "Access Denied" bot block and was not pursued.
-  Consumer Affairs (`doca.gov.in`) serves only a lighttpd placeholder; `consumeraffairs.nic.in` does not answer.
+- **Still unreachable:** Finance (`finmin.gov.in`) and DRDO time out on https/http and www/bare
+  variants (Cooperation recovered 2026-10-27). Corporate Affairs (`mca.gov.in`) returns an "Access Denied" bot block and was not pursued.
+  Consumer Affairs (`doca.gov.in`) serves only a lighttpd placeholder; its documents are on `consumeraffairs.gov.in` (crawled 2026-10-27).
 - **Recovered on retry:** MoSPI (643 documents via its own JSON API, `extract_mospi.py`; was 14), MHA (1,170 via
   the `www.` host; was 16), Rural Development (161 documents / 303 files via `/wp/v2/documents`,
   `extract_wpv2_documents.py`), Military Affairs (answers on `http://www.`; 4 links), Civil Aviation (+79),
@@ -68,6 +77,7 @@ python3 tools/extract_mospi.py         # MoSPI (POST JSON API)
 python3 tools/extract_wpv2_documents.py https://www.rural.gov.in/cms/wp-json rural   # no-taxonomy CMS sites
 python3 tools/retry_bulk_pages.py dpiit          # re-request 500ing bulk pages in 10- and 1-record chunks
 python3 tools/resolve_missing_files.py <site>...  # resolve file ids missing from a bulk registry
+python3 tools/recrawl.py moef=https://moef.gov.in:1500 ...  # re-crawl, keeping earlier links
 python3 tools/build_index.py           # merge into all_documents.csv / coverage.csv / DuckDB
 ```
 

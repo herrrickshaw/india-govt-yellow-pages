@@ -22,7 +22,7 @@ government websites.
 | `data/pib_ministry_contacts.csv` | Per-ministry PIB press activity (6y + 90d) joined to top-3 contacts (182 rows) |
 | `data/yellowpages.duckdb` | All tables above in one DuckDB file for SQL queries |
 | `dashboard/index.html` | Self-contained, offline-capable dashboard with stat tiles, searchable views, and 6y PIB inline bar charts |
-| `ministry_documents/` | **Ministry-by-ministry document index** (2026-10-26): ~102,000 orders, notices, reports, guidelines and other files published on 85 union ministry/department websites, each with a direct file link, plus the platform each site runs on and the extractors. See [ministry_documents/README.md](ministry_documents/README.md) |
+| `ministry_documents/` | **Ministry-by-ministry document index** (2026-10-26, re-crawled 2026-10-27): ~136,000 orders, notices, reports, guidelines and other files published on 89 union ministry/department websites, each with a direct file link, plus the platform each site runs on and the extractors. See [ministry_documents/README.md](ministry_documents/README.md) |
 
 ## Pipeline
 

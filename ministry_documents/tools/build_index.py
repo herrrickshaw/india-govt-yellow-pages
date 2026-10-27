@@ -23,6 +23,9 @@ for r in csv.DictReader(open(os.path.join(D, "fingerprint.csv"))):
     names.setdefault(slug, []).append(r["name"])
     platform.setdefault(slug, r["platform"])
 names.setdefault("tribal", ["Tribal Affairs (MoTA)"]); platform["tribal"] = "custom-api"
+# doca.gov.in serves a placeholder; the department now publishes on consumeraffairs.gov.in (found 2026-10-27)
+names.setdefault("consumeraffairs", ["Department of Consumer Affairs (DoCA)"]); platform.setdefault("consumeraffairs", "html")
+platform["cooperation"] = "html"  # answered over curl on 2026-10-27 (Python TLS refuses it)
 
 
 def ddmmyyyy(s):
