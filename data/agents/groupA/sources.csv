@@ -1,0 +1,247 @@
+ministry,kind,url,note
+Power,whos-who,https://www.powermin.gov.in/en/whos-who,public Who's Who page (client-rendered Next.js)
+Power,whos-who,https://www.powermin.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1,JSON source of Who's Who (390 records; paginate; designation_tag/departments_tag taxonomies give designation and division)
+Power,whos-who,https://www.powermin.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,taxonomy: designation names
+Power,whos-who,https://www.powermin.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,taxonomy: division/department names
+Power,whos-who,https://www.powermin.gov.in/cms/wp-json/wp/v2/our_division?per_page=100,division descriptions (work allocation)
+Power,schemes,https://www.powermin.gov.in/en/schemes,public schemes page
+Power,schemes,https://www.powermin.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,JSON: scheme pages with content + external portal links
+Power,notifications,https://www.powermin.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"JSON: all documents (acts, orders, notifications, tenders, scheme docs); filter by cd_category id"
+Power,notifications,https://www.powermin.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,taxonomy: document categories with counts
+Power,notifications,https://www.powermin.gov.in/cms/wp-json/wp/v2/documents?per_page=100,"JSON: 'documents' type (Acts & Policy, Gazette Notifications, Orders and Notices, Guidelines)"
+Power,notifications,https://www.powermin.gov.in/cms/wp-json/wp/v2/whats_new?per_page=100,JSON: What's New feed
+Power,helpdesk,https://www.powermin.gov.in/en/grievance-redressal,grievance redressal page (CPGRAMS + nodal officers)
+Power,helpdesk,"https://www.powermin.gov.in/cms/wp-json/wp/v2/pages?slug=grievance-redressal,contact-us,rti",JSON for contact/grievance/RTI pages (ACF fields hold officer names)
+Power,portal,https://www.powermin.gov.in/cms/wp-json/wp/v2/our_organisation?per_page=100,attached offices / PSUs with their websites
+Power,schemes,https://cms-powermin.digifootprint.gov.in/schemes_and_services/etwg-g20/,scheme page JSON: ETWG G20
+Power,portal,https://g20.in/en/media-resources/gallery/april-2023/gandhinagar-2-april.html,linked from scheme page: ETWG G20
+Power,portal,https://g20.in/en/media-resources/gallery/february-2023/etwg.html,linked from scheme page: ETWG G20
+Power,portal,https://g20.in/en/media-resources/gallery/july-2023/minister-energy.html,linked from scheme page: ETWG G20
+Power,portal,https://g20.in/en/media-resources/gallery/may-2023/etwg-3rd.html,linked from scheme page: ETWG G20
+Power,schemes,https://cms-powermin.digifootprint.gov.in/schemes_and_services/research-and-training/,scheme page JSON: Research and Training
+Power,portal,https://cpri.res.in,linked from scheme page: Research and Training
+Power,portal,https://npti.gov.in,linked from scheme page: Research and Training
+Power,schemes,https://cms-powermin.digifootprint.gov.in/schemes_and_services/energy-conservation-energy-transition/,scheme page JSON: Energy Conservation and Energy Transition
+Power,schemes,https://cms-powermin.digifootprint.gov.in/schemes_and_services/revamped-distribution-scheme/,scheme page JSON: Revamped Distribution Sector Scheme
+Power,portal,https://pfcindia.co.in/Home/VS/25,linked from scheme page: Revamped Distribution Sector Scheme
+Power,portal,https://rdss.powermin.gov.in/,linked from scheme page: Revamped Distribution Sector Scheme
+Power,schemes,https://cms-powermin.digifootprint.gov.in/schemes_and_services/distribution/,scheme page JSON: Distribution
+Power,schemes,https://cms-powermin.digifootprint.gov.in/schemes_and_services/transmission/,scheme page JSON: Transmission
+Power,schemes,https://cms-powermin.digifootprint.gov.in/schemes_and_services/generation/,scheme page JSON: Generation
+Power,portal,https://cea.nic.in/,linked from scheme page: Generation
+Power,portal,https://cea.nic.in/executive-summary-report/?lang=en,linked from scheme page: Generation
+Power,portal,https://cea.nic.in/hydro-engineering-renovation-modernization-division/?lang=en,linked from scheme page: Generation
+Power,portal,https://cea.nic.in/installed-capacity-report/?lang=en,linked from scheme page: Generation
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/en/whos-who,public Who's Who page (client-rendered Next.js)
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1,JSON source of Who's Who (147 records; paginate; designation_tag/departments_tag taxonomies give designation and division)
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,taxonomy: designation names
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,taxonomy: division/department names
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/cms/wp-json/wp/v2/our_division?per_page=100,division descriptions (work allocation)
+New and Renewable Energy (MNRE),schemes,https://mnre.gov.in/en/schemes,public schemes page
+New and Renewable Energy (MNRE),schemes,https://mnre.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,JSON: scheme pages with content + external portal links
+New and Renewable Energy (MNRE),notifications,https://mnre.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"JSON: all documents (acts, orders, notifications, tenders, scheme docs); filter by cd_category id"
+New and Renewable Energy (MNRE),notifications,https://mnre.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,taxonomy: document categories with counts
+New and Renewable Energy (MNRE),notifications,https://mnre.gov.in/cms/wp-json/wp/v2/documents?per_page=100,"JSON: 'documents' type (Acts & Policy, Gazette Notifications, Orders and Notices, Guidelines)"
+New and Renewable Energy (MNRE),notifications,https://mnre.gov.in/cms/wp-json/wp/v2/whats_new?per_page=100,JSON: What's New feed
+New and Renewable Energy (MNRE),helpdesk,https://mnre.gov.in/en/grievance-redressal,grievance redressal page (CPGRAMS + nodal officers)
+New and Renewable Energy (MNRE),helpdesk,"https://mnre.gov.in/cms/wp-json/wp/v2/pages?slug=grievance-redressal,contact-us,rti",JSON for contact/grievance/RTI pages (ACF fields hold officer names)
+New and Renewable Energy (MNRE),portal,https://mnre.gov.in/cms/wp-json/wp/v2/our_organisation?per_page=100,attached offices / PSUs with their websites
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/biogas-programme/,scheme page JSON: Biogas Programme
+New and Renewable Energy (MNRE),portal,https://biogas.mnre.gov.in/,linked from scheme page: Biogas Programme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/biomass-programme/,scheme page JSON: Biomass Programme
+New and Renewable Energy (MNRE),portal,https://biourja.mnre.gov.in,linked from scheme page: Biomass Programme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/waste-to-energy-programme/,scheme page JSON: Waste to Energy Programme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/bioenergy-ccdc-programme/,scheme page JSON: Bioenergy CCDC Programme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/gec-phase-i/,scheme page JSON: GEC Phase-I
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/gec-phase-ii/,scheme page JSON: GEC Phase-II
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/skill-development-in-solar-energy/,scheme page JSON: Skill Development in Solar energy
+New and Renewable Energy (MNRE),portal,https://suryamitra.nise.res.in,linked from scheme page: Skill Development in Solar energy
+New and Renewable Energy (MNRE),portal,https://vsdp.niwe.res.in/,linked from scheme page: Skill Development in Solar energy
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/short-term-training-programme/,scheme page JSON: Short Term Training Programme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/research-development-scheme/,scheme page JSON: Research & Development Scheme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/offshore-wind/,scheme page JSON: Offshore Wind
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/fellowships-for-higher-studies-and-research/,scheme page JSON: Fellowships for Higher Studies and Research
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/enhancement-of-renewable-energy-education-and-training-infrastructure/,scheme page JSON: Enhancement of Renewable Energy Education and Training Infrastructure
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/renewable-energy-chair/,scheme page JSON: Renewable Energy Chair
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/national-renewable-energy-internship-programme/,scheme page JSON: National Renewable Energy Internship Programme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/cpsu-scheme-phase-ii-government-producer-scheme/,scheme page JSON: CPSU Scheme Phase-II (Government Producer Scheme)
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/grid-connected-rooftop-solar-programme/,scheme page JSON: Grid Connected Rooftop Solar Programme
+New and Renewable Energy (MNRE),portal,https://pmsuryaghar.gov.in/,linked from scheme page: Grid Connected Rooftop Solar Programme
+New and Renewable Energy (MNRE),portal,https://solarrooftop.gov.in/Report/DiscomList/details,linked from scheme page: Grid Connected Rooftop Solar Programme
+New and Renewable Energy (MNRE),portal,https://solarrooftop.gov.in/grid_others/discomPortalLink,linked from scheme page: Grid Connected Rooftop Solar Programme
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/development-of-solar-parks-and-ultra-mega-solar-power-projects/,scheme page JSON: Development of Solar Parks and Ultra Mega Solar Power Projects
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/solarisation-of-sun-temple-town-of-modhera-in-mehsana-district-gujarat/,"scheme page JSON: Solarisation of Sun Temple Town of Modhera in Mehsana District, Gujarat"
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/pradhan-mantri-kisan-urja-suraksha-evam-utthaan-mahabhiyaan-pm-kusum/,scheme page JSON: Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyaan (PM KUSUM)
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/new-solar-power-scheme-for-pvtg-habitations-villages-under-pm-janman/,scheme page JSON: New Solar Power Scheme (for PVTG Habitations/Villages) under PM JANMAN
+New and Renewable Energy (MNRE),portal,https://areas.org.in/area_directory.html,linked from scheme page: New Solar Power Scheme (for PVTG Habitations/Villages) under PM JANMAN
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/international-solar-alliance/,scheme page JSON: INTERNATIONAL SOLAR ALLIANCE
+New and Renewable Energy (MNRE),portal,https://isolaralliance.org/,linked from scheme page: INTERNATIONAL SOLAR ALLIANCE
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/solar-pv-module-pli-scheme/,scheme page JSON: SOLAR PV MODULE PLI SCHEME
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/national-green-hydrogen-mission/,scheme page JSON: National Green Hydrogen Mission
+New and Renewable Energy (MNRE),schemes,https://cms-mnre.digifootprint.gov.in/schemes_and_services/pm-surya-ghar-muft-bijli-yojana/,scheme page JSON: PM Surya Ghar: Muft Bijli Yojana
+New and Renewable Energy (MNRE),portal,https://www.ireda.in/,attached office / PSU: Indian Renewable Energy Development Agency Limited (IREDA)
+New and Renewable Energy (MNRE),portal,https://www.seci.co.in/,attached office / PSU: Solar Energy Corporation of India Limited (SECI)
+New and Renewable Energy (MNRE),portal,https://nibe.res.in/,attached office / PSU: NATIONAL INSTITUTE OF BIO ENERGY
+New and Renewable Energy (MNRE),portal,https://niwe.res.in/,attached office / PSU: National Institute of Wind Energy
+New and Renewable Energy (MNRE),portal,https://nise.res.in/,attached office / PSU: National Institute of Solar Energy
+Housing and Urban Affairs (MoHUA),whos-who,https://www.mohua.gov.in/en/whos-who,public Who's Who page (client-rendered Next.js)
+Housing and Urban Affairs (MoHUA),whos-who,https://www.mohua.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1,JSON source of Who's Who (311 records; paginate; designation_tag/departments_tag taxonomies give designation and division)
+Housing and Urban Affairs (MoHUA),whos-who,https://www.mohua.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,taxonomy: designation names
+Housing and Urban Affairs (MoHUA),whos-who,https://www.mohua.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,taxonomy: division/department names
+Housing and Urban Affairs (MoHUA),whos-who,https://www.mohua.gov.in/cms/wp-json/wp/v2/our_division?per_page=100,division descriptions (work allocation)
+Housing and Urban Affairs (MoHUA),schemes,https://www.mohua.gov.in/en/schemes,public schemes page
+Housing and Urban Affairs (MoHUA),schemes,https://www.mohua.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,JSON: scheme pages with content + external portal links
+Housing and Urban Affairs (MoHUA),notifications,https://www.mohua.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"JSON: all documents (acts, orders, notifications, tenders, scheme docs); filter by cd_category id"
+Housing and Urban Affairs (MoHUA),notifications,https://www.mohua.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,taxonomy: document categories with counts
+Housing and Urban Affairs (MoHUA),notifications,https://www.mohua.gov.in/cms/wp-json/wp/v2/documents?per_page=100,"JSON: 'documents' type (Acts & Policy, Gazette Notifications, Orders and Notices, Guidelines)"
+Housing and Urban Affairs (MoHUA),notifications,https://www.mohua.gov.in/cms/wp-json/wp/v2/whats_new?per_page=100,JSON: What's New feed
+Housing and Urban Affairs (MoHUA),helpdesk,https://www.mohua.gov.in/en/grievance-redressal,grievance redressal page (CPGRAMS + nodal officers)
+Housing and Urban Affairs (MoHUA),helpdesk,"https://www.mohua.gov.in/cms/wp-json/wp/v2/pages?slug=grievance-redressal,contact-us,rti",JSON for contact/grievance/RTI pages (ACF fields hold officer names)
+Housing and Urban Affairs (MoHUA),portal,https://www.mohua.gov.in/cms/wp-json/wp/v2/our_organisation?per_page=100,attached offices / PSUs with their websites
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/holiday-homes-government-residential-accommodation/,scheme page JSON: Holiday Homes/Government Residential Accommodation
+Housing and Urban Affairs (MoHUA),portal,https://esampada.mohua.gov.in/signin/,linked from scheme page: Holiday Homes/Government Residential Accommodation
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/north-eastern-region-urban-development-programme-nerudp/,scheme page JSON: North Eastern Region Urban Development Programme -NERUDP
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/deendayal-antyodaya-yojana-national-urban-livelihoods-mission-nulm-3/,scheme page JSON: Deendayal Antyodaya Yojana National Urban LiveliHoods Mission (DAY-NULM)
+Housing and Urban Affairs (MoHUA),portal,https://nulm.gov.in/,linked from scheme page: Deendayal Antyodaya Yojana National Urban LiveliHoods Mission (DAY-NULM)
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/smart-cities/,scheme page JSON: Smart Cities Mission
+Housing and Urban Affairs (MoHUA),portal,https://mohua.gov.in/PlacemakingMarathon/index.html#/,linked from scheme page: Smart Cities Mission
+Housing and Urban Affairs (MoHUA),portal,https://mohua.gov.in/dataSmartCities/index.html,linked from scheme page: Smart Cities Mission
+Housing and Urban Affairs (MoHUA),portal,https://mohua.gov.in/dmaf/index.html,linked from scheme page: Smart Cities Mission
+Housing and Urban Affairs (MoHUA),portal,https://mohua.gov.in/dmafDashboard/index.php,linked from scheme page: Smart Cities Mission
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/national-urban-digital-mission-nudm/,scheme page JSON: NATIONAL URBAN DIGITAL MISSION (NUDM)
+Housing and Urban Affairs (MoHUA),portal,https://www.nudm.mohua.gov.in/,linked from scheme page: NATIONAL URBAN DIGITAL MISSION (NUDM)
+Housing and Urban Affairs (MoHUA),portal,https://www.nudm.mohua.gov.in/gallery/,linked from scheme page: NATIONAL URBAN DIGITAL MISSION (NUDM)
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/pm-svanidhi/,scheme page JSON: Pradhan Mantri Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi)
+Housing and Urban Affairs (MoHUA),portal,https://pmsvanidhi.mohua.gov.in/,linked from scheme page: Pradhan Mantri Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi)
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/mission-karmayogi/,scheme page JSON: Mission Karmayogi
+Housing and Urban Affairs (MoHUA),portal,https://igotkarmayogi.gov.in/#/,linked from scheme page: Mission Karmayogi
+Housing and Urban Affairs (MoHUA),portal,https://igotkarmayogi.gov.in/#/aboutus,linked from scheme page: Mission Karmayogi
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/pm-ebus-sewa/,scheme page JSON: PM-eBus Sewa
+Housing and Urban Affairs (MoHUA),portal,https://pm-ebus-sewa.mohua.gov.in/,linked from scheme page: PM-eBus Sewa
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/pradhan-mantri-awas-yojana-urban/,scheme page JSON: Pradhan Mantri Awas Yojana – Urban 2.0
+Housing and Urban Affairs (MoHUA),portal,https://dashboard.pmay-urban.gov.in/login,linked from scheme page: Pradhan Mantri Awas Yojana – Urban 2.0
+Housing and Urban Affairs (MoHUA),portal,https://ghtc-india.gov.in/Content/LHP.html,linked from scheme page: Pradhan Mantri Awas Yojana – Urban 2.0
+Housing and Urban Affairs (MoHUA),portal,https://pmaymis.gov.in/PMAYMIS2_2024/PMAY_SURVEY/EligiblityCheck.aspx,linked from scheme page: Pradhan Mantri Awas Yojana – Urban 2.0
+Housing and Urban Affairs (MoHUA),portal,https://pmaymis.gov.in/PMAYMIS2_2024/PmayDefault.aspx,linked from scheme page: Pradhan Mantri Awas Yojana – Urban 2.0
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/urban-challenge-fund/,scheme page JSON: Urban Challenge Fund
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/atal-mission-for-rejuvenation-and-urban-transformation-amrut/,scheme page JSON: Atal Mission for Rejuvenation and Urban Transformation -AMRUT 2.0
+Housing and Urban Affairs (MoHUA),portal,https://amrut.mohua.gov.in/approvedProjects/state,linked from scheme page: Atal Mission for Rejuvenation and Urban Transformation -AMRUT 2.0
+Housing and Urban Affairs (MoHUA),schemes,https://cms-mohua.digifootprint.gov.in/schemes_and_services/swachh-bharat-mission/,scheme page JSON: Swachh Bharat Mission
+Housing and Urban Affairs (MoHUA),portal,https://sbmurban.org/,linked from scheme page: Swachh Bharat Mission
+Housing and Urban Affairs (MoHUA),portal,https://cpheeo.gov.in/,attached office / PSU: CPHEEO
+Housing and Urban Affairs (MoHUA),portal,https://www.hindprefab.in/,attached office / PSU: Hindustan Prefab Limited (HPL)
+Housing and Urban Affairs (MoHUA),portal,https://hudco.org.in/index.aspx,attached office / PSU: Housing and Urban Development Corporation Ltd. (HUDCO)
+Housing and Urban Affairs (MoHUA),portal,https://nbccindia.com/,attached office / PSU: National Buildings Construction Corporation Limited
+Housing and Urban Affairs (MoHUA),portal,https://www.nchfindia.net/,attached office / PSU: National Cooperative Housing Federation of India (NCHFI)
+Housing and Urban Affairs (MoHUA),portal,https://cgewho.in/,attached office / PSU: Central Government Employees Welfare Housing Organisation (CGEWHO)
+Housing and Urban Affairs (MoHUA),portal,https://www.bmtpc.org/,attached office / PSU: Building Materials & Technology Promotion Council (BMTPC)
+Housing and Urban Affairs (MoHUA),portal,http://rajghat.gov.in/,attached office / PSU: Rajghat Samadhi Committee
+Housing and Urban Affairs (MoHUA),portal,https://niua.in/,attached office / PSU: National Institute of Urban Affairs
+Housing and Urban Affairs (MoHUA),portal,https://ncrpb.nic.in/,attached office / PSU: National Capital Region Planning Board
+Housing and Urban Affairs (MoHUA),portal,https://dda.gov.in/,attached office / PSU: Delhi Development Authority
+Housing and Urban Affairs (MoHUA),portal,https://www.duac.org.in/u/Default,attached office / PSU: Delhi Urban Arts Commission
+Housing and Urban Affairs (MoHUA),portal,http://tcpo.gov.in/,attached office / PSU: Town & Country Planning Organisation
+Housing and Urban Affairs (MoHUA),portal,https://nbo.gov.in/,attached office / PSU: National Buildings Organisation (NBO)
+Housing and Urban Affairs (MoHUA),portal,https://ldo.mohua.gov.in/,attached office / PSU: Land & Development Office
+Housing and Urban Affairs (MoHUA),portal,https://cpwd.gov.in/,attached office / PSU: Central Public Works Department
+Power,whos-who,https://powermin.gov.in/static/uploads/2025/07/dd9043ae3b3cfc3a98ba87c9a5c5ad2a.pdf,"RTI 'Directory of its officers and employees' PDF (9 pp, Head of Office/Section with Tel/Auto/email), dated 2025-09"
+Power,whos-who,https://powermin.gov.in/static/uploads/2025/06/431a23f9e834a322bd2bb576cd848805.pdf,Nodal Officer (RTI) PDF
+Power,portal,https://beeindia.gov.in/,Bureau of Energy Efficiency
+Power,portal,https://pgportal.gov.in/,CPGRAMS grievance portal (linked)
+Power,notifications,https://www.powermin.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=378&per_page=100,orders and notices (54)
+Power,gazette,https://www.powermin.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=480&per_page=100,"Rules framed under Electricity Act 2003 (75, gazette notifications)"
+Power,notifications,https://www.powermin.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=379&per_page=100,Acts and rules (118)
+Power,schemes,https://www.powermin.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=374&per_page=100,scheme and services documents (164)
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/static/uploads/2025/08/90b7421af007e75e202025b87849ee8a.pdf,"MNRE Officers Directory (Telephone Directory as on 03.09.2025, 5 pp) (central_documents cd_category=394 'Contact Us')"
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/static/uploads/2025/08/630230b8841684ace3e07c4ec1e5fce6.pdf,SECI Officers Directory (central_documents cd_category=394 'Contact Us')
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/static/uploads/2025/08/2f54c5cce4f60c38f477a9bc109ad7c8.pdf,IREDA Officers Directory (central_documents cd_category=394 'Contact Us')
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/static/uploads/2025/08/b3aa42d8f04487e564eb76b20c9fda4a.pdf,NIBE Officers Directory (central_documents cd_category=394 'Contact Us')
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/static/uploads/2025/08/db2f2b7ab9f0ed5f42213162a3aa664e.pdf,NISE Officers Directory (central_documents cd_category=394 'Contact Us')
+New and Renewable Energy (MNRE),whos-who,https://mnre.gov.in/static/uploads/2025/08/f19338a044f335747689c98306268dc1.pdf,NIWE Officers Directory (central_documents cd_category=394 'Contact Us')
+New and Renewable Energy (MNRE),notifications,https://mnre.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=371&per_page=100,Current Notices (576)
+New and Renewable Energy (MNRE),orders,https://mnre.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=370&per_page=100,Orders and Notices (576)
+New and Renewable Energy (MNRE),notifications,https://mnre.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=349&per_page=100,Acts and Policies (129)
+New and Renewable Energy (MNRE),notifications,https://mnre.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=367&per_page=100,Guidelines (19)
+New and Renewable Energy (MNRE),schemes,https://mnre.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=366&per_page=100,Schemes documents (10)
+New and Renewable Energy (MNRE),schemes,https://pmkusum.mnre.gov.in/,PM-KUSUM portal
+New and Renewable Energy (MNRE),schemes,https://solarrooftop.gov.in/,Grid Connected Rooftop Solar programme portal
+New and Renewable Energy (MNRE),schemes,https://biourja.mnre.gov.in/,Biomass / Waste-to-Energy programme portal
+New and Renewable Energy (MNRE),schemes,https://nghm.mnre.gov.in/,National Green Hydrogen Mission
+Housing and Urban Affairs (MoHUA),gazette,https://www.mohua.gov.in/cms/wp-json/wp/v2/documents?documents_category=146&per_page=100,Gazette Notifications (48)
+Housing and Urban Affairs (MoHUA),orders,https://www.mohua.gov.in/cms/wp-json/wp/v2/documents?documents_category=140&per_page=100,Orders and Notices (16)
+Housing and Urban Affairs (MoHUA),notifications,https://www.mohua.gov.in/cms/wp-json/wp/v2/documents?documents_category=147&per_page=100,Guidelines (22)
+Housing and Urban Affairs (MoHUA),notifications,https://www.mohua.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=718&per_page=100,Acts and Rules (106)
+Housing and Urban Affairs (MoHUA),notifications,https://www.mohua.gov.in/cms/wp-json/wp/v2/central_documents?cd_category=475&per_page=100,Advisories and Circulars to States/UTs (31)
+Housing and Urban Affairs (MoHUA),schemes,https://pmay-urban.gov.in/,PMAY-Urban portal
+Housing and Urban Affairs (MoHUA),schemes,https://pmaymis.gov.in/,PMAY-U MIS portal
+Housing and Urban Affairs (MoHUA),schemes,https://amrut.mohua.gov.in/,AMRUT 2.0 portal
+Housing and Urban Affairs (MoHUA),schemes,https://smartcities.gov.in/,Smart Cities Mission portal
+Housing and Urban Affairs (MoHUA),portal,https://esampada.mohua.gov.in/,eSampada (Directorate of Estates) portal
+Road Transport and Highways (MoRTH),whos-who,https://morth.gov.in/directory,public Directory (Angular SPA; data from backend API)
+Road Transport and Highways (MoRTH),whos-who,https://morth.gov.in/backend/api/directory?page=1&per_page=200,"JSON directory (352 records, 2 pages at per_page=200; 'type' id -> category name in /backend/api/our-team)"
+Road Transport and Highways (MoRTH),whos-who,https://morth.gov.in/backend/api/our-team,JSON Who's Who grouped by 32 categories (104 senior officers)
+Road Transport and Highways (MoRTH),whos-who,https://morth.gov.in/backend/api/our-wings,wings / work allocation
+Road Transport and Highways (MoRTH),whos-who,https://morth.gov.in/backend/api/all-menu,site menu (all slugs)
+Road Transport and Highways (MoRTH),schemes,https://morth.gov.in/schemes-and-services,Schemes and Services (public)
+Road Transport and Highways (MoRTH),schemes,https://morth.gov.in/backend/api/schemes-and-services,"JSON page tree with files (6 MB; wings: Highways, Road Transport, Road Safety, Land Acquisition, Others)"
+Road Transport and Highways (MoRTH),gazette,https://morth.gov.in/backend/api/gazettes-notifications,JSON: Notifications / Gazette Notifications (files[].files_data[] -> documents/uploaded/*.pdf under https://morth.gov.in/backend/)
+Road Transport and Highways (MoRTH),orders,https://morth.gov.in/backend/api/orders-and-notices,JSON: Circulars / Orders / Notices (1.1 MB)
+Road Transport and Highways (MoRTH),notifications,https://morth.gov.in/backend/api/acts-and-rules,Acts and Rules (slug from menu)
+Road Transport and Highways (MoRTH),notifications,https://morth.gov.in/backend/api/policies-and-regulations,Policies and Regulations
+Road Transport and Highways (MoRTH),notifications,https://morth.gov.in/backend/api/guidelines,Guidelines
+Road Transport and Highways (MoRTH),notifications,https://morth.gov.in/backend/api/public-notices,Public Notices
+Road Transport and Highways (MoRTH),notifications,https://morth.gov.in/backend/api/comprehensive-compendium-circular,Comprehensive Compendium of Circulars
+Road Transport and Highways (MoRTH),helpdesk,https://morth.gov.in/backend/api/grievance-redressal,grievance page (CPGRAMS; no named officer)
+Road Transport and Highways (MoRTH),portal,https://parivahan.gov.in/,Parivahan Sewa (Vahan/Sarathi) service portal
+Road Transport and Highways (MoRTH),portal,https://vahan.parivahan.gov.in/nrservices/,National Permit System / Vahan services
+Road Transport and Highways (MoRTH),portal,https://nhai.gov.in/,NHAI (attached)
+Road Transport and Highways (MoRTH),portal,https://nhidcl.com/,NHIDCL
+Road Transport and Highways (MoRTH),portal,https://roadsafetycommittee.morth.gov.in/nrsb/index.html,National Road Safety Board (linked from main.js)
+Road Transport and Highways (MoRTH),portal,https://morth.nic.in/,legacy host; now serves the same Angular shell
+Railways (MoR),whos-who,https://indianrailways.gov.in/ministry/directory?page=0&items=100&orgparentId=,Ministry directory (42 entries: MR/MoSR secretariats; 2 pages at items=100; orgparentId filter has no effect)
+Railways (MoR),whos-who,https://rb.indianrailways.gov.in/home/Directory?page=1&size=75&type=1&description=,"Railway Board Directory (type=1, 23 pages x 75; server-rendered div.member-item cards)"
+Railways (MoR),whos-who,https://rb.indianrailways.gov.in/home/Directory?page=1&size=75&type=2&description=,"GMs and DRMs Directory (type=2, 12 pages x 75)"
+Railways (MoR),whos-who,https://rb.indianrailways.gov.in/home/Directory?page=1&size=75&type=3&description=,"Disaster Management Directory (type=3, 15 pages x 75) - not parsed"
+Railways (MoR),whos-who,https://rb.indianrailways.gov.in/show-directorate/list,Railway Board directorates (38 directorate pages; each has circulars/orders)
+Railways (MoR),helpdesk,https://indianrailways.gov.in/connectus/contact-us,WIM + CPIO contact
+Railways (MoR),helpdesk,https://indianrailways.gov.in/connect/grievance-redressal,CPGRAMS / Rail Madad 139 (no named officers)
+Railways (MoR),helpdesk,https://railmadad.indianrailways.gov.in/madad/final/home.jsp,Rail Madad grievance portal
+Railways (MoR),schemes,https://indianrailways.gov.in/offerings/schemes-and-services,"Schemes and Services (Passenger Services orgparentId=1, Other Services orgparentId=4)"
+Railways (MoR),notifications,https://indianrailways.gov.in/documents/acts,Acts
+Railways (MoR),notifications,https://indianrailways.gov.in/documents/publications,Publications (archive=true for older)
+Railways (MoR),notifications,https://indianrailways.gov.in/documents/reports,Reports
+Railways (MoR),gazette,https://rb.indianrailways.gov.in/documents/gazettes-notifications,Railway Board gazette notifications listing
+Railways (MoR),orders,https://rb.indianrailways.gov.in/show-directorate/view/795,Mission Karmayogi and Training Circulars (directorate page pattern /show-directorate/view/<id>)
+Railways (MoR),orders,https://rb.indianrailways.gov.in/show-directorate/view/1286,Channel of submission / Office Orders of Board's office
+Railways (MoR),orders,https://indianrailways.gov.in/admin/cms/downloadCmsDoc?path=/opt/mount/IndianRailways/Features/1791980271516PLB_order_2025-26.pdf,example Railway Board order PDF download pattern (/admin/cms/downloadCmsDoc?path=...)
+Railways (MoR),portal,https://rb.indianrailways.gov.in/,"Railway Board site (directorates, directory, gazettes)"
+Railways (MoR),portal,https://ireps.gov.in/,IREPS tenders
+Railways (MoR),portal,https://rrb.indianrailways.gov.in/,RRB vacancies
+Railways (MoR),portal,https://railtech.indianrailways.gov.in/,Rail Tech portal
+Railways (MoR),portal,https://indianrailways.gov.in/ministry/our-organisation?orgparentId=36,"Zonal Railways list (orgparentId 36 zones, 93 production units, 71/58/65/110/108/147 other groups)"
+"Ports, Shipping and Waterways (MoPSW)",whos-who,https://shipmin.gov.in/en/who-s-who,"Who's Who: 33 division tables, 148 officers, single page (Name/Designation/Room-Intercom/Tel O/Tel R/eMail/Residence)"
+"Ports, Shipping and Waterways (MoPSW)",whos-who,https://shipmin.gov.in/en/about-us/contactus,wing-wise nodal directors/DS (13 entries)
+"Ports, Shipping and Waterways (MoPSW)",whos-who,https://shipmin.gov.in/en/about-us/organizational-chart,organisation chart
+"Ports, Shipping and Waterways (MoPSW)",whos-who,https://shipmin.gov.in/en/about-us/organisationalsetup,organisational setup
+"Ports, Shipping and Waterways (MoPSW)",portal,https://shipmin.gov.in/en/organization/listoforganization,list of 30+ attached offices / ports / PSUs with websites
+"Ports, Shipping and Waterways (MoPSW)",orders,https://shipmin.gov.in/en/orders/officeorders,"Office orders (Drupal view; few items per page, check ?page=N)"
+"Ports, Shipping and Waterways (MoPSW)",orders,https://shipmin.gov.in/en/orders/circulars,Circulars
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/en/orders/policy,Policy documents
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/en/orders/guideline,Guidelines
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/en/orders/mou-agreements,MoU / Agreements
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/en/orders/miscellaneous,Miscellaneous orders
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/en/act-and-rules/Act,Acts
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/en/act-and-rules/rules,Rules
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/en/act-and-rules/regulations,Regulations
+"Ports, Shipping and Waterways (MoPSW)",gazette,https://indiacode.nic.in/handle/123456789/1362/browse?type=ministry&order=ASC&rpp=20&value=Shipping,India Code listing for the ministry (linked from Act & Rules menu)
+"Ports, Shipping and Waterways (MoPSW)",notifications,https://shipmin.gov.in/sites/default/files/Captive%20Policy%202026_0.pdf,Captive Policy 2026 (example of /sites/default/files PDF pattern)
+"Ports, Shipping and Waterways (MoPSW)",schemes,https://shipmin.gov.in/en/division/sagarmala,Sagarmala division page
+"Ports, Shipping and Waterways (MoPSW)",schemes,https://sagarmala.gov.in/,Sagarmala programme portal
+"Ports, Shipping and Waterways (MoPSW)",schemes,https://shipmin.gov.in/en/publication/sagarmala-reports,Sagarmala project reports
+"Ports, Shipping and Waterways (MoPSW)",schemes,https://shipbuilding.dgshipping.gov.in,Shipbuilding Financial Assistance Scheme (SBFAS) / SbDS portals
+"Ports, Shipping and Waterways (MoPSW)",portal,http://shipmin.dashboard.nic.in/,ministry dashboard
+"Ports, Shipping and Waterways (MoPSW)",helpdesk,https://shipmin.gov.in/en/about-us/publicgrievance,Public grievance page (CPGRAMS; no named officer)
+"Ports, Shipping and Waterways (MoPSW)",helpdesk,https://shipmin.gov.in/content/citizen-charter-2024-25-mopsw-english,Citizen charter 2024-25
+"Ports, Shipping and Waterways (MoPSW)",portal,https://dgshipping.gov.in/,Directorate General of Shipping
+"Ports, Shipping and Waterways (MoPSW)",portal,http://iwai.nic.in/,Inland Waterways Authority of India
+"Ports, Shipping and Waterways (MoPSW)",portal,https://www.ipa.nic.in,Indian Ports Association

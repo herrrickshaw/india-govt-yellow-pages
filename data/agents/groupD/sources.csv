@@ -1,0 +1,125 @@
+ministry,kind,url,note
+Steel (MoS),whos-who,https://steel.gov.in/telephone,"Telephone Directory: 17 HTML tables (Name/Division/Room/EPBAX/Office/Email); designation embedded in name cell. Same data at /organisational-setup-of-ministry-of-steel (""Our Team""). Parsed: 108 rows"
+Steel (MoS),whos-who,https://steel.gov.in/public-grievance,Appellate Authority + grievance officers of Ministry and 10 PSUs (table). Parsed: 12 rows
+Steel (MoS),helpdesk,https://steel.gov.in/contact-us,"Ministry address, phone 011-24155791, itgs-steel@gov.in (no officer name)"
+Steel (MoS),schemes,https://steel.gov.in/pli,"PLI Scheme for Specialty Steel page (guidelines, Invest India report link). No nodal officer published"
+Steel (MoS),schemes,https://steel.gov.in/research-development-scheme-of-ministry-of-steel,R&D scheme of Ministry of Steel
+Steel (MoS),portal,https://research.steel.gov.in/applicant,R&D scheme applicant portal - BLOCKED: TLS certificate expired (curl error 60); not bypassed
+Steel (MoS),portal,https://sims.steel.gov.in/DMISP/LoginMF.aspx,DMI&SP / SIMS portal (login page; also /data-steel-import-management-system on main site)
+Steel (MoS),schemes,https://steel.gov.in/national-steel-policy-nsp-2017,National Steel Policy 2017
+Steel (MoS),schemes,https://steel.gov.in/policy-providing-preference-domestically,DMI&SP policy (preference to domestically manufactured iron & steel)
+Steel (MoS),schemes,https://steel.gov.in/steel-scrap-recycling-policy,Steel Scrap Recycling Policy
+Steel (MoS),schemes,https://steel.gov.in/draft-national-steel-policy-vision-2047-0,Draft National Steel Policy Vision 2047
+Steel (MoS),schemes,https://steel.gov.in/minutes-of-meeting-standing-committee-on-dmi%26sp-policy,Standing Committee on DMI&SP minutes; grievance committee at /minutes-meeting-grievance-committee-dmisp-policy
+Steel (MoS),orders,https://steel.gov.in/quality-control-orders,"Quality Control Orders (PDF list, latest 2026-10)"
+Steel (MoS),orders,https://steel.gov.in/orders,Board Level Appointment orders (PDF list)
+Steel (MoS),notifications,https://steel.gov.in/vacancy?category=recruitment-rules,Recruitment Rules / notifications
+Steel (MoS),notifications,https://steel.gov.in/tenders,Tenders
+Steel (MoS),notifications,https://steel.gov.in/advertisements,Board level recruitments
+Steel (MoS),notifications,https://steel.gov.in/right-information,RTI page (4(1)(b) compliance; no CPIO table on page)
+Steel (MoS),notifications,https://steel.gov.in/safety-guidelines-iron-steel-sector,Safety guidelines iron & steel sector
+Mines (MoM),whos-who,https://mines.gov.in/admin/whosData,"JSON API behind https://mines.gov.in/webportal/whoswho (Angular SPA). Requires POST with empty body (GET -> 405); returns 163 officers with OFFICE_CATEGORY, room, phone, email. Companion /admin/whosAddMoreData returned status 400/empty"
+Mines (MoM),whos-who,https://mines.gov.in/webportal/whoswho,Rendered who's who page (JS shell; data from /admin/whosData)
+Mines (MoM),whos-who,https://mines.gov.in/webportal/our-teams,"SPA route ""our-teams"" / ""our-divisions"" (data via POST /admin/categoryData with unknown params; not fetched)"
+Mines (MoM),gazette,https://mines.gov.in/webportal/gazette-notifications,SPA route; data via POST /admin/categoryData (params unknown)
+Mines (MoM),orders,https://mines.gov.in/webportal/orders-notices,SPA route orders & notices
+Mines (MoM),notifications,https://mines.gov.in/webportal/circulars,SPA route circulars
+Mines (MoM),schemes,https://mines.gov.in/webportal/schemes-and-sevices,SPA route schemes & services (sic)
+Mines (MoM),schemes,https://mines.gov.in/webportal/nationalmineralpolicy,National Mineral Policy
+Mines (MoM),schemes,https://mines.gov.in/webportal/acts-policies,Acts & policies; also /webportal/guidelines
+Mines (MoM),schemes,https://mines.gov.in/webportal/mineralauctionaummary,Mineral auction summary (auctions)
+Mines (MoM),portal,https://mines.gov.in/webportal/grievance-redressal,Grievance redressal route; PG cell officers are in whosData (OFFICE_CATEGORY = Public Information and Public Grievance Cell)
+Mines (MoM),portal,https://mines.gov.in/admin/download/,File store for PDFs linked from SPA (e.g. /admin/download/<id>.pdf)
+Mines (MoM),notifications,https://mines.gov.in/webportal/whatsnew,What's new
+Mines (MoM),notifications,https://mines.gov.in/webportal/tender,Tenders
+Coal,whos-who,https://coal.nic.in/about-us/whos-who,"8 tables grouped by level (Minister, MoS, Secretary, AS, JS, Directors, US). Parsed: 69 rows (repo already had 67)"
+Coal,whos-who,https://coal.nic.in/about-us/organization-chart,Organisation chart
+Coal,whos-who,https://www.coalcontroller.gov.in/who-s-who,"Coal Controller Organisation (attached office) who is who, 10 rows"
+Coal,helpdesk,https://www.coalcontroller.gov.in/contact-us,CCO address + OSD contact
+Coal,helpdesk,https://www.coalcontroller.gov.in/public-grievances,CCO Director (PG)
+Coal,helpdesk,https://coal.nic.in/public-information/public-grievance-cell,Ministry Director (PG) named in text
+Coal,helpdesk,https://coal.nic.in/contact-us,"Ministry address, 011-20903117; links to telephone list"
+Coal,whos-who,https://coal.nic.in/rti/pio-details-of-ministry-coal,PIO details (PDF: /sites/default/files/2019-10/rti_point16_new.pdf; page has no HTML table)
+Coal,schemes,https://coal.nic.in/central-sector-schemes,Central sector schemes
+Coal,schemes,https://coal.nic.in/major-statistics/national-coal-gasification-mission,"National Coal Gasification Mission incl. Rs 8,500 cr financial incentive scheme PDFs (2026-08/09/10)"
+Coal,schemes,https://coal.nic.in/sites/default/files/2026-10/13-10-2026a-wn.pdf,Financial Incentive Scheme for Coal/Lignite Gasification notice (Oct 2026)
+Coal,schemes,https://coal.nic.in/sites/default/files/2026-09/08-09-2026cg.pdf,Scheme for Promotion of Surface Coal/Lignite Gasification Projects
+Coal,schemes,https://coal.nic.in/acts-rules-policies,"Acts, rules & policies (PDF list)"
+Coal,portal,https://coal.nic.in/nominated-authority,"Nominated Authority (auctions): /auction-allotment, /single-window-system, /national-coal-index, /sanction-order-notice (compensation orders), /termination-order"
+Coal,orders,https://coal.nic.in/nominated-authority/sanction-order-notice,Compensation / sanction orders
+Coal,orders,https://coal.nic.in/nominated-authority/termination-order,Termination orders
+Coal,notifications,https://coal.nic.in/whats-new,"What's new (notices, stakeholder consultations, PIB)"
+Coal,notifications,https://coal.nic.in/tenders,Tenders; NA tenders at /nominated-authority/tender-na
+Coal,portal,https://www.mstcecommerce.com/auctionhome/coalblock/index.jsp,MSTC coal block auction portal
+Coal,portal,https://coal.pmgatishakti.gov.in/CMSS/login/,Coal Logistics / CMSS portal (login)
+Coal,portal,https://www.coalcontroller.gov.in/guidelines-oms-acts,CCO policies/guidelines/OMs
+Coal,schemes,https://coal.nic.in/organisations,"Organisations under Ministry (CIL subsidiaries, NLC, SCCL, CMPFO, CCO, CMPDI) with links"
+Petroleum and Natural Gas (MoPNG),whos-who,https://mopng.gov.in/en/page/38,Who's Who: single table with division header rows; 141 rows -> parsed 113 officers
+Petroleum and Natural Gas (MoPNG),whos-who,https://mopng.gov.in/en/page/39,"Phone Directory (same table, 150 rows; superset incl. sections)"
+Petroleum and Natural Gas (MoPNG),whos-who,https://mopng.gov.in/en/page/20,Organization Structure
+Petroleum and Natural Gas (MoPNG),whos-who,https://pngrb.gov.in/pdf/Directory-eng.pdf,"PNGRB contact directory PDF (Annexure-I), parsed 42 officers"
+Petroleum and Natural Gas (MoPNG),whos-who,https://mopng.gov.in/en/rti/cpios-appellate-authority,"CPIOs & Appellate Authority - BLOCKED: HTTP 500 (server error, repeatable)"
+Petroleum and Natural Gas (MoPNG),helpdesk,https://mopng.gov.in/en/page/42,Industry Emergency Contact (per-PSU tabs; content loaded client-side)
+Petroleum and Natural Gas (MoPNG),helpdesk,https://mopng.gov.in/en/marketing/emergency-helpline,LPG emergency helpline 1906
+Petroleum and Natural Gas (MoPNG),schemes,https://mopng.gov.in/en/page/11,"National Policy on Biofuels (+ /en/page/8 1G ethanol, /en/page/9 2G, /en/page/10 biodiesel)"
+Petroleum and Natural Gas (MoPNG),schemes,https://mopng.gov.in/en/refining/compressed-bio-gas,Compressed Bio Gas / SATAT page
+Petroleum and Natural Gas (MoPNG),schemes,https://mopng.gov.in/en/refining/ethanol-blended-petrol,EBP programme; 2G at /en/refining/second-generation-ethenol
+Petroleum and Natural Gas (MoPNG),schemes,https://mopng.gov.in/en/natural-gas/schemes,Natural gas schemes/initiatives; CGD network at /en/natural-gas/cgd-network; model state CBG policy PDF
+Petroleum and Natural Gas (MoPNG),schemes,https://mopng.gov.in/en/marketing/pmuy,PMUY; Ujjwala 2.0 /en/page/46; targeted subsidy /en/page/47
+Petroleum and Natural Gas (MoPNG),schemes,https://mopng.gov.in/en/natural-gas/policies-guidelines,Natural gas policies/guidelines/orders
+Petroleum and Natural Gas (MoPNG),schemes,https://mopng.gov.in/en/exp-and-prod/acts-rules,"E&P acts, rules & guidelines"
+Petroleum and Natural Gas (MoPNG),notifications,https://mopng.gov.in/en/exp-and-prod/other-notifications,E&P other notifications (PDF list under /files/ExpAndProd/Other Notifications/)
+Petroleum and Natural Gas (MoPNG),orders,https://mopng.gov.in/en/page/21,Orders & Notification
+Petroleum and Natural Gas (MoPNG),notifications,https://mopng.gov.in/en/page/22,"Important circulars (also /en/page/29 training, /en/page/30 vacancy)"
+Petroleum and Natural Gas (MoPNG),notifications,https://mopng.gov.in/en/petroleum-statistics/polices-acts-notification,"Policies, Acts and Notifications (statistics division)"
+Petroleum and Natural Gas (MoPNG),notifications,https://mopng.gov.in/en/tenders,Tenders; e-tender portal https://petroleum.euniwizarde.com/
+Petroleum and Natural Gas (MoPNG),portal,https://satat.co.in/satat/,"SATAT portal - JS shell (Angular, base /satat/); TLS chain fails verification (unable to get local issuer) - read once with -k, no contact data in HTML"
+Petroleum and Natural Gas (MoPNG),portal,https://pngrb.gov.in/eng-web/public_notice.html,PNGRB public notices; regulations at /eng-web/regulation-*.html; e-portal https://eportal.pngrb.gov.in/
+Petroleum and Natural Gas (MoPNG),portal,https://online.dghindia.org/oalp,OALP (DGH) portal
+Petroleum and Natural Gas (MoPNG),portal,https://gobardhan.gov.in/,GOBARdhan (CBG) portal linked from MoPNG
+Petroleum and Natural Gas (MoPNG),whos-who,https://mopng.gov.in/en/about-us/psu-subsidiaries-and-others,"PSU list with links (IOCL, BPCL, HPCL, GAIL, ONGC, OIL, EIL, NRL, MRPL, CPCL, BCPL, OVL, Balmer Lawrie)"
+Department of Chemicals and Petro-Chemicals (DoCP),whos-who,https://chemicals.gov.in/who-who,"Who is Who: one table, section header rows as division; 126 rows -> parsed 103 officers (repo had 100)"
+Department of Chemicals and Petro-Chemicals (DoCP),whos-who,https://chemicals.gov.in/sites/default/files/inline-files/Organization_chart_15-04-2026.pdf,Organisation chart PDF (15-04-2026)
+Department of Chemicals and Petro-Chemicals (DoCP),helpdesk,https://chemicals.gov.in/nodal-officer-under-it-rule-2009,Nodal officer under IT Rule 2009
+Department of Chemicals and Petro-Chemicals (DoCP),helpdesk,https://chemicals.gov.in/contact-us,Web Information Manager
+Department of Chemicals and Petro-Chemicals (DoCP),schemes,https://chemicals.gov.in/schemes,Schemes index
+Department of Chemicals and Petro-Chemicals (DoCP),schemes,https://chemicals.gov.in/pcpir,"PCPIR policy + status table (Gujarat, AP, Odisha); policy PDF /sites/default/files/Policies/PCPIRPolicy.pdf"
+Department of Chemicals and Petro-Chemicals (DoCP),schemes,https://chemicals.gov.in/plastic-park-scheme,Plastic Park scheme
+Department of Chemicals and Petro-Chemicals (DoCP),schemes,https://chemicals.gov.in/bharat-audyogik-vikas-yojana-rasayan-bhavya-rasayan-scheme,"BHAVYA Rasayan scheme (new, 2026); flyer /sites/default/files/ticker/Bhavya_Rasayan_Flyer.pdf"
+Department of Chemicals and Petro-Chemicals (DoCP),notifications,https://chemicals.gov.in/notifications,Notifications (PDFs under /sites/default/files/notification/)
+Department of Chemicals and Petro-Chemicals (DoCP),orders,https://chemicals.gov.in/bis-standard,Quality Control Orders; chemicals /chemicals-bis-standard; petrochemicals /petrochemicals-bis-standard
+Department of Chemicals and Petro-Chemicals (DoCP),notifications,https://chemicals.gov.in/other-notifications,Other notifications
+Department of Chemicals and Petro-Chemicals (DoCP),notifications,https://chemicals.gov.in/tenders,Tenders
+Department of Chemicals and Petro-Chemicals (DoCP),notifications,https://chemicals.gov.in/recruitment-rules,Recruitment rules
+Department of Chemicals and Petro-Chemicals (DoCP),portal,https://chemicals.gov.in/sites/default/files/Directory_Chemical_Petrochemical_units/Directory_of_Chemical_PC_units_2022-23.pdf,"Directory of chemical & petrochemical units 2022-23 (industry, not officers)"
+Department of Fertilizers (DoFz),whos-who,https://fert.gov.in/en/department/telephone-directory,"Drupal views table; 128 cards (designation/name/division, ext/phone/fax/email, room). Parsed 128"
+Department of Fertilizers (DoFz),whos-who,https://fert.gov.in/en/connect/rti-cell,CPIO / First Appellate Authority table by subject (30 rows). Parsed 41 unique officer-role rows
+Department of Fertilizers (DoFz),helpdesk,https://fert.gov.in/en/connect/contact-us,WIM + CIO (Additional Secretary / nodal officer court cases)
+Department of Fertilizers (DoFz),helpdesk,https://fert.gov.in/en/connect/grievance-redressal,"CPGRAMS pointer only, no named officer"
+Department of Fertilizers (DoFz),whos-who,https://fert.gov.in/en/department/our-organizations,Organisations under DoF (PSUs) page
+Department of Fertilizers (DoFz),schemes,https://fert.gov.in/en/offerings/schemes-services,"Schemes & services (PM-PRANAM, MDA, ...)"
+Department of Fertilizers (DoFz),schemes,https://fert.gov.in/offerings/schemes-services/pm-pranam,PM-PRANAM
+Department of Fertilizers (DoFz),schemes,https://fert.gov.in/offerings/schemes-services/market-development-assistance,Market Development Assistance
+Department of Fertilizers (DoFz),schemes,https://fert.gov.in/documents/act-policies/urea-policy,Urea policy; P&K policy at /documents/act-policies/phosphatic-and-potassic-pk-policy; index /en/documents/act-policies
+Department of Fertilizers (DoFz),schemes,https://fert.gov.in/en/offerings/fertilizer-projects,Fertilizer projects
+Department of Fertilizers (DoFz),notifications,https://fert.gov.in/en/documents/notification,Notifications (section sub-pages e.g. /documents/notification/phosphatic-and-potassic-pk-section)
+Department of Fertilizers (DoFz),orders,https://fert.gov.in/en/documents/orders_and_notices,Orders & notices
+Department of Fertilizers (DoFz),notifications,https://fert.gov.in/en/offerings/tender-and-notice,Tenders & notices (vacancy circulars); archive /en/archives/tenders
+Department of Fertilizers (DoFz),notifications,https://fert.gov.in/en/documents/reports,Reports
+Department of Pharmaceuticals (DoPs),whos-who,https://pharma-dept.gov.in/en/whos-who,"Who's Who table (21 rows, senior officers only). Parsed 19. Site default is Hindi; use /en/ prefix"
+Department of Pharmaceuticals (DoPs),whos-who,https://pharma-dept.gov.in/en/organisation-chart-0,Organisation chart
+Department of Pharmaceuticals (DoPs),whos-who,https://pharma-dept.gov.in/en/cpios,CPIOs - BLOCKED: HTTP 500 (also /en/contactus and /en/agencies-under-department return 500)
+Department of Pharmaceuticals (DoPs),helpdesk,https://pharma-dept.gov.in/en/contact-us,Contact page (nav shell only; real page /en/contactus is 500)
+Department of Pharmaceuticals (DoPs),schemes,https://pharma-dept.gov.in/en/schemes,"Schemes index with PLI Pharma, PLI bulk drugs, bulk drug parks, SPI, SMDI, PRIP notices + gazette PDFs"
+Department of Pharmaceuticals (DoPs),schemes,https://pharma-dept.gov.in/en/schemes/production-linked-incentive-scheme-pharmaceuticals,"PLI pharmaceuticals (guidelines, corrigenda, approved applicants PDFs)"
+Department of Pharmaceuticals (DoPs),schemes,https://pharma-dept.gov.in/en/schemes/scheme-promotion-bulk-drug-parks,"Promotion of Bulk Drug Parks (gazette 21-07-2020, guidelines)"
+Department of Pharmaceuticals (DoPs),schemes,https://pharma-dept.gov.in/en/scheme-strengthening-medical-device-industry,"Strengthening Medical Device Industry (SMDI) - operational guidelines, calls for proposals 2026"
+Department of Pharmaceuticals (DoPs),schemes,https://pharma-dept.gov.in/en/policy-medical-devices,Medical devices policy division page
+Department of Pharmaceuticals (DoPs),portal,https://prip.pharma-dept.gov.in,PRIP (Promotion of Research & Innovation in Pharma-MedTech) portal (Drupal shell; no contacts in HTML)
+Department of Pharmaceuticals (DoPs),gazette,https://pharma-dept.gov.in/sites/default/files/Gazette%20Notification%20-%20Dated%2001.10.2025.pdf,PRIP gazette notification 01-10-2025
+Department of Pharmaceuticals (DoPs),gazette,https://pharma-dept.gov.in/sites/default/files/Gazette%20Notification%20of%20PLI%20scheme%20for%20Pharmaceuticals_0_0.pdf,PLI pharma gazette 03-03-2021
+Department of Pharmaceuticals (DoPs),orders,https://pharma-dept.gov.in/en/review-orders,Review orders under DPCO 2013
+Department of Pharmaceuticals (DoPs),schemes,https://pharma-dept.gov.in/en/policy,Policy; acts at /en/act; DPCO at /en/drugs-prices-control-order-2013-2
+Department of Pharmaceuticals (DoPs),notifications,https://pharma-dept.gov.in/en/schemes/archive,Older scheme notifications
+Department of Pharmaceuticals (DoPs),notifications,https://pharma-dept.gov.in/en/tender,Tenders
+Department of Pharmaceuticals (DoPs),schemes,https://pharma-dept.gov.in/en/jan-aushadhi-0,Jan Aushadhi (PMBJP)

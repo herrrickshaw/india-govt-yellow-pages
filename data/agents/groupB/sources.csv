@@ -1,0 +1,176 @@
+ministry,kind,url,note
+Department for Promotion of Industry and Internal Trade (DPIIT),whos-who,https://www.dpiit.gov.in/ministry/directory,"Directory of officers (Next.js CMS, client-rendered)"
+Department for Promotion of Industry and Internal Trade (DPIIT),whos-who,https://www.dpiit.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100,WP REST JSON - officer directory; designation_tag & departments_tag taxonomies give designation/division
+Department for Promotion of Industry and Internal Trade (DPIIT),whos-who,https://www.dpiit.gov.in/ministry/our-team,Our Team (ministers/secretaries); CMS: /cms/wp-json/wp/v2/employees
+Department for Promotion of Industry and Internal Trade (DPIIT),helpdesk,https://www.dpiit.gov.in/contact-us,WIM / CIO / RTI / grievance contacts; CMS pages?slug=contact-us
+Department for Promotion of Industry and Internal Trade (DPIIT),helpdesk,https://www.dpiit.gov.in/grievance-redressal,CPGRAMS pointer + PG cell text
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings,Schemes & services listing (13 schemes)
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"WP REST JSON - scheme titles, intro, eligibility, documents"
+Department for Promotion of Industry and Internal Trade (DPIIT),orders,https://www.dpiit.gov.in/documents/orders-and-notices,Orders and Notices
+Department for Promotion of Industry and Internal Trade (DPIIT),gazette,https://www.dpiit.gov.in/documents/gazettes-notifications,Gazette Notifications
+Department for Promotion of Industry and Internal Trade (DPIIT),notifications,https://www.dpiit.gov.in/documents/act-and-policies,Acts and Policies
+Department for Promotion of Industry and Internal Trade (DPIIT),notifications,https://www.dpiit.gov.in/whats-new,What's New
+Department for Promotion of Industry and Internal Trade (DPIIT),notifications,https://www.dpiit.gov.in/cms/wp-json/wp/v2/documents?per_page=100,WP REST JSON - documents (500) with documents_category
+Department for Promotion of Industry and Internal Trade (DPIIT),notifications,https://www.dpiit.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100,WP REST JSON - central_documents (large archive; cd_category taxonomy)
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/industrial-licensing-il,Industrial Licensing (IL)
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/budgetary-support-under-gst-regime,Scheme of Budgetary Support under GST Regime
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/north-east-industrial-development-scheme-neids-2017,"North East Industrial Development Scheme (NEIDS), 2017"
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/central-sector-scheme-for-industrial-development-of-jammu-and-kashmir,New Central Sector Scheme for Industrial Development of UT of Jammu & Kashmir
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/industrial-corridors,National Industrial Corridor Development Programme (NICDP)
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/production-linked-incentive-scheme-pli-for-white-goods,Production Linked Incentive (PLI) Scheme for White Goods
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/north-east-industrial-and-investment-promotion-policy-neiipp-2007,"North East Industrial and Investment Promotion Policy (NEIIPP), 2007"
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/industrial-development-scheme-ids2017,"Industrial Development Scheme (IDS),2017"
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/scheme-for-pedagogy-and-research-in-iprs-for-holistic-education-and-academia-spriha,Scheme for Pedagogy and Research in IPRs for Holistic Education and Academia (SPRIHA)
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/scheme-for-investment-promotion-make-in-india,Scheme for Investment Promotion (SIP)
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/india-international-convention-expo-centre-licc-dwarka,"India International Convention & Expo Centre (lICC), Dwarka"
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/unnati-2024-uttar-poorva-transformative-industrialization-scheme,"Uttar Poorva Transformative Industrialization Scheme (UNNATI), 2024"
+Department for Promotion of Industry and Internal Trade (DPIIT),schemes,https://www.dpiit.gov.in/offerings/bharat-audyogik-vikas-yojna-bhavya,Bharat Audyogik Vikas Yojana (BHAVYA)
+"Micro, Small & Medium Enterprises (MSME)",whos-who,https://www.msme.gov.in/ministry/directory,"Directory of officers (Next.js CMS, client-rendered)"
+"Micro, Small & Medium Enterprises (MSME)",whos-who,https://www.msme.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100,WP REST JSON - officer directory; designation_tag & departments_tag taxonomies give designation/division
+"Micro, Small & Medium Enterprises (MSME)",whos-who,https://www.msme.gov.in/ministry/our-team,Our Team (ministers/secretaries); CMS: /cms/wp-json/wp/v2/employees
+"Micro, Small & Medium Enterprises (MSME)",helpdesk,https://www.msme.gov.in/contact-us,WIM / CIO / RTI / grievance contacts; CMS pages?slug=contact-us
+"Micro, Small & Medium Enterprises (MSME)",helpdesk,https://www.msme.gov.in/grievance-redressal,CPGRAMS pointer + PG cell text
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings,Schemes & services listing (21 schemes)
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"WP REST JSON - scheme titles, intro, eligibility, documents"
+"Micro, Small & Medium Enterprises (MSME)",orders,https://www.msme.gov.in/documents/orders-and-notices,Orders and Notices
+"Micro, Small & Medium Enterprises (MSME)",gazette,https://www.msme.gov.in/documents/gazettes-notifications,Gazette Notifications
+"Micro, Small & Medium Enterprises (MSME)",notifications,https://www.msme.gov.in/documents/act-and-policies,Acts and Policies
+"Micro, Small & Medium Enterprises (MSME)",notifications,https://www.msme.gov.in/whats-new,What's New
+"Micro, Small & Medium Enterprises (MSME)",notifications,https://www.msme.gov.in/cms/wp-json/wp/v2/documents?per_page=100,WP REST JSON - documents (21) with documents_category
+"Micro, Small & Medium Enterprises (MSME)",notifications,https://www.msme.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100,WP REST JSON - central_documents (large archive; cd_category taxonomy)
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/champions-portal,CHAMPIONS Portal
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/msme-odr-portal,MSME ODR Portal
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/pm-vishwakarma,PM Vishwakarma
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/udyam-registration,Udyam Registration
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/online-services,Online Services
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/national-award-scheme,National Award Scheme
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/national-sc-st-hub,National SC-ST Hub
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/mse-spice-ramp-programme,MSE-SPICE (RAMP Programme)
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/promotion-of-msmes-in-ner-and-sikkim,Promotion of MSMEs in NER and Sikkim
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/scheme-of-surveys-studies-and-policy-research,"Scheme of Surveys, Studies and Policy Research"
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/technology-centres-extension-centres-tcec,Technology Centres/ Extension Centres (TCEC)
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/entrepreneurship-and-skill-development-programs,Entrepreneurship and Skill Development Programs
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/development-of-khadi-village-and-coir-industries,"Development of Khadi, Village and Coir Industries"
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/technology-upgradation-and-quality-certification,Technology Upgradation and Quality Certification
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/schemes-of-national-small-industries-corporation-nsic-consortia-tender-marketing-scheme,Schemes of National Small Industries Corporation (NSIC) Consortia & Tender Marketing Scheme 4
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/micro-small-enterprises-cluster-development-mse-cdp,Micro & Small Enterprises Cluster Development (MSE-CDP)
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/marketing-promotion-schemes-2,Marketing Promotion Schemes 2
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/marketing-promotion-schemes-1,Marketing Promotion Schemes 1
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/prime-minister-employment-generation-programme-and-other-credit-support-schemes,Prime Minister Employment Generation Programme and Other Credit Support Schemes
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/prime-minister-employment-generation-programme-and-other-credit-support-schemes-2,Prime Minister Employment Generation Programme and Other Credit Support Schemes 2
+"Micro, Small & Medium Enterprises (MSME)",schemes,https://www.msme.gov.in/offerings/prime-minister-employment-generation-programme-and-other-credit-support-schemes-1,Prime Minister Employment Generation Programme and Other Credit Support Schemes 1
+Textiles (MoT),whos-who,https://www.texmin.gov.in/ministry/directory,"Directory of officers (Next.js CMS, client-rendered)"
+Textiles (MoT),whos-who,https://www.texmin.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100,WP REST JSON - officer directory; designation_tag & departments_tag taxonomies give designation/division
+Textiles (MoT),whos-who,https://www.texmin.gov.in/ministry/our-team,Our Team (ministers/secretaries); CMS: /cms/wp-json/wp/v2/employees
+Textiles (MoT),helpdesk,https://www.texmin.gov.in/contact-us,WIM / CIO / RTI / grievance contacts; CMS pages?slug=contact-us
+Textiles (MoT),helpdesk,https://www.texmin.gov.in/grievance-redressal,CPGRAMS pointer + PG cell text
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings,Schemes & services listing (15 schemes)
+Textiles (MoT),schemes,https://www.texmin.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"WP REST JSON - scheme titles, intro, eligibility, documents"
+Textiles (MoT),orders,https://www.texmin.gov.in/documents/orders-and-notices,Orders and Notices
+Textiles (MoT),gazette,https://www.texmin.gov.in/documents/gazettes-notifications,Gazette Notifications
+Textiles (MoT),notifications,https://www.texmin.gov.in/documents/act-and-policies,Acts and Policies
+Textiles (MoT),notifications,https://www.texmin.gov.in/whats-new,What's New
+Textiles (MoT),notifications,https://www.texmin.gov.in/cms/wp-json/wp/v2/documents?per_page=100,WP REST JSON - documents (89) with documents_category
+Textiles (MoT),notifications,https://www.texmin.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100,WP REST JSON - central_documents (large archive; cd_category taxonomy)
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/fdi-proposal,FDI Proposal
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/handicrafts-schemes,Handicrafts Schemes
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/handlooms-schemes,Handlooms Schemes
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/integrated-wool-development-programme,Integrated Wool Development Programme
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/textile-cluster-development-schemetcds,Textile Cluster Development Scheme(TCDS)
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/integrated-processing-development-scheme-ipds,Integrated Processing Development Scheme (IPDS)
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/technology-upgradation-fund-scheme,Technology Upgradation Fund Scheme
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/jute-sector-schemes,Jute Sector Schemes
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/silk-sector-schemes,Silk Samagra -2 scheme
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/skill-development-schemes,SAMARTH: Scheme for Capacity Building in Textile Sector
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/national-technical-textiles-mission-nttm,National Technical Textiles Mission (NTTM)
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/pm-mitra,PM Mitra
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/cotton-productivity-mission-kapas-kanti,Cotton Productivity Mission (Kapas Kanti)
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/textiles-research-monitoring-planning-and-start-up,"TEXTILES FOCUSED RESEARCH, ASSESSMENT, MONITORING, PLANNING AND START-UP (TEX-RAMPS) SCHEME"
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/pli,Production Linked Incentive (PLI)
+Department of Public Enterprises (DPE),whos-who,https://www.dpe.gov.in/ministry/directory,"Directory of officers (Next.js CMS, client-rendered)"
+Department of Public Enterprises (DPE),whos-who,https://www.dpe.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100,WP REST JSON - officer directory; designation_tag & departments_tag taxonomies give designation/division
+Department of Public Enterprises (DPE),whos-who,https://www.dpe.gov.in/ministry/our-team,Our Team (ministers/secretaries); CMS: /cms/wp-json/wp/v2/employees
+Department of Public Enterprises (DPE),helpdesk,https://www.dpe.gov.in/contact-us,WIM / CIO / RTI / grievance contacts; CMS pages?slug=contact-us
+Department of Public Enterprises (DPE),helpdesk,https://www.dpe.gov.in/grievance-redressal,CPGRAMS pointer + PG cell text
+Department of Public Enterprises (DPE),schemes,https://www.dpe.gov.in/offerings,Schemes & services listing (1 schemes)
+Department of Public Enterprises (DPE),schemes,https://www.dpe.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"WP REST JSON - scheme titles, intro, eligibility, documents"
+Department of Public Enterprises (DPE),orders,https://www.dpe.gov.in/documents/orders-and-notices,Orders and Notices
+Department of Public Enterprises (DPE),gazette,https://www.dpe.gov.in/documents/gazettes-notifications,Gazette Notifications
+Department of Public Enterprises (DPE),notifications,https://www.dpe.gov.in/documents/act-and-policies,Acts and Policies
+Department of Public Enterprises (DPE),notifications,https://www.dpe.gov.in/whats-new,What's New
+Department of Public Enterprises (DPE),notifications,https://www.dpe.gov.in/cms/wp-json/wp/v2/documents?per_page=100,WP REST JSON - documents (82) with documents_category
+Department of Public Enterprises (DPE),notifications,https://www.dpe.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100,WP REST JSON - central_documents (large archive; cd_category taxonomy)
+Department of Public Enterprises (DPE),schemes,https://www.dpe.gov.in/offerings/research-development-consultancy-and-reorientation-rdcr,"Scheme For Research, Development, Consultancy and Reorientation (RDCR)"
+Heavy Industries (MoHI),whos-who,https://heavyindustries.gov.in/en/whos-who,"Who's Who - 6 tables (Minister, MoS, Officers, NIC, General Services)"
+Heavy Industries (MoHI),whos-who,https://pmedrive.heavyindustries.gov.in/who,PM E-DRIVE portal who's who
+Heavy Industries (MoHI),helpdesk,https://heavyindustries.gov.in/en/contact-us,IT Manager jsms-mhi@gov.in 011-23063733; WIM nic-dhi@nic.in 011-23062740 (no names)
+Heavy Industries (MoHI),helpdesk,https://heavyindustries.gov.in/en/nodal-officer-0,Nodal officer PDF: /sites/default/files/Havi_Udyog Bharati_Pathakert1_2025_1-10-25.pdf
+Heavy Industries (MoHI),helpdesk,https://heavyindustries.gov.in/en/public-grievances-ministry-heavy-industries-mhi,Public grievance scope (CPSEs/autonomous bodies)
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/pli-scheme-automobile-and-auto-component-industry,PLI Auto
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/pli-scheme-national-programme-advanced-chemistry-cell-acc-battery-storage,PLI ACC
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/ministry-heavy-industries-electric-mobility-promotion-scheme-2024,EMPS 2024
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/pm-e-bus-sewa-payment-security-mechanism-psm-scheme,PM e-Bus Sewa PSM
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/fame-ii,FAME II
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/scheme-enhancement-competitiveness-indian-capital-goods-sector-phase-ii,Capital Goods Phase II
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/scheme-promote-manufacturing-electric-passenger-cars-india-0,SPMEPCI
+Heavy Industries (MoHI),schemes,https://heavyindustries.gov.in/en/scheme-guidelines,Scheme guidelines (21 PDFs)
+Heavy Industries (MoHI),notifications,https://heavyindustries.gov.in/en/notifications,Notifications (19 PDFs)
+Heavy Industries (MoHI),notifications,https://heavyindustries.gov.in/en/notifications-0,Notifications list 2 (23 PDFs)
+Heavy Industries (MoHI),notifications,https://heavyindustries.gov.in/en/scheme-notification,Scheme notifications (24 PDFs)
+Heavy Industries (MoHI),portal,https://pmedrive.heavyindustries.gov.in/policy_document,PM E-DRIVE notifications/gazette PDFs
+Heavy Industries (MoHI),portal,https://pmedrive.heavyindustries.gov.in/policy_procedure,PM E-DRIVE guidelines
+Heavy Industries (MoHI),portal,https://pmedrive.heavyindustries.gov.in/,PM E-DRIVE portal (IFCI)
+Heavy Industries (MoHI),portal,https://pliauto.in/,PLI Auto portal (IFCI PMA)
+Heavy Industries (MoHI),portal,https://pliauto.in/contact-us,PLI Auto helpdesk
+Heavy Industries (MoHI),portal,https://evcsmhi.bhel.in/,EV charging portal (BHEL)
+Commerce and Industry (MoCI),whos-who,https://www.dgft.gov.in/CP/?opt=dgft-hq-details,DGFT HQ contact details - server-rendered table with work allocation
+Commerce and Industry (MoCI),whos-who,https://www.dgft.gov.in/CP/?opt=dgft-ra-details,DGFT Regional Authority officers (all RAs)
+Commerce and Industry (MoCI),whos-who,https://www.dgft.gov.in/CP/?opt=list-its-officers,List of ITS Officers PDFs (as on 01.01.2026 etc.)
+Commerce and Industry (MoCI),whos-who,https://www.commerce.gov.in/about-us/whos-who,BLOCKED: www.commerce.gov.in is a Vite JS shell; who's-who path returns 404; content API needs credentials in JS - not used
+Commerce and Industry (MoCI),whos-who,https://www.moci.gov.in/cms/wp-json/wp/v2/directory_post,"Shared CMS instance exists but is EMPTY (0 directory_post, 0 schemes)"
+Commerce and Industry (MoCI),helpdesk,https://www.dgft.gov.in/CP/?opt=dgft-hq-details,"EDI Helpdesk dgftedi@nic.in, toll free 1800-572-1550 / 1800-111-550"
+Commerce and Industry (MoCI),notifications,https://www.dgft.gov.in/CP/?opt=notification,Notifications (SPA; listing rendered client-side via content.js)
+Commerce and Industry (MoCI),notifications,https://www.dgft.gov.in/CP/?opt=public-notice,Public Notices (SPA; listing rendered client-side via content.js)
+Commerce and Industry (MoCI),notifications,https://www.dgft.gov.in/CP/?opt=trade-notice,Trade Notices (SPA; listing rendered client-side via content.js)
+Commerce and Industry (MoCI),notifications,https://www.dgft.gov.in/CP/?opt=circular,Circulars (SPA; listing rendered client-side via content.js)
+Commerce and Industry (MoCI),schemes,https://www.dgft.gov.in/CP/?opt=ft-policy,Foreign Trade Policy 2023 + Handbook of Procedures (SPA; listing rendered client-side via content.js)
+Commerce and Industry (MoCI),notifications,https://www.dgft.gov.in/CP/?opt=RoDTEP,RoDTEP (SPA; listing rendered client-side via content.js)
+Commerce and Industry (MoCI),schemes,https://www.dgft.gov.in/CP/?opt=epcg,EPCG scheme
+Commerce and Industry (MoCI),schemes,https://www.dgft.gov.in/CP/?opt=advance-authorisation,Advance Authorisation
+Commerce and Industry (MoCI),portal,https://www.dgft.gov.in/CP/,DGFT portal home
+Commerce and Industry (MoCI),portal,https://www.commerce.gov.in/,"Department of Commerce - JS shell, crawl needs headless browser"
+Commerce and Industry (MoCI),portal,https://www.commerce.gov.in/contactus/,DoC contact page (per search index) - JS rendered
+"Micro, Small & Medium Enterprises (MSME)",whos-who,https://dcmsme.gov.in/Contact_HQ.aspx,O/o Development Commissioner (MSME) HQ officers with work allocation
+"Micro, Small & Medium Enterprises (MSME)",whos-who,https://dcmsme.gov.in/Contact_of_Field_Offices.aspx,MSME-DFO field office contacts
+"Micro, Small & Medium Enterprises (MSME)",portal,https://champions.gov.in/,MSME CHAMPIONS grievance/handholding portal (redirects to .aspx)
+"Micro, Small & Medium Enterprises (MSME)",portal,https://samadhaan.msme.gov.in/,MSME Samadhaan (delayed payments)
+"Micro, Small & Medium Enterprises (MSME)",portal,https://zed.msme.gov.in/,MSME Sustainable (ZED) certification portal
+"Micro, Small & Medium Enterprises (MSME)",helpdesk,https://zed.msme.gov.in/contact-us,ZED query/complaint form (no named officers)
+"Micro, Small & Medium Enterprises (MSME)",portal,https://udyamregistration.gov.in/,Udyam registration
+"Micro, Small & Medium Enterprises (MSME)",portal,https://dashboard.msme.gov.in/,MSME dashboard
+"Micro, Small & Medium Enterprises (MSME)",portal,https://dcmsme.gov.in/,Office of DC-MSME
+"Micro, Small & Medium Enterprises (MSME)",helpdesk,https://champions.gov.in/,champions@gov.in (from msme.gov.in contact page)
+Textiles (MoT),whos-who,https://www.txcindia.gov.in/html/contactus.htm,Textile Commissioner HQ + regional offices contact directory (card layout)
+Textiles (MoT),whos-who,https://handlooms.nic.in/assets/img/About%20Us/Whos%20Who%20English.pdf,DC Handlooms who's who PDF (3 pages)
+Textiles (MoT),whos-who,https://nttm.texmin.gov.in/PI/WhosWho,NTTM mission team
+Textiles (MoT),helpdesk,https://handlooms.nic.in/ContactUs.php,DC Handlooms dchl@nic.in +91-11-26113684; WIM
+Textiles (MoT),helpdesk,https://pli.texmin.gov.in/,PLI Textiles portal (IFCI PMA) plitextiles@ifciltd.com
+Textiles (MoT),notifications,https://pli.texmin.gov.in/Scheme-Notifications,PLI Textiles scheme notifications
+Textiles (MoT),notifications,https://nttm.texmin.gov.in/PI/Circulars,NTTM circulars/guidelines PDFs
+Textiles (MoT),notifications,https://handlooms.nic.in/,"DC Handlooms: Acts/Notification/Public Notice, Orders/circular menus"
+Textiles (MoT),portal,https://pli.texmin.gov.in/,PLI Textiles
+Textiles (MoT),portal,https://nttm.texmin.gov.in/,National Technical Textiles Mission
+Textiles (MoT),portal,https://www.txcindia.gov.in/,Office of the Textile Commissioner
+Textiles (MoT),portal,https://handlooms.nic.in/,Development Commissioner Handlooms
+Textiles (MoT),portal,https://www.handicrafts.nic.in/,DC Handicrafts (TIMED OUT during probe)
+Textiles (MoT),portal,https://jutecomm.gov.in/,Jute Commissioner (2.5KB landing only)
+Textiles (MoT),schemes,https://www.texmin.gov.in/offerings/pm-mitra,PM MITRA (pmmitra.texmin.gov.in does not resolve)
+Department for Promotion of Industry and Internal Trade (DPIIT),portal,https://www.startupindia.gov.in/,Startup India (AEM); toll free 1800 115 565 10:00-17:30
+Department for Promotion of Industry and Internal Trade (DPIIT),helpdesk,https://www.startupindia.gov.in/content/sih/en/contact-us.html,"Startup India contact - toll-free + form only, no named officers"
+Department for Promotion of Industry and Internal Trade (DPIIT),notifications,https://www.startupindia.gov.in/content/sih/en/startupgov/startup-recognition-notifications.html,DPIIT recognition / tax exemption notifications (menu link; verify)
+Department for Promotion of Industry and Internal Trade (DPIIT),portal,https://ipindia.gov.in/,CGPDTM / IP India (attached office)
+Department for Promotion of Industry and Internal Trade (DPIIT),helpdesk,https://ipindia.gov.in/contact-us,IPO helpdesk 1800-110-989 ipo-helpdesk@nic.in; TMR tmr-helpdesk@nic.in; office addresses (no names)
+Department for Promotion of Industry and Internal Trade (DPIIT),whos-who,https://ipindia.gov.in/organisation-structure,CGPDTM organisation structure
+Department for Promotion of Industry and Internal Trade (DPIIT),portal,https://www.nsws.gov.in/,National Single Window System (DPIIT) - not probed
+Department for Promotion of Industry and Internal Trade (DPIIT),portal,https://pli.dpiit.gov.in/,PLI White Goods portal - not probed
+Department for Promotion of Industry and Internal Trade (DPIIT),portal,https://www.dpiit.gov.in/offerings/uttar-poorva-transformative-industrialization-scheme-unnati-2024,UNNATI 2024 scheme page

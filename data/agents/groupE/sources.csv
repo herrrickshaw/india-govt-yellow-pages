@@ -1,0 +1,261 @@
+ministry,kind,url,note
+Department of Health and Family Welfare (DoHFW),whos-who,https://www.mohfw-dohfw.gov.in/en/whos-who,Frontend who's who (Next.js SPA shell - no server-side text; data comes from CMS JSON below)
+Department of Health and Family Welfare (DoHFW),whos-who,"https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1&_fields=id,slug,title,acf,departments_tag,designation_tag",Officer directory JSON (acf.name/phone_number/email_id/address/intercom; designation_tag -> taxonomy). Paginate until <100 rows
+Department of Health and Family Welfare (DoHFW),whos-who,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,Designation taxonomy (id -> name) for directory_post
+Department of Health and Family Welfare (DoHFW),whos-who,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/employees?per_page=100,Division/office groups ('Our Team'): acf.teams lists directory_post ids
+Department of Health and Family Welfare (DoHFW),whos-who,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,Department/division taxonomy for directory_post (empty on DoHFW/MSDE)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/en/offerings,Frontend schemes & services listing (SPA shell)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"Scheme pages JSON (acf.introduction, guidelines, documents)"
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"Document Repository JSON: orders, notices, circulars, gazette notifications, guidelines (filter by cd_category id)"
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,"Categories of the Document Repository (slugs incl. order-and-notice, gazettes-notifications, office-orders, circulars, guidelines)"
+Department of Health and Family Welfare (DoHFW),gazette,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/documents?per_page=100&documents_category=<id of gazette-notifications>,'Documents' type: gazette-notifications / press-release / acts-and-policy categories (see documents_category)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/documents_category?per_page=100,Categories of the 'documents' type
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/en/documents,Frontend document repository page (SPA shell)
+Department of Health and Family Welfare (DoHFW),helpdesk,https://www.mohfw-dohfw.gov.in/en/grievance-redressal,Grievance redressal page (SPA shell; CPGRAMS link)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43262,Scheme page: Pulse Polio Programme (slug pulse-polio-programme)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43260,Scheme page: Universal Immunization Programme (UIP) (slug universal-immunization-programme-uip)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43258,Scheme page: PM- Ayushman Bharat Health Infrastructure Mission (PM-ABHIM) (slug pm-ayushman-bharat-health-infrastructure-mission-pm-abhim)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/51629,Scheme page: National Programme on Climate Change and Human Health (slug national-programme-on-climate-change-and-human-health)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43253,Scheme page: Health Melas (slug health-melas)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43140,Scheme page: Other National Health Programmes (slug other-national-health-programmes)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43111,Scheme page: Poor Patients-Financial Support (slug poor-patients-financial-support)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/51132,Scheme page: Infrastructure Maintenance (slug infrastructure-maintenance)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/46443,Scheme page: Pradhan Mantri Swasthya Suraksha Yojana-PMSSY (slug pradhan-mantri-swasthya-suraksha-yojana-pmssy)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/44038,Scheme page: TB Mukt Bharat Abhiyaan (slug tb-mukt-bharat-abhiyaan)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43978,"Scheme page: Swasth Nari, Sashakt Parivar Abhiyaan (slug swasth-nari-sashakt-parivar-abhiyaan)"
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/43122,Scheme page: Non Communicable Diseases Injury Trauma (slug non-communicable-diseases-injury-trauma)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/39773,Scheme page: Communicable Diseases (slug communicable-diseases)
+Department of Health and Family Welfare (DoHFW),schemes,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/schemes_and_services/39200,Scheme page: National Health Mission (slug national-health-mission)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=593,Document Repository category 'acts' (99 docs)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=579,Document Repository category 'acts-and-policies' (140 docs)
+Department of Health and Family Welfare (DoHFW),orders,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=361,Document Repository category 'circulars' (41 docs)
+Department of Health and Family Welfare (DoHFW),orders,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=371,Document Repository category 'circulars-oms-orders' (24 docs)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=594,Document Repository category 'notifications' (40 docs)
+Department of Health and Family Welfare (DoHFW),orders,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=1063,Document Repository category 'orders-and-notices' (1 docs)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=355,Document Repository category 'policy' (1 docs)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=580,Document Repository category 'policy-archives' (15 docs)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=368,Document Repository category 'program-guidelines' (24 docs)
+Department of Health and Family Welfare (DoHFW),notifications,https://www.mohfw-dohfw.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=372,Document Repository category 'rti-act-for-ministry' (826 docs)
+Labour and Employment (MoLE),whos-who,https://www.labour.gov.in/en/whos-who,Frontend who's who (Next.js SPA shell - no server-side text; data comes from CMS JSON below)
+Labour and Employment (MoLE),whos-who,"https://www.labour.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1&_fields=id,slug,title,acf,departments_tag,designation_tag",Officer directory JSON (acf.name/phone_number/email_id/address/intercom; designation_tag -> taxonomy). Paginate until <100 rows
+Labour and Employment (MoLE),whos-who,https://www.labour.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,Designation taxonomy (id -> name) for directory_post
+Labour and Employment (MoLE),whos-who,https://www.labour.gov.in/cms/wp-json/wp/v2/employees?per_page=100,Division/office groups ('Our Team'): acf.teams lists directory_post ids
+Labour and Employment (MoLE),whos-who,https://www.labour.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,Department/division taxonomy for directory_post (empty on DoHFW/MSDE)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/en/offerings,Frontend schemes & services listing (SPA shell)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"Scheme pages JSON (acf.introduction, guidelines, documents)"
+Labour and Employment (MoLE),notifications,https://www.labour.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"Document Repository JSON: orders, notices, circulars, gazette notifications, guidelines (filter by cd_category id)"
+Labour and Employment (MoLE),notifications,https://www.labour.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,"Categories of the Document Repository (slugs incl. order-and-notice, gazettes-notifications, office-orders, circulars, guidelines)"
+Labour and Employment (MoLE),gazette,https://www.labour.gov.in/cms/wp-json/wp/v2/documents?per_page=100&documents_category=<id of gazette-notifications>,'Documents' type: gazette-notifications / press-release / acts-and-policy categories (see documents_category)
+Labour and Employment (MoLE),notifications,https://www.labour.gov.in/cms/wp-json/wp/v2/documents_category?per_page=100,Categories of the 'documents' type
+Labour and Employment (MoLE),notifications,https://www.labour.gov.in/en/documents,Frontend document repository page (SPA shell)
+Labour and Employment (MoLE),helpdesk,https://www.labour.gov.in/en/grievance-redressal,Grievance redressal page (SPA shell; CPGRAMS link)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services/10394,Scheme page: PM-SYM (slug pm-sym)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services/10383,Scheme page: National Career Services(NCS) (slug national-career-servicesncs)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services/10375,Scheme page: E-Shram (slug e-shram)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services/38939,Scheme page: Samadhan Portal (slug samadhan-portal)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services/38943,Scheme page: Shram Suvidha Portal (slug shram-suvidha-portal)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services/34378,Scheme page: Labour Codes (slug labour-codes)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services/39363,Scheme page: PMVBRY (slug pmvbry)
+Labour and Employment (MoLE),notifications,https://www.labour.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=371,Document Repository category 'act-policy' (83 docs)
+Labour and Employment (MoLE),gazette,https://www.labour.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=519,Document Repository category 'gazettes-notifications' (26 docs)
+Labour and Employment (MoLE),notifications,https://www.labour.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=377,Document Repository category 'list-of-enactments-in-the-ministry' (8 docs)
+Labour and Employment (MoLE),orders,https://www.labour.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=573,Document Repository category 'office-orders' (4 docs)
+Labour and Employment (MoLE),orders,https://www.labour.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=370,Document Repository category 'order-and-notice' (875 docs)
+Labour and Employment (MoLE),notifications,https://www.labour.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=352,Document Repository category 'scheme' (16 docs)
+Skill Development and Entrepreneurship (MSDE),whos-who,https://www.msde.gov.in/en/whos-who,Frontend who's who (Next.js SPA shell - no server-side text; data comes from CMS JSON below)
+Skill Development and Entrepreneurship (MSDE),whos-who,"https://www.msde.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1&_fields=id,slug,title,acf,departments_tag,designation_tag",Officer directory JSON (acf.name/phone_number/email_id/address/intercom; designation_tag -> taxonomy). Paginate until <100 rows
+Skill Development and Entrepreneurship (MSDE),whos-who,https://www.msde.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,Designation taxonomy (id -> name) for directory_post
+Skill Development and Entrepreneurship (MSDE),whos-who,https://www.msde.gov.in/cms/wp-json/wp/v2/employees?per_page=100,Division/office groups ('Our Team'): acf.teams lists directory_post ids
+Skill Development and Entrepreneurship (MSDE),whos-who,https://www.msde.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,Department/division taxonomy for directory_post (empty on DoHFW/MSDE)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/en/offerings,Frontend schemes & services listing (SPA shell)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"Scheme pages JSON (acf.introduction, guidelines, documents)"
+Skill Development and Entrepreneurship (MSDE),notifications,https://www.msde.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"Document Repository JSON: orders, notices, circulars, gazette notifications, guidelines (filter by cd_category id)"
+Skill Development and Entrepreneurship (MSDE),notifications,https://www.msde.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,"Categories of the Document Repository (slugs incl. order-and-notice, gazettes-notifications, office-orders, circulars, guidelines)"
+Skill Development and Entrepreneurship (MSDE),gazette,https://www.msde.gov.in/cms/wp-json/wp/v2/documents?per_page=100&documents_category=<id of gazette-notifications>,'Documents' type: gazette-notifications / press-release / acts-and-policy categories (see documents_category)
+Skill Development and Entrepreneurship (MSDE),notifications,https://www.msde.gov.in/cms/wp-json/wp/v2/documents_category?per_page=100,Categories of the 'documents' type
+Skill Development and Entrepreneurship (MSDE),notifications,https://www.msde.gov.in/en/documents,Frontend document repository page (SPA shell)
+Skill Development and Entrepreneurship (MSDE),helpdesk,https://www.msde.gov.in/en/grievance-redressal,Grievance redressal page (SPA shell; CPGRAMS link)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/11592,Scheme page: Skill Loan Scheme (slug skill-loan-scheme)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10796,Scheme page: Setting up of Indian Institutes of Skills (IISs) (slug setting-up-of-indian-institutes-of-skills-iiss)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10817,Scheme page: Rozgar Mela (slug rozgar-mela)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10820,Scheme page: Aspirational Skilling Abhiyan (slug aspirational-skilling-abhiyan)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10819,Scheme page: Skill Acquisition and Knowledge Awareness for Livelihood Promotion (SANKALP) (slug skill-acquisition-and-knowledge-awareness-for-livelihood-promotion-sankalp)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10826,Scheme page: National Apprenticeship Promotion Scheme (NAPS) (slug national-apprenticeship-promotion-scheme-naps)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10825,Scheme page: Polytechnics (slug polytechnics)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10824,Scheme page: Dual System of Training (DST) (slug dual-system-of-training-dst)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10823,Scheme page: Initiatives in the North East and LWE Regions (slug initiatives-in-the-north-east-and-lwe-regions)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10822,Scheme page: Skill Strengthening for Industrial Value Enhancement (STRIVE) (slug skill-strengthening-for-industrial-value-enhancement-strive)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10858,Scheme page: Flexi MoUs (Flexible Memorandum of Understanding or Flexi-MoU) (slug flexi-mous-flexible-memorandum-of-understanding-or-flexi-mou)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10850,Scheme page: Schemes for Upgradation of ITIs (slug schemes-for-upgradation-of-itis)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10844,Scheme page: Vocational Training Programme for Women (slug vocational-training-programme-for-women)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10842,Scheme page: Advanced Vocational Training Scheme (AVTS) (slug advanced-vocational-training-scheme-avts)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10840,Scheme page: Crafts Instructor Training Scheme (CITS) (slug crafts-instructor-training-scheme-cits)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10834,Scheme page: Craftsmen Training Scheme (CTS) (slug craftsmen-training-scheme-cts)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10827,Scheme page: Jan Shikshan Sansthan (JSS) (slug jan-shikshan-sansthan-jss)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10813,Scheme page: Pradhan Mantri Kaushal Kendra (PMKK) (slug pradhan-mantri-kaushal-kendra-pmkk)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/11730,Scheme page: Pradhan Mantri Kaushal Vikas Yojana 2.0 (PMKVY 2.0) 2016-20 (slug pradhan-mantri-kaushal-vikas-yojana-2-0-pmkvy-2-0-2016-20)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/11806,Scheme page: Pradhan Mantri Kaushal Vikas Yojana 3.0 (PMKVY 3.0) 2020-21 (slug pradhan-mantri-kaushal-vikas-yojana-3-0-pmkvy-3-0-2020-21)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/10792,Scheme page: Pradhan Mantri Kaushal Vikas Yojana 4.0 (PMKVY 4.0) (slug pradhan-mantri-kaushal-vikas-yojana-4-0-pmkvy-4-0-2021)
+Skill Development and Entrepreneurship (MSDE),schemes,https://www.msde.gov.in/cms/wp-json/wp/v2/schemes_and_services/19500,Scheme page: Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs (PM‑SETU) (slug pradhan-mantri-skilling-and-employability-transformation-through-upgraded-itis-pm%e2%80%91setu)
+Tourism,whos-who,https://www.tourism.gov.in/en/whos-who,Frontend who's who (Next.js SPA shell - no server-side text; data comes from CMS JSON below)
+Tourism,whos-who,"https://www.tourism.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1&_fields=id,slug,title,acf,departments_tag,designation_tag",Officer directory JSON (acf.name/phone_number/email_id/address/intercom; designation_tag -> taxonomy). Paginate until <100 rows
+Tourism,whos-who,https://www.tourism.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,Designation taxonomy (id -> name) for directory_post
+Tourism,whos-who,https://www.tourism.gov.in/cms/wp-json/wp/v2/employees?per_page=100,Division/office groups ('Our Team'): acf.teams lists directory_post ids
+Tourism,whos-who,https://www.tourism.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,Department/division taxonomy for directory_post (empty on DoHFW/MSDE)
+Tourism,schemes,https://www.tourism.gov.in/en/offerings,Frontend schemes & services listing (SPA shell)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"Scheme pages JSON (acf.introduction, guidelines, documents)"
+Tourism,notifications,https://www.tourism.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"Document Repository JSON: orders, notices, circulars, gazette notifications, guidelines (filter by cd_category id)"
+Tourism,notifications,https://www.tourism.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,"Categories of the Document Repository (slugs incl. order-and-notice, gazettes-notifications, office-orders, circulars, guidelines)"
+Tourism,gazette,https://www.tourism.gov.in/cms/wp-json/wp/v2/documents?per_page=100&documents_category=<id of gazette-notifications>,'Documents' type: gazette-notifications / press-release / acts-and-policy categories (see documents_category)
+Tourism,notifications,https://www.tourism.gov.in/cms/wp-json/wp/v2/documents_category?per_page=100,Categories of the 'documents' type
+Tourism,notifications,https://www.tourism.gov.in/en/documents,Frontend document repository page (SPA shell)
+Tourism,helpdesk,https://www.tourism.gov.in/en/grievance-redressal,Grievance redressal page (SPA shell; CPGRAMS link)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services/10449,Scheme page: Market Research Professional Services Scheme Guidelines: 2017 18 to 2019 20. (slug research-analytics)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services/10455,Scheme page: Approved Revised Guidelines for Marketing Development Assistance (MDA) effective from 10.03.2022 (slug marketing-promotion-international-cooperation)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services/10437,Scheme page: Central Financial Assistance to Institutes (slug skilling-capacity-building)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services/10430,Scheme page: Scheme of Capacity Building for Service Providers (Institutes) (slug scheme-of-capacity-building-for-service-providers-institutes)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services/10424,Scheme page: PRASHAD Scheme (slug prashad-scheme)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services/10347,Scheme page: Swadesh Darshan Scheme (slug swadesh-darshan-scheme)
+Tourism,notifications,https://www.tourism.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=437,Document Repository category 'act-policies' (2 docs)
+Tourism,gazette,https://www.tourism.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=419,Document Repository category 'gazette-notification' (8 docs)
+Tourism,notifications,https://www.tourism.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=428,Document Repository category 'guidelines' (48 docs)
+Tourism,orders,https://www.tourism.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=436,Document Repository category 'order-notices' (41 docs)
+Development of North Eastern Region (MDONER),whos-who,https://www.mdoner.gov.in/en/whos-who,Frontend who's who (Next.js SPA shell - no server-side text; data comes from CMS JSON below)
+Development of North Eastern Region (MDONER),whos-who,"https://www.mdoner.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1&_fields=id,slug,title,acf,departments_tag,designation_tag",Officer directory JSON (acf.name/phone_number/email_id/address/intercom; designation_tag -> taxonomy). Paginate until <100 rows
+Development of North Eastern Region (MDONER),whos-who,https://www.mdoner.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,Designation taxonomy (id -> name) for directory_post
+Development of North Eastern Region (MDONER),whos-who,https://www.mdoner.gov.in/cms/wp-json/wp/v2/employees?per_page=100,Division/office groups ('Our Team'): acf.teams lists directory_post ids
+Development of North Eastern Region (MDONER),whos-who,https://www.mdoner.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,Department/division taxonomy for directory_post (empty on DoHFW/MSDE)
+Development of North Eastern Region (MDONER),schemes,https://www.mdoner.gov.in/en/offerings,Frontend schemes & services listing (SPA shell)
+Development of North Eastern Region (MDONER),schemes,https://www.mdoner.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"Scheme pages JSON (acf.introduction, guidelines, documents)"
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"Document Repository JSON: orders, notices, circulars, gazette notifications, guidelines (filter by cd_category id)"
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,"Categories of the Document Repository (slugs incl. order-and-notice, gazettes-notifications, office-orders, circulars, guidelines)"
+Development of North Eastern Region (MDONER),gazette,https://www.mdoner.gov.in/cms/wp-json/wp/v2/documents?per_page=100&documents_category=<id of gazette-notifications>,'Documents' type: gazette-notifications / press-release / acts-and-policy categories (see documents_category)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/documents_category?per_page=100,Categories of the 'documents' type
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/en/documents,Frontend document repository page (SPA shell)
+Development of North Eastern Region (MDONER),helpdesk,https://www.mdoner.gov.in/en/grievance-redressal,Grievance redressal page (SPA shell; CPGRAMS link)
+Development of North Eastern Region (MDONER),schemes,https://www.mdoner.gov.in/cms/wp-json/wp/v2/schemes_and_services/13149,Scheme page: PQM-and-TPTI (slug pqm-and-tpti)
+Development of North Eastern Region (MDONER),schemes,https://www.mdoner.gov.in/cms/wp-json/wp/v2/schemes_and_services/11957,Scheme page: Special Packages (slug special-packages)
+Development of North Eastern Region (MDONER),schemes,https://www.mdoner.gov.in/cms/wp-json/wp/v2/schemes_and_services/12006,Scheme page: Schemes of NEC (slug schemes-of-nec)
+Development of North Eastern Region (MDONER),schemes,https://www.mdoner.gov.in/cms/wp-json/wp/v2/schemes_and_services/12084,Scheme page: NESIDS-Roads (slug nesids-roads)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=375,Document Repository category 'activities' (112 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=402,Document Repository category 'guidelines-nesids-otri' (8 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=357,Document Repository category 'guidelines' (7 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=417,Document Repository category 'guidelines-special-packages' (16 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=369,Document Repository category 'guidelines-schemes-of-nec' (11 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=370,Document Repository category 'meetings-schemes-of-nec' (1 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=403,Document Repository category 'meetings-nesids-otri' (69 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=364,Document Repository category 'monthly-summary-of-principal-activities-important-decisions-of-mdoner' (68 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=401,Document Repository category 'nesids-otri' (78 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=376,Document Repository category 'nesids-roads' (29 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=356,Document Repository category 'pm-devine' (27 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=362,Document Repository category 'posh-act' (8 docs)
+Development of North Eastern Region (MDONER),notifications,https://www.mdoner.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=368,Document Repository category 'schemes-of-nec' (13 docs)
+Department of Fisheries (DoF),whos-who,https://www.dof.gov.in/en/whos-who,Frontend who's who (Next.js SPA shell - no server-side text; data comes from CMS JSON below)
+Department of Fisheries (DoF),whos-who,"https://www.dof.gov.in/cms/wp-json/wp/v2/directory_post?per_page=100&page=1&_fields=id,slug,title,acf,departments_tag,designation_tag",Officer directory JSON (acf.name/phone_number/email_id/address/intercom; designation_tag -> taxonomy). Paginate until <100 rows
+Department of Fisheries (DoF),whos-who,https://www.dof.gov.in/cms/wp-json/wp/v2/designation_tag?per_page=100,Designation taxonomy (id -> name) for directory_post
+Department of Fisheries (DoF),whos-who,https://www.dof.gov.in/cms/wp-json/wp/v2/employees?per_page=100,Division/office groups ('Our Team'): acf.teams lists directory_post ids
+Department of Fisheries (DoF),whos-who,https://www.dof.gov.in/cms/wp-json/wp/v2/departments_tag?per_page=100,Department/division taxonomy for directory_post (empty on DoHFW/MSDE)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/en/offerings,Frontend schemes & services listing (SPA shell)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services?per_page=100,"Scheme pages JSON (acf.introduction, guidelines, documents)"
+Department of Fisheries (DoF),notifications,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&page=1,"Document Repository JSON: orders, notices, circulars, gazette notifications, guidelines (filter by cd_category id)"
+Department of Fisheries (DoF),notifications,https://www.dof.gov.in/cms/wp-json/wp/v2/cd_category?per_page=100,"Categories of the Document Repository (slugs incl. order-and-notice, gazettes-notifications, office-orders, circulars, guidelines)"
+Department of Fisheries (DoF),gazette,https://www.dof.gov.in/cms/wp-json/wp/v2/documents?per_page=100&documents_category=<id of gazette-notifications>,'Documents' type: gazette-notifications / press-release / acts-and-policy categories (see documents_category)
+Department of Fisheries (DoF),notifications,https://www.dof.gov.in/cms/wp-json/wp/v2/documents_category?per_page=100,Categories of the 'documents' type
+Department of Fisheries (DoF),notifications,https://www.dof.gov.in/en/documents,Frontend document repository page (SPA shell)
+Department of Fisheries (DoF),helpdesk,https://www.dof.gov.in/en/grievance-redressal,Grievance redressal page (SPA shell; CPGRAMS link)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/15106,Scheme page: Approved Activities (slug approved-activities)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/11957,Scheme page: PMMKSSY (slug pmmkssy-2)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/11959,Scheme page: FIDF (slug fidf-2)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/15212,Scheme page: Kisan Credit Card (slug kisan-credit-card-2)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/18285,Scheme page: GAIS (slug gais)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/18263,Scheme page: PMMSY MIS (slug pmmsy-mis)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/10880,Scheme page: PMMSY (slug pmmsy-whats-new)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/18293,Scheme page: NFDP (slug nfdp)
+Department of Fisheries (DoF),schemes,https://www.dof.gov.in/cms/wp-json/wp/v2/schemes_and_services/18277,Scheme page: FMPIS (slug fmpis)
+Department of Fisheries (DoF),orders,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=356,Document Repository category 'circulars' (34 docs)
+Department of Fisheries (DoF),notifications,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=351,Document Repository category 'fidf' (7 docs)
+Department of Fisheries (DoF),orders,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=354,Document Repository category 'notice' (321 docs)
+Department of Fisheries (DoF),orders,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=358,Document Repository category 'office-order' (177 docs)
+Department of Fisheries (DoF),orders,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=357,Document Repository category 'orders' (4 docs)
+Department of Fisheries (DoF),notifications,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=350,Document Repository category 'pmmsy' (5 docs)
+Department of Fisheries (DoF),notifications,https://www.dof.gov.in/cms/wp-json/wp/v2/central_documents?per_page=100&cd_category=349,Document Repository category 'schemes' (12 docs)
+Department of Health and Family Welfare (DoHFW),whos-who,https://www.mohfw.gov.in/en/whos-who,Ministry-level site (www.mohfw.gov.in) is an empty CMS twin: directory_post/employees/documents all return [] - use the DoHFW site above
+Department of Health and Family Welfare (DoHFW),portal,https://www.nhm.gov.in/,National Health Mission portal (guidelines PDFs linked from home)
+Department of Health and Family Welfare (DoHFW),portal,https://pmjay.gov.in/,AB-PMJAY portal - connection timed out from this host (31-Oct-2026)
+Labour and Employment (MoLE),schemes,https://www.labour.gov.in/cms/wp-json/wp/v2/schemes_and_services?slug=pmvbry,PM Viksit Bharat Rozgar Yojana (ELI scheme) page
+Labour and Employment (MoLE),portal,https://www.epfo.gov.in/,"EPFO (attached office) - ELI/PMVBRY implementation, amnesty circulars"
+Labour and Employment (MoLE),whos-who,https://www.epfo.gov.in/directory/,"EPFO directory: Head Office + all zonal/regional offices (300 tables, Name/Designation/Contact)"
+Labour and Employment (MoLE),orders,https://www.epfo.gov.in/circulars/,EPFO circulars listing (1.7 MB page)
+Labour and Employment (MoLE),helpdesk,https://www.epfo.gov.in/contact-us/,"EPFO grievance (EPFiGMS https://epfigms.gov.in, toll-free 14470, escalation rc.csd@epfindia.gov.in)"
+Labour and Employment (MoLE),portal,https://esic.gov.in/,ESIC (attached office)
+Labour and Employment (MoLE),whos-who,https://esic.gov.in/who_is_who,ESIC HQ who's who (profile cards: Name/Designation/Email/Phone/VOIP)
+Labour and Employment (MoLE),whos-who,https://esic.gov.in/directory,"ESIC directory (HQ zones, divisions, grievance redressal officers)"
+Labour and Employment (MoLE),orders,https://esic.gov.in/circulars,ESIC Instructions/Circulars/Orders
+Labour and Employment (MoLE),helpdesk,https://www.labour.gov.in/cms/wp-json/wp/v2/directory_post?slug=helpdesk,"Shram Suvidha helpdesk (help-shramsuvidha@gov.in, 011-23473215) is a directory_post row"
+Skill Development and Entrepreneurship (MSDE),portal,https://www.pmkvyofficial.org/,PMKVY portal - DNS does not resolve (31-Oct-2026)
+Skill Development and Entrepreneurship (MSDE),portal,https://www.nsdcindia.org/pmkvy,"NSDC PMKVY page (reachable, 131 KB)"
+Skill Development and Entrepreneurship (MSDE),portal,https://www.skillindiadigital.gov.in/,Skill India Digital Hub - returned HTTP 502 on fetch; www.skillindia.gov.in redirects to admin.skillindiadigital.gov.in
+Tourism,portal,https://swadeshdarshan.gov.in/,Swadesh Darshan portal - connection timed out (https and http) on 31-Oct-2026; scheme page available via tourism.gov.in CMS (slug swadesh-darshan-scheme)
+Tourism,schemes,https://www.tourism.gov.in/cms/wp-json/wp/v2/schemes_and_services?slug=marketing-promotion-international-cooperation,MDA (Marketing Development Assistance) revised guidelines page
+Development of North Eastern Region (MDONER),portal,https://nesids.mdoner.gov.in/,NESIDS portal - DNS does not resolve (31-Oct-2026); NESIDS-OTRI/Roads guidelines+IMC minutes are in the mdoner CMS cd_category nesids-otri / nesids-roads / guidelines-nesids-otri
+Development of North Eastern Region (MDONER),portal,https://pmdevine.mdoner.gov.in/,PM-DevINE portal - DNS does not resolve; PM-DevINE documents under cd_category pm-devine (27 docs)
+Department of Fisheries (DoF),portal,https://pmmsy.dof.gov.in/,"PMMSY portal - Angular SPA shell (2.4 KB), no server-rendered content; MIS at scheme page slug pmmsy-mis"
+Department of Fisheries (DoF),portal,https://fidf.gov.in/,FIDF portal - DNS does not resolve (31-Oct-2026); FIDF page in dof CMS (slug fidf-2) + cd_category fidf (7 docs)
+Department of Agriculture and Farmers Welfare (DoAFW),whos-who,https://agriwelfare.gov.in/api/v1/officers/,"Full officer directory JSON (587 rows: name, designation, category, address, phone, epabx, email obfuscated [at]/[dot])"
+Department of Agriculture and Farmers Welfare (DoAFW),whos-who,https://agriwelfare.gov.in/api/v1/categories/,Officers grouped by category/office (18 groups)
+Department of Agriculture and Farmers Welfare (DoAFW),whos-who,https://agriwelfare.gov.in/about/whos-who,"Frontend who's who (Vite/React SPA, needs JS; data from /api/v1/officers/)"
+Department of Agriculture and Farmers Welfare (DoAFW),whos-who,https://agriwelfare.gov.in/connect/directory,Frontend telephone directory route
+Department of Agriculture and Farmers Welfare (DoAFW),notifications,https://agriwelfare.gov.in/api/v1/documents/,Documents JSON (orders/guidelines/notifications; filter via /api/v1/document-types/)
+Department of Agriculture and Farmers Welfare (DoAFW),notifications,https://agriwelfare.gov.in/api/v1/document-types/,Document type list for /api/v1/documents/
+Department of Agriculture and Farmers Welfare (DoAFW),portal,https://agriinfra.dac.gov.in/,Agriculture Infrastructure Fund (AIF) portal
+Department of Agriculture and Farmers Welfare (DoAFW),helpdesk,https://agriinfra.dac.gov.in/Home/ContactUs,AIF ministry/central PMU contacts + support.agriinfra@gov.in / claim.agriinfra@gov.in
+Department of Agriculture and Farmers Welfare (DoAFW),orders,https://agriinfra.dac.gov.in/Home/Circulars,AIF circulars
+Department of Agriculture and Farmers Welfare (DoAFW),schemes,https://agriinfra.dac.gov.in/Home/SchemeOverview,AIF scheme overview; guidelines PDF /Content/DocAttachment/FINALSchemeGuidelinesAIF.pdf
+Department of Agriculture and Farmers Welfare (DoAFW),portal,https://pmkisan.gov.in/,PM-KISAN portal (ASP.NET)
+Department of Agriculture and Farmers Welfare (DoAFW),helpdesk,https://pmkisan.gov.in/Contacts.aspx,"PM-KISAN scheme contacts (Secretary, AS/CEO PM-KISAN, JS FW) + State Nodal Officer link"
+Department of Agriculture and Farmers Welfare (DoAFW),orders,https://pmkisan.gov.in/LetterandCirculars.aspx,PM-KISAN letters and circulars
+Department of Agriculture and Farmers Welfare (DoAFW),helpdesk,https://pmkisan.gov.in/Grievance.aspx,PM-KISAN grievance form
+Department of Agriculture and Farmers Welfare (DoAFW),schemes,https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf,PM-KISAN operational guidelines
+Department of Agriculture and Farmers Welfare (DoAFW),portal,https://midh.gov.in/,MIDH portal - Angular SPA shell (no server-rendered links)
+Department of Agriculture and Farmers Welfare (DoAFW),portal,https://rkvy.da.gov.in/,RKVY portal (linked from agriwelfare bundle)
+Department of Agriculture and Farmers Welfare (DoAFW),portal,https://pmfby.gov.in/,PMFBY portal (linked from agriwelfare bundle)
+Department of Food and Public Distribution (DFPD),whos-who,https://dfpd.gov.in/whos-who/en,Who's who page (ASP.NET MVC; table loaded by AJAX)
+Department of Food and Public Distribution (DFPD),whos-who,https://dfpd.gov.in/Admin/Home/SearchWhosWho?languageId=1&searchKeyWord=,AJAX partial with the full directory: 17 division tables with <caption> = division (220 officers)
+Department of Food and Public Distribution (DFPD),whos-who,https://dfpd.gov.in/Admin/Home/Header?languageId=1,Header menu partial - the only place the site's URL map is exposed (homepage nav is AJAX)
+Department of Food and Public Distribution (DFPD),schemes,https://dfpd.gov.in/schemes/en,Sugar schemes (interest subvention for ethanol/sugar) - content loaded by AJAX /Admin/Home/ContentManagementItem?Url=<page>&language=1 (returned empty wrapper for Url=schemes; needs the exact Url key)
+Department of Food and Public Distribution (DFPD),schemes,https://dfpd.gov.in/sugar-policy/en,Sugar policy
+Department of Food and Public Distribution (DFPD),schemes,https://dfpd.gov.in/sugar-development-fund/en,Sugar Development Fund
+Department of Food and Public Distribution (DFPD),schemes,https://dfpd.gov.in/scheme/en,Storage schemes
+Department of Food and Public Distribution (DFPD),schemes,https://dfpd.gov.in/pradhan-mantri-garib-kalyan-anna-yojana/en,PMGKAY
+Department of Food and Public Distribution (DFPD),orders,https://dfpd.gov.in/orders/en,Orders listing
+Department of Food and Public Distribution (DFPD),notifications,https://dfpd.gov.in/notifications/en,Notifications listing
+Department of Food and Public Distribution (DFPD),gazette,https://dfpd.gov.in/acts-rules/en,Acts & Rules
+Department of Food and Public Distribution (DFPD),helpdesk,https://dfpd.gov.in/CPIO/en,CPIOs & Appellate Authorities (PDF via /Home/AllCPIOViewList?language=1)
+Department of Food and Public Distribution (DFPD),helpdesk,https://dfpd.gov.in/public-grievance/en,Public grievance page
+Department of Food and Public Distribution (DFPD),portal,https://dfpd.gov.in/portals/en,List of DFPD portals (sugar/ethanol MIS etc.)
+Department of Food and Public Distribution (DFPD),portal,https://esugar.nic.in/,Sugar portal - DNS does not resolve (31-Oct-2026)
+Food Processing Industries (MoFPI),whos-who,https://www.mofpi.gov.in/en/about-us/whos-who,"Who's who (Drupal, 13 HTML tables with Name/Designation/Work allocation/Room/Intercom/Phone/Email)"
+Food Processing Industries (MoFPI),whos-who,https://www.mofpi.gov.in/en/documents/finance/ccafpi/directory-paos-cddos-ncddos,Directory of PAOs/CDDOs/NCDDOs (PDF downloads)
+Food Processing Industries (MoFPI),schemes,https://www.mofpi.gov.in/en/Schemes/about-pmksy-scheme,PMKSY scheme page
+Food Processing Industries (MoFPI),portal,https://pmksy.mofpi.gov.in/,PMKSY portal - DNS does not resolve (31-Oct-2026); sampada-mofpi.gov.in/Login.aspx is the MIS
+Food Processing Industries (MoFPI),schemes,https://mofpi.gov.in/PLISFPI/central-sector-scheme-production-linked-incentive-scheme-food-processing-industry-plisfpi,PLISFPI scheme page (contact: Joint Industrial Adviser)
+Food Processing Industries (MoFPI),orders,https://mofpi.gov.in/PLISFPI/download-circulars-10,PLISFPI circulars
+Food Processing Industries (MoFPI),portal,https://plimofpi.ifciltd.com/,PLISFPI portal (PMA: IFCI)
+Food Processing Industries (MoFPI),portal,https://pmfme.mofpi.gov.in/,PM-FME portal (static shell)
+Food Processing Industries (MoFPI),orders,https://www.mofpi.gov.in/en/Schemes/mega-food-parks/download-circulars,Mega Food Parks circulars (same pattern /en/Schemes/<scheme>/download-circulars for each PMKSY component)
+Food Processing Industries (MoFPI),schemes,https://www.mofpi.gov.in/en/Schemes/mega-food-parks/download-guidelines,Mega Food Parks guidelines
+Food Processing Industries (MoFPI),notifications,https://www.mofpi.gov.in/en/Notification/goi-policiesreportsguidelines,GoI policies/reports/guidelines
+Food Processing Industries (MoFPI),schemes,https://www.mofpi.gov.in/en/Schemes/about-operation-greens,Operation Greens
+Food Processing Industries (MoFPI),helpdesk,https://www.mofpi.gov.in/en/knowledgecentre/niveshbandhu/contact-us,Nivesh Bandhu investor desk (Invest India)
+Food Processing Industries (MoFPI),helpdesk,https://www.mofpi.gov.in/en/contact-us,Contact page (support-fpi@nic.in); the 'blocked' crawler verdict came from a form captcha - plain GETs are fine
+Cooperation,whos-who,https://www.cooperation.gov.in/en/whoswho,"Who's who (Drupal, 25 division tables). TLS chain incomplete: curl needs -k / Python needs certifi+intermediate"
+Cooperation,orders,https://www.cooperation.gov.in/en/notices-circulars,Notices & circulars (PDF list)
+Cooperation,schemes,https://www.cooperation.gov.in/en/pacs-related-schemes,PACS-related schemes
+Cooperation,schemes,https://www.cooperation.gov.in/sites/default/files/2023-07/BriefCooperative_Sugar_Mills_Centre_SectorScheme.pdf,Central sector scheme: grant-in-aid to NCDC for cooperative sugar mills
+Cooperation,gazette,https://www.cooperation.gov.in/sites/default/files/2023-11/MSCS_Amendment_Act_2023.pdf,MSCS (Amendment) Act 2023
+Cooperation,helpdesk,https://www.cooperation.gov.in/en/contact-us,Contact: Director (Administration)
+AYUSH (MoA),whos-who,https://ayush.gov.in/whoswho,"Who's who - Angular SPA; the officer list (11 names) is hard-coded in main-*.js, no JSON API found"
+AYUSH (MoA),whos-who,https://ayush.gov.in/directory,'Our Team' route (SPA)
+AYUSH (MoA),portal,https://nam.ayush.gov.in/,National AYUSH Mission portal (9 MB page)
+AYUSH (MoA),portal,https://dashboard.ayush.gov.in/,AYUSH dashboard
+AYUSH (MoA),notifications,https://ayush.gov.in/assets/pdf/whatsnew/,"PDF folder referenced by the bundle (vacancy circulars, guidelines); list of paths extractable from main-*.js"

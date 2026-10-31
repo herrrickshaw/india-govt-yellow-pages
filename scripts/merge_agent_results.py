@@ -34,6 +34,11 @@ if not offs:
     print("no officials.csv yet"); sys.exit(0)
 new = pd.concat(offs, ignore_index=True)
 new = new[new.name.str.strip().str.len() > 2]
+# drop rows that are contact points, not people ("WhatsApp Grievance Number", "Helpline", "Control Room"…)
+JUNK = r"(?i)\b(number|helpline|toll[- ]?free|whatsapp|control room|call centre|call center|portal|website|e-?mail id|vacant|nil|not available)\b|^\W*$|^[\d\s+()\-/,.]+$"
+before = len(new)
+new = new[~new.name.str.contains(JUNK, regex=True)]
+print(f"dropped {before - len(new)} non-person rows")
 new["name"] = new.name.str.replace(r"\s+", " ", regex=True).str.strip()
 new["email"] = new.email.str.replace(r"\[at\]|\(at\)", "@", regex=True).str.replace(r"\[dot\]|\(dot\)", ".", regex=True).str.strip()
 new = new.drop_duplicates(["ministry", "name", "designation"])

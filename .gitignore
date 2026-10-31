@@ -14,3 +14,4 @@ data/signatories/*.out
 data/career/articles/
 data/career/llm_cache.json
 data/new_policies/
+data/agents/*/raw/
