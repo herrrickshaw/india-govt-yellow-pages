@@ -97,6 +97,14 @@ def curated_instruments():
             if state is None:
                 state = next((c for n, c in STATE_CODES.items() if len(n) > 3 and n in ins.lower()), None)
             rows.append(dict(instrument=ins, key=k, source="curated", acronyms=list(dict.fromkeys(acr)), offering_entity=ent, state=state))
+    # instruments found by scripts/new_policy_scanner.py in PIB releases / ministry sites
+    dp = REPO / "data/discovered_instruments.csv"
+    if dp.exists():
+        for r in pd.read_csv(dp).itertuples():
+            ins = str(r.instrument)
+            k = instr_key(ins)
+            acr = [a for a in re.findall(r"\b([A-Z][A-Z0-9\-]{2,9})\b", ins) if a.lower() not in STOP]
+            rows.append(dict(instrument=ins, key=k, source="pib/ministry-site", acronyms=acr, offering_entity=[str(r.ministry)], state=None))
     seen, out = set(), []
     for r in rows:
         if r["key"] in seen or len(r["key"]) < 4:
