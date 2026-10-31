@@ -9,3 +9,5 @@ ministry_documents/logs/
 data/signatories/text/
 data/states/*/text/
 ministry_documents/data/sites/
+data/states/*.out
+data/signatories/*.out
