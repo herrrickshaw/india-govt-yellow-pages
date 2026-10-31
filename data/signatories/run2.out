@@ -1,0 +1,28 @@
+extract: 1784 PDFs, 0 already done
+  100/1784
+  200/1784
+  300/1784
+  400/1784
+  500/1784
+  600/1784
+  700/1784
+  800/1784
+  900/1784
+  1000/1784
+  1100/1784
+  1200/1784
+  1300/1784
+  1400/1784
+  1500/1784
+  1600/1784
+  1700/1784
+extract: 1784 docs, 592 with a signatory, 65 scanned/no-text
+match: roster union 12169 officers; 647 signatures
+match_status
+unmatched    389
+matched      258
+confidence
+high                               203
+medium                              54
+low (name only, other ministry)      1
+matrix: 46 officers x 18 topics, 247 documents

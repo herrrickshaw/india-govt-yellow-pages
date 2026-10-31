@@ -1,0 +1,37 @@
+state,portal,url,probe_2026_10_31,kind,note
+UP,Shasanadesh (UP Government Orders),https://shasanadesh.up.gov.in/,200,go-search-portal,ASP.NET search form; needs a dedicated extractor (department/year form posts). Hindi GOs.
+MH,Maharashtra Government Resolutions (GR),https://gr.maharashtra.gov.in/,302->Marathi home,go-search-portal,Marathi/English GRs; search by department+date; dedicated extractor needed.
+AP,GOIR Andhra Pradesh,https://goir.ap.gov.in/,200,go-search-portal,ASP.NET; GO numbers by department/year.
+TS,GOIR Telangana,https://goir.telangana.gov.in/,200,go-search-portal,ASP.NET; GO numbers by department/year.
+GJ,General Administration Department Gujarat (GR),https://gad.gujarat.gov.in/,200,department-site,Gujarati GRs under /gr; crawlable.
+TN,Tamil Nadu Government Orders,https://www.tn.gov.in/,go_view path 404,state-portal,GOs are on department sites (cms.tn.gov.in / <dept>.tn.gov.in); use department crawl.
+KL,Kerala Government Orders,https://kerala.gov.in/,/government-orders 404,state-portal,GOs on department sites and go.lsgkerala.gov.in (LSGD); use department crawl.
+KA,Karnataka,https://karnataka.gov.in/,200 (dpar.karnataka.gov.in unreachable),state-portal,Kannada GOs on department sites.
+OD,Odisha,https://odisha.gov.in/,/government-orders 404,state-portal,Department sites; Odia + English.
+RJ,Rajasthan Finance Department,https://finance.rajasthan.gov.in/website/,302,department-site,Orders/circulars in Hindi.
+WB,West Bengal,https://wb.gov.in/,200,state-portal,Department sites; Bengali + English.
+BR,Bihar,https://state.bihar.gov.in/main/CitizenHome.html,302,state-portal,Department sites; Hindi.
+MP,Madhya Pradesh,https://mp.gov.in/,200,state-portal,Department sites; Hindi.
+PB,Punjab,https://punjab.gov.in/,200,state-portal,Department sites; Punjabi + English.
+HR,Haryana,https://www.haryana.gov.in/,301,state-portal,Notifications under department sites; Hindi + English.
+DL,Delhi,https://delhi.gov.in/,200,state-portal,Department sites; English + Hindi.
+CG,Chhattisgarh,https://cg.gov.in/,unreachable,state-portal,cgstate.gov.in may serve; Hindi.
+JH,Jharkhand,https://jharkhand.gov.in/,200,state-portal,Hindi + English.
+AS,Assam,https://assam.gov.in/,200,state-portal,Assamese + English.
+HP,Himachal Pradesh,https://himachal.nic.in/,200,state-portal,Hindi + English.
+UK,Uttarakhand,https://uk.gov.in/,200,state-portal,Hindi GOs (shasanadesh-style portal exists under uk.gov.in).
+GA,Goa,https://www.goa.gov.in/,301,state-portal,English.
+JK,Jammu & Kashmir,https://jk.gov.in/,unreachable,state-portal,English + Urdu.
+MZ,Mizoram,https://mizoram.gov.in/,200,state-portal,English + Mizo.
+ML,Meghalaya,https://meghalaya.gov.in/,200,state-portal,English.
+MN,Manipur,https://manipur.gov.in/,200,state-portal,English + Meitei.
+NL,Nagaland,https://nagaland.gov.in/,200,state-portal,English.
+TR,Tripura,https://tripura.gov.in/,200,state-portal,Bengali + English.
+SK,Sikkim,https://www.sikkim.gov.in/,301,state-portal,English.
+AR,Arunachal Pradesh,https://arunachal.gov.in/,unreachable,state-portal,English.
+CH,Chandigarh,https://chandigarh.gov.in/,200,ut-portal,English + Hindi + Punjabi.
+PY,Puducherry,https://py.gov.in/,200,ut-portal,Tamil + English.
+AN,Andaman & Nicobar,https://andaman.gov.in/,unreachable,ut-portal,English + Hindi.
+LA,Ladakh,https://ladakh.gov.in/,200,ut-portal,English + Urdu.
+LD,Lakshadweep,https://lakshadweep.gov.in/,200,ut-portal,Malayalam + English.
+DD,Dadra & Nagar Haveli and Daman & Diu,https://ddd.gov.in/,200,ut-portal,Gujarati + English.

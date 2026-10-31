@@ -17,6 +17,12 @@ TABLES = {
     "pib_ministry_contacts": DATA / "pib_ministry_contacts.csv",
     "ias_officers": DATA / "ias_officers.csv",
     "ips_officers": DATA / "ips_officers.csv",
+    # who signed what (scripts/signatory_matrix.py)
+    "notification_signatories": DATA / "signatories/notification_signatories.csv",
+    "officer_topic_matrix": DATA / "signatories/officer_topic_matrix.csv",
+    "officer_documents": DATA / "signatories/officer_documents.csv",
+    "state_officials": DATA / "states/state_officials.csv",
+    "state_notification_signatories": DATA / "states/notification_signatories_all_states.csv",
 }
 
 

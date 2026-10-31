@@ -1,0 +1,96 @@
+=== select 11:17
+select UP: 200 candidate PDFs from 1230 links (9 departments)
+select TN: 252 candidate PDFs from 3656 links (16 departments)
+select KL: 240 candidate PDFs from 11488 links (11 departments)
+=== fetch 11:17
+[UP]
+fetch: 200 to download over 9 hosts
+  upneda.org.in: 38 ok
+  www.adminreform.upsdc.gov.in: 8 ok
+  niyuktionline.upsdc.gov.in: 2 ok
+  updairydevelopment.gov.in: 35 ok
+  upite.gov.in: 3 ok
+  legalmetrology-up.gov.in: 9 ok
+  fcs.up.gov.in: 25 ok
+  upgwd.gov.in: 35 ok
+  uphed.gov.in: 13 ok
+[TN]
+fetch: 252 to download over 21 hosts
+  aed.tn.gov.in: 2 ok
+  www.tnagrisnet.tn.gov.in: 4 ok
+  tnagrisnet.tn.gov.in: 19 ok
+  artandculture.tn.gov.in: 22 ok
+  bcmbcmw.tn.gov.in: 12 ok
+  consumer.tn.gov.in: 14 ok
+  tntextilesschemes.tn.gov.in: 2 ok
+  employmentexchange.tn.gov.in: 22 ok
+  awards.tn.gov.in: 1 ok
+  environment.tn.gov.in: 21 ok
+  www.fisheries.tn.gov.in: 1 ok
+  fisheries.tn.gov.in: 12 ok
+  www.drugscontrol.tn.gov.in: 13 ok
+  www.nppaindia.nic.in: 0 ok
+  www.tnhandlooms.tn.gov.in: 4 ok
+  tnhealth.tn.gov.in: 23 ok
+  www.tnhighways.tn.gov.in: 1 ok
+  tnhorticulture.tn.gov.in: 20 ok
+  it.tn.gov.in: 17 ok
+  www.it.tn.gov.in: 6 ok
+  labour.tn.gov.in: 23 ok
+[KL]
+fetch: 240 to download over 14 hosts
+  keralaagriculture.gov.in: 32 ok
+  ahd.kerala.gov.in: 16 ok
+  ahd.cditproject.org: 16 ok
+  www.keralaarchives.org: 1 ok
+  cooperation.kerala.gov.in: 5 ok
+  www.cooperation.kerala.gov.in: 0 ok
+  dairydevelopment.kerala.gov.in: 32 ok
+  sainikwelfare.kerala.gov.in: 32 ok
+  dc.kerala.gov.in: 9 ok
+  web.cdit.org: 0 ok
+  envt.kerala.gov.in: 25 ok
+  finance.kerala.gov.in: 4 ok
+  civilsupplieskerala.gov.in: 0 ok
+  forest.kerala.gov.in: 32 ok
+=== extract 11:29
+[UP] extract: 168 PDFs, OCR hin+eng
+[UP] extract: 168 docs; script mix {'DEVANAGARI': 107, 'LATIN': 61}; with signature 64 (Indic-script names 127); OCR used 110
+[TN] extract: 239 PDFs, OCR tam+eng
+[TN] extract: 239 docs; script mix {'LATIN': 176, 'TAMIL': 60, 'DEVANAGARI': 3}; with signature 87 (Indic-script names 26); OCR used 115
+[KL] extract: 204 PDFs, OCR mal+eng
+[KL] extract: 204 docs; script mix {'LATIN': 119, 'MALAYALAM': 82, 'DEVANAGARI': 3}; with signature 51 (Indic-script names 13); OCR used 52
+=== translate 11:44
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+  groq failed: HTTP Error 403: Forbidden
+[UP] translate: 87 names, 55 subject lines (Hindi)
+  romanised 231 Indic names; translated 0/55 subjects
+[TN] translate: 13 names, 42 subject lines (Tamil)
+  romanised 178 Indic names; translated 0/42 subjects
+[KL] translate: 12 names, 36 subject lines (Malayalam)
+  romanised 166 Indic names; translated 0/36 subjects
+=== match 11:53
+Traceback (most recent call last):
+  File "/Users/umashankar/india-govt-yellow-pages/scripts/state_pipeline.py", line 517, in <module>
+    globals()[s](a)
+  File "/Users/umashankar/india-govt-yellow-pages/scripts/state_pipeline.py", line 464, in match
+    ros = state_rosters(st)
+  File "/Users/umashankar/india-govt-yellow-pages/scripts/state_pipeline.py", line 445, in state_rosters
+    c = c[c.cadre_code.astype(str).str.upper() == CADRE.get(st, st)]
+  File "/Users/umashankar/Library/Python/3.9/lib/python/site-packages/pandas/core/generic.py", line 6321, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'cadre_code'
+=== matrix 11:53

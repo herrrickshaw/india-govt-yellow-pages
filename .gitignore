@@ -3,3 +3,9 @@ __pycache__/
 .DS_Store
 logs/
 graphify-out/cache/stat-index.json
+data/signatories/pdf/
+data/states/*/pdf/
+ministry_documents/logs/
+data/signatories/text/
+data/states/*/text/
+ministry_documents/data/sites/

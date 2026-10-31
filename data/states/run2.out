@@ -1,0 +1,45 @@
+=== extract 11:55
+[UP] extract: 168 PDFs, OCR hin+eng
+[UP] extract: 168 docs; script mix {'DEVANAGARI': 107, 'LATIN': 61}; with signature 53 (Indic-script names 74); OCR used 110
+[TN] extract: 239 PDFs, OCR tam+eng
+[TN] extract: 239 docs; script mix {'LATIN': 176, 'TAMIL': 60, 'DEVANAGARI': 3}; with signature 81 (Indic-script names 34); OCR used 115
+[KL] extract: 204 PDFs, OCR mal+eng
+[KL] extract: 204 docs; script mix {'LATIN': 119, 'MALAYALAM': 82, 'DEVANAGARI': 3}; with signature 47 (Indic-script names 47); OCR used 52
+=== translate 12:10
+  groq failed: HTTP Error 429: Too Many Requests
+[UP] translate: 54 names, 55 subject lines (Hindi)
+  romanised 189 Indic names; translated 31/55 subjects
+[TN] translate: 20 names, 42 subject lines (Tamil)
+  romanised 192 Indic names; translated 29/42 subjects
+[KL] translate: 18 names, 36 subject lines (Malayalam)
+  romanised 204 Indic names; translated 30/36 subjects
+=== match 12:13
+[UP] match: roster 646 ({'ias_civil_list': 589, 'state_whoswho': 57})
+match: roster union 646 officers; 77 signatures
+match_status
+unmatched    74
+matched       3
+confidence
+low (name only, other ministry)    2
+high                               1
+[TN] match: roster 469 ({'ias_civil_list': 340, 'state_whoswho': 129})
+match: roster union 469 officers; 93 signatures
+match_status
+unmatched    79
+matched      14
+confidence
+high                               12
+low (name only, other ministry)     2
+[KL] match: roster 160 ({'ias_civil_list': 159, 'state_whoswho': 1})
+match: roster union 160 officers; 75 signatures
+match_status
+unmatched    72
+matched       3
+confidence
+medium    2
+high      1
+=== matrix 12:13
+matrix: 2 officers x 2 topics, 3 documents
+matrix: 3 officers x 8 topics, 14 documents
+matrix: 2 officers x 1 topics, 3 documents
+matrix: wrote /Users/umashankar/india-govt-yellow-pages/data/states/STATE_MATRIX.md
