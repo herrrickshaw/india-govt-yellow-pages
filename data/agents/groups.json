@@ -1,0 +1,48 @@
+{
+ "A \u2014 Energy & infrastructure": [
+  "Power",
+  "New and Renewable Energy (MNRE)",
+  "Housing and Urban Affairs (MoHUA)",
+  "Road Transport and Highways (MoRTH)",
+  "Railways (MoR)",
+  "Ports, Shipping and Waterways (MoPSW)"
+ ],
+ "B \u2014 Industry & trade": [
+  "Department for Promotion of Industry and Internal Trade (DPIIT)",
+  "Commerce and Industry (MoCI)",
+  "Micro, Small & Medium Enterprises (MSME)",
+  "Textiles (MoT)",
+  "Heavy Industries (MoHI)",
+  "Department of Public Enterprises (DPE)"
+ ],
+ "C \u2014 Digital & science": [
+  "Department of Telecommunications (DoT)",
+  "Electronics and Information Technology (MeitY)",
+  "Department of Science and Technology (DST)",
+  "Department of Scientific and Industrial Research (DSIR)",
+  "Department of Space",
+  "Earth Sciences (MoES)"
+ ],
+ "D \u2014 Resources & materials": [
+  "Steel (MoS)",
+  "Mines (MoM)",
+  "Coal",
+  "Petroleum and Natural Gas (MoPNG)",
+  "Department of Chemicals and Petro-Chemicals (DoCP)",
+  "Department of Fertilizers (DoFz)",
+  "Department of Pharmaceuticals (DoPs)"
+ ],
+ "E \u2014 Food, farm, health & people": [
+  "Department of Agriculture and Farmers Welfare (DoAFW)",
+  "Department of Food and Public Distribution (DFPD)",
+  "Department of Fisheries (DoF)",
+  "Food Processing Industries (MoFPI)",
+  "Cooperation",
+  "Department of Health and Family Welfare (DoHFW)",
+  "AYUSH (MoA)",
+  "Labour and Employment (MoLE)",
+  "Skill Development and Entrepreneurship (MSDE)",
+  "Tourism",
+  "Development of North Eastern Region (MDONER)"
+ ]
+}
