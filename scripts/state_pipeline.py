@@ -277,6 +277,8 @@ def whoswho(args):
         "/en/contact-us", "/en/officers", "/Pages/whos-who.aspx", "/Page/WhosWho.aspx", "/whos-who.aspx", "/en/directory",
         "/officers-directory", "/en/key-officials", "/secretariat", "/en/administration"]))
     W.WHO_RE = re.compile(r"who[\s_'’%2-]*(i?s)?[\s_'’%27-]*who|officers?\b|officials|directory|key[- ]official", re.I)
+    _orig_get = W.get
+    W.get = lambda url, timeout=12: _orig_get(url, timeout=timeout)   # shorter per-probe timeout on state sites
     t = pd.read_csv(STATES_DIR / "targets.csv")
     t = t[t.state.isin(args.states)] if args.states else t
     out_path = STATES_DIR / "state_officials.csv"
@@ -291,6 +293,14 @@ def whoswho(args):
 
     def job(r):
         try:
+            # one quick reachability check: a dead host must not cost 40 probe paths x 25 s
+            try:
+                requests.head(r["website"], headers={"User-Agent": "Mozilla/5.0"}, timeout=8, allow_redirects=True, verify=False)
+            except requests.RequestException:
+                try:
+                    requests.get(r["website"], headers={"User-Agent": "Mozilla/5.0"}, timeout=8, verify=False, stream=True).close()
+                except requests.RequestException as e:
+                    return r, "", [], f"unreachable: {type(e).__name__}"
             name, website, used, offs = W.scrape_ministry({"name": r["name"], "website": r["website"], "igod_org_id": r["igod_org_id"] or ""})
         except Exception as e:  # noqa
             return r, "", [], str(e)[:100]
@@ -481,6 +491,19 @@ def state_rosters(st):
     return df.reset_index(drop=True)
 
 
+def directory(args):
+    """Names first: every signer read from the state PDFs, with any printed contact, before/without roster matching."""
+    parts = []
+    for st in args.states:
+        _bind(st)
+        if not (S.OUT / "signatures.csv").exists():
+            continue
+        S.directory()
+        d = pd.read_csv(S.OUT / "signatory_directory.csv"); d.insert(0, "state", st); parts.append(d)
+    if parts:
+        pd.concat(parts, ignore_index=True).to_csv(STATES_DIR / "signatory_directory_all_states.csv", index=False)
+
+
 def match(args):
     S.CENTRAL = re.compile(".")  # in a state, the civil-list posting is the state posting
     S.ministry_key = lambda _s: {"_same_state"}   # every roster entry is the same state government
@@ -526,7 +549,7 @@ def matrix(args):
         print(f"matrix: wrote {STATES_DIR / 'STATE_MATRIX.md'}")
 
 
-STAGES = ["targets", "whoswho", "crawl", "select", "fetch", "extract", "translate", "match", "matrix"]
+STAGES = ["targets", "whoswho", "crawl", "select", "fetch", "extract", "translate", "directory", "match", "matrix", "directory"]
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

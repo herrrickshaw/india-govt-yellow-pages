@@ -75,6 +75,26 @@ scans) and matches the signatory to a roster officer by name, ministry, designat
 not a published point of contact. Unmatched signatories are real officers missing from the rosters — a
 to-do list for the who's-who scrape.
 
+### Names first: the signatory directory, and where those people are now
+
+`signatory_matrix.py directory` aggregates every signer read from the PDFs — roster or no roster — into
+`data/signatories/signatory_directory.csv` (per ministry: name, spelling variants, designations, documents signed,
+date range, phone/email printed under the signature, topics, example documents, roster match if any). It is built
+across **all** ministries with order-type PDFs (`SIG_ALL_MINISTRIES=1 SIG_PER_MINISTRY_CAP=250`), so it is the widest
+list of serving officials in this repo; matching against rosters is a later, separate step.
+
+Because the person who signed a 2023 notification may hold another post today, `scripts/career_tracker.py` collects
+appointment / transfer / posting news (Whispers in the Corridors, PSU Watch, Sarkari Mirror — robots-respecting,
+~1 request/second, cached) plus the DoPT ER-sheet postings of IAS officers, extracts career events
+(`data/career/career_events.csv`; regex on titles, Groq for multi-officer reshuffle articles) and attaches each
+signer's latest known posting to the directories (`latest_posting*`, `moved_since_signing`). Summary:
+`data/career/CAREER_TRACKER.md`. Two-token common names are graded `low`; treat a move as a lead to verify.
+
+```bash
+SIG_ALL_MINISTRIES=1 SIG_PER_MINISTRY_CAP=250 /usr/bin/python3 scripts/signatory_matrix.py all   # centre, every ministry
+/usr/bin/python3 scripts/career_tracker.py all --days 540 --max-articles 800
+```
+
 ### State-wise: `scripts/state_pipeline.py`
 
 The same matrix for states and UTs, in their languages. `targets` takes the state-government departments

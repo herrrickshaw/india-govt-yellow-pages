@@ -42,16 +42,35 @@ def doc_id(url: str) -> str:
 
 
 # ---------------------------------------------------------------- select
+ALL_MINISTRIES = os.environ.get("SIG_ALL_MINISTRIES") == "1"      # every ministry, matched against civil lists + igod
+PER_MINISTRY_CAP = int(os.environ.get("SIG_PER_MINISTRY_CAP", "0"))  # 0 = no cap; newest documents first
+
+
 def select():
     d = pd.read_csv(DOCS, compression="gzip", low_memory=False)
     rosters = pd.read_csv(REPO / "data/ministry_officials.csv")
     mins = set(rosters.ministry.unique())
-    dd = d[d.ministry.isin(mins)].copy()
+    dd = d.copy() if ALL_MINISTRIES else d[d.ministry.isin(mins)].copy()
     txt = (dd.title.fillna("") + " " + dd.group.fillna("") + " " + dd.category.fillna(""))
     cand = dd[txt.str.contains(DOC_PAT) & dd.url.fillna("").str.lower().str.contains(r"\.pdf")].copy()
     cand = cand.drop_duplicates("url")
+    if PER_MINISTRY_CAP:
+        cand = cand.sort_values("date", ascending=False, na_position="last")
+        # ministries with a full roster keep everything; the rest are capped (newest first)
+        cand = pd.concat([cand[cand.ministry.isin(mins)], cand[~cand.ministry.isin(mins)].groupby("ministry", group_keys=False).head(PER_MINISTRY_CAP)])
+    # policy / incentive documents first, so a partial fetch is already useful for the contact map
+    POLICY = re.compile(r"scheme|guideline|incentive|subsid|\bpli\b|production linked|yojana|mission|notification|gazette|g\.s\.r|s\.o\.|"
+                        r"amendment|policy|tariff|duty|exemption|viability gap|interest subvention|grant|fund|\bsop\b|eligib|"
+                        r"application|empanel|approval|clarification|faq|extension of (?:date|timeline|deadline)", re.I)
+    cand["_prio"] = (~(cand.title.fillna("") + " " + cand.group.fillna("") + " " + cand.category.fillna("")).str.contains(POLICY)).astype(int)
+    cand = cand.sort_values(["_prio", "date"], ascending=[True, False], na_position="last").drop(columns="_prio")
+    prev = OUT / "candidates.csv"
+    if prev.exists():   # keep earlier selections (their PDFs and text are cached)
+        old = pd.read_csv(prev)
+        cand = pd.concat([old.drop(columns=[c for c in ("doc_id", "host") if c in old.columns]), cand]).drop_duplicates("url")
     cand.insert(0, "doc_id", cand.url.map(doc_id))
     cand["host"] = cand.url.map(lambda u: urlparse(u).netloc)
+    cand = cand.drop(columns=[c for c in ("source", "slug", "language", "size") if c in cand.columns])  # 'api,<title>' trips gitleaks
     cand.to_csv(OUT / "candidates.csv", index=False)
     print(f"select: {len(cand)} candidate PDFs across {cand.ministry.nunique()} ministries, {cand.host.nunique()} hosts")
 
@@ -328,6 +347,14 @@ def extract():
         dsig = digital_signer(tail) or digital_signer(head)
         base = dict(doc_id=did, pages=n, text_chars=text_chars, devanagari_chars=deva, scanned=int(text_chars < 80 and not ocr_used), ocr=int(ocr_used),
                     file_number=num, subject=subj, digital_signer=dsig)
+        contact = {}
+        if sigs:
+            tl = tail.splitlines()
+            for nm, dg, stv, i in sigs:
+                blk = " ".join(tl[i:i + 7])
+                em = re.search(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+|[\w.+-]+\[at\][\w-]+(?:\[dot\][\w-]+)+", blk, re.I)
+                ph = re.search(r"(?:tel|phone|ph|mob|mobile|telefax|fax)[\s.:-]*([+\d][\d\s\-/,()]{6,30}\d)", blk, re.I)
+                contact[nm] = (em.group(0).replace("[at]", "@").replace("[dot]", ".") if em else "", re.sub(r"\s+", " ", ph.group(1)).strip() if ph else "")
         if not sigs and dsig and len(dsig.split()) >= 2 and not STOP_NAME.search(dsig):
             # e-office documents often carry only the DSC stamp; use it, marked as such
             rows.append({**base, "sig_rank": 1, "signatory": dsig, "sig_designation": "(digital signature only)", "strength": 2})
@@ -337,7 +364,8 @@ def extract():
             # the LAST strong block on the final pages is the signatory; keep up to 3 (counter-signs / multiple)
             sigs = sorted(sigs, key=lambda x: (-x[3]))[:3]
             for r, (nm, dg, st, _) in enumerate(sigs, 1):
-                rows.append({**base, "sig_rank": r, "signatory": nm, "sig_designation": dg, "strength": st})
+                em, ph = contact.get(nm, ("", ""))
+                rows.append({**base, "sig_rank": r, "signatory": nm, "sig_designation": dg, "strength": st, "sig_email": em, "sig_phone": ph})
         if (k + 1) % 100 == 0:
             print(f"  {k+1}/{len(files)}")
     df = pd.DataFrame(rows)
@@ -347,6 +375,40 @@ def extract():
     got = df[df.sig_rank == 1]
     print(f"extract: {df.doc_id.nunique()} docs, {len(got)} with a signatory, "
           f"{int(df.drop_duplicates('doc_id').scanned.sum())} scanned/no-text")
+
+
+# ---------------------------------------------------------------- directory (names from the documents themselves)
+def directory():
+    """Aggregate every signatory read from the PDFs into a who-signs-what directory, independent of any roster."""
+    sig = pd.read_csv(OUT / "signatures.csv")
+    cand = pd.read_csv(OUT / "candidates.csv").set_index("doc_id")
+    sig = sig[sig.sig_rank > 0].join(cand[["ministry", "title", "date", "url"]], on="doc_id")
+    sig["name_key"] = sig.signatory.astype(str).map(lambda x: " ".join(norm_tokens(x)))
+    sig = sig[sig.name_key.str.len() >= 5]
+    ns_path = OUT / "notification_signatories.csv"
+    matched = {}
+    if ns_path.exists():
+        ns = pd.read_csv(ns_path)
+        ns = ns[ns.match_status == "matched"]
+        for r in ns.itertuples():
+            matched.setdefault((r.doc_id, r.signatory), (r.officer_name, r.officer_designation, r.officer_email, r.confidence))
+    rows = []
+    for (mn, key), g in sig.groupby(["ministry", "name_key"]):
+        g = g.sort_values("date", ascending=False, na_position="last")
+        desigs = [d for d in g.sig_designation.dropna().astype(str) if d and not d.startswith("(digital")]
+        mm = [matched[k] for k in zip(g.doc_id, g.signatory) if k in matched]
+        rows.append(dict(ministry=mn, signatory=g.signatory.mode().iat[0], name_variants=" | ".join(sorted(set(g.signatory.astype(str)))[:5]),
+                         designations=" | ".join(pd.Series(desigs).value_counts().index[:3]) if desigs else "",
+                         n_documents=g.doc_id.nunique(), first_date=g.date.dropna().min(), last_date=g.date.dropna().max(),
+                         email=next((e for e in g.get("sig_email", pd.Series(dtype=str)).dropna().astype(str) if e), ""),
+                         phone=next((p for p in g.get("sig_phone", pd.Series(dtype=str)).dropna().astype(str) if p), ""),
+                         roster_match=mm[0][0] if mm else "", roster_designation=mm[0][1] if mm else "", roster_email=mm[0][2] if mm else "",
+                         match_confidence=mm[0][3] if mm else "", topics="; ".join(sorted({t for s_ in (g.subject.fillna("") + " | " + g.title.fillna("")) for t in topic_of(s_)})[:4]),
+                         example_titles=" || ".join(g.title.fillna("").astype(str).str[:100].head(3)), document_urls=" ".join(g.url.head(5))))
+    df = pd.DataFrame(rows).sort_values(["ministry", "n_documents"], ascending=[True, False])
+    df.to_csv(OUT / "signatory_directory.csv", index=False)
+    print(f"directory: {len(df)} distinct signers across {df.ministry.nunique()} ministries; {int((df.roster_match != '').sum())} already matched to a roster; "
+          f"{int((df.email != '').sum())} with an email printed under the signature")
 
 
 # ---------------------------------------------------------------- match
@@ -670,6 +732,6 @@ def write_report(ns, m, ex, mx, piv):
 if __name__ == "__main__":
     stages = sys.argv[1:] or ["all"]
     if stages == ["all"]:
-        stages = ["select", "fetch", "extract", "match", "matrix"]
+        stages = ["select", "fetch", "extract", "directory", "match", "matrix", "directory"]
     for s in stages:
         globals()[s]()

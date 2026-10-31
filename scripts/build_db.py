@@ -21,6 +21,9 @@ TABLES = {
     "notification_signatories": DATA / "signatories/notification_signatories.csv",
     "officer_topic_matrix": DATA / "signatories/officer_topic_matrix.csv",
     "officer_documents": DATA / "signatories/officer_documents.csv",
+    "signatory_directory": DATA / "signatories/signatory_directory.csv",
+    "state_signatory_directory": DATA / "states/signatory_directory_all_states.csv",
+    "career_events": DATA / "career/career_events.csv",
     "state_officials": DATA / "states/state_officials.csv",
     "state_notification_signatories": DATA / "states/notification_signatories_all_states.csv",
 }
